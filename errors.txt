@@ -9,3 +9,5 @@ File "game/script.rpy", line 90: end of line expected.
                        ^
 
 Ren'Py Version: Ren'Py 6.99.11.1749
+
+Test
