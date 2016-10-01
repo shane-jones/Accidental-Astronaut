@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 7, in script
+    define PC = LOG('...')
+  File "game/script.rpy", line 7, in <module>
+    define PC = LOG('...')
+NameError: name 'LOG' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 7, in script
+    define PC = LOG('...')
+  File "/Users/JoshuaGomez/Downloads/renpy-6.99.11-sdk/renpy/ast.py", line 1801, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/JoshuaGomez/Downloads/renpy-6.99.11-sdk/renpy/python.py", line 1665, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 7, in <module>
+    define PC = LOG('...')
+NameError: name 'LOG' is not defined
+
+Darwin-16.0.0-x86_64-i386-64bit
+Ren'Py 6.99.11.1749
+Accidental Astronaut 1.0

@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 90: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    LOG "There is also an onboard computer called HANC who can help , HANC has suffered some logic damage but appears to be operating 
+             properly".
+                       ^
+
+Ren'Py Version: Ren'Py 6.99.11.1749
