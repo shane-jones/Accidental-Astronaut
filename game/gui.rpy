@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -86,7 +86,9 @@ define gui.title_text_size = 50
 
 ## The images used for the main and game menus.
 define gui.main_menu_background = "gui/main-menu.jpg"
-define gui.game_menu_background = "gui/game-menu.jpg"
+#SJ I changed game_menu.jpg to game-menu.png becasue Ren'Py crashed when I tried to save. 
+#SJ and I also copied and renamed the file in game/gui. game_menu.png is now redundant.
+define gui.game_menu_background = "gui/game-menu.png"
 
 ## Should we show the name and version of the game?
 define gui.show_name = True
