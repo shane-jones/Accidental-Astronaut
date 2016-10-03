@@ -39,7 +39,7 @@ label start:
        levels some how."
     
     f "M...maybe this door can get me out.."
-    play music "Ice-Sound.mp3" fadein 2 fadeout 2
+    play music "ice-sound.mp3" fadein 2 fadeout 2
     
     f "....The ice has jammed the door...."
     f " The windows on the door is foggy and icy, I.. I cant see anything.."
