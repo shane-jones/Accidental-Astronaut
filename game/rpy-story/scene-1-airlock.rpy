@@ -64,7 +64,7 @@ label start:
         "Maybe that strange device on the wall can help":
             f "Lets turn this thing on..."
             
-            play music "Beep-Sound.mp3"
+            play music "beep-sound.mp3"
             f ".....*beep*...."
             stop music
             
@@ -94,7 +94,7 @@ label start:
     f "Wow!.."
     f "W...Well it looks like this HANC could be useful"
     f "*Frank presses HANC button*"
-    play music "Beep-Sound.mp3"
+    play music "beep-sound.mp3"
     PC "*beep*"
     stop music
     
