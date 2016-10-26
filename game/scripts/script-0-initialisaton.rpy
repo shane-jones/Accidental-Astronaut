@@ -5,6 +5,8 @@ call declaratons
 
 label start:
   
+  # Temporary menu for debugging.
+  
   menu:
   
     "Start at airlock.":
