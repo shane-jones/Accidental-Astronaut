@@ -10,18 +10,21 @@ label start:
   menu:
   
     "Start at airlock.":
-      jump waking_up_in_the_airlock
+      jump to_airlock
     
     "Start at EVA.":
-      jump outside
+      jump to_eva
     
     "Start at Bridge.":
-      jump walking_to_the_bridge
+      jump to_bridge
     
     "Start at Cargo Hold.":
-      jump cargo_hold
+      jump to_cargo_hold
     
     "Start at Shuttle.":
-      jump shuttle_in_cargo_hold
-  
+      jump to_shuttle
+    
+    "Start at Debugging.":
+      jump to_debugging
+
 return
