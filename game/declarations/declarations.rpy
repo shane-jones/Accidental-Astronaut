@@ -106,6 +106,12 @@ image shuttle a = "images/objects/shuttle-with-drawn-picture-filter.png"
 # Music
 ###############################################################################
 
+define audio.space_main_theme = "sounds/music/space-main-theme.mp3"
+
 ###############################################################################
 # Sound effects
 ###############################################################################
+
+define audio.beep_sound = "sounds/effects/beep-sound.mp3" 
+define audio.breathing_sound = "sounds/effects/breathing-sound.mp3"
+define audio.ice_sound = "sounds/effects/ice-sound.mp3"

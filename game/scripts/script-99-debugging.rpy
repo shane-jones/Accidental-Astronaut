@@ -1,8 +1,21 @@
 label to_debugging:
   "You have arrived on the debugging page."
 
-label image_debugging:
+label debugging:
   
+  play music beep_sound
+  "Beep sound."
+  
+  play music breathing_sound
+  "Breathing sound."
+  
+  play music ice_sound
+  "Ice sound."
+  
+  play music audio.space_main_theme
+  "Space main theme."
+  
+    
   scene bg cargo-hold-a
   "Cargo hold a."
   
