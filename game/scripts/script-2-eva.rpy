@@ -1,9 +1,11 @@
 # EVA
 
 label to_eva:
+  scene bg eva-empty-space
   "You have arrived at EVA."
 
 label outside:
+   
 
 label the_ship:
 
