@@ -6,7 +6,7 @@ define a = Character('Captain Abrahams')
 define h = Character('Holloway')
 define H = Character('HANC')
 define j = Character('Jinx')
-define l = Character('Log')
+define l = Character('Log Copmputer')
 define p = Character ('PC')
 
 ###############################################################################
