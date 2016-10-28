@@ -6,8 +6,21 @@ label to_airlock:
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
 
+#$ Background image - Airlock.
+#$ Sound - Struggling to breath (background moody space music).
+
+  h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
+
+  h "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
+
 # 1.0.1. DECIDING WHAT TO DO ##################################################
 label deciding_what_to_do:
+
+  "Holloway sees a red flashing light. The oxygen indicator, faintly blinking next to the red light shows that there is limited oxygen."
+
+  "There is a monitor next to the door, but it is powered down."
+
+  h "What should I do?"
 
   menu:
   
@@ -22,11 +35,18 @@ label deciding_what_to_do:
 
 # 1.1.0. WAIT FOR HELP ########################################################
 label wait_for_help:
+
+  "Not a good idea. Help is on the way. Unfortunately for Holloway, it will take two years to arrive. Holloway dies waiting."
+
   "End."
   return
 
 # 1.2.0. FORCE OPEN THE AIRLOCK ###############################################
 label force_open_the_airlock:
+
+  "Holloway is desperate and acting irrationally. There is an emergency button that opens the outside door regardless of the pressure differential."
+  "The airlock opens, but the remaining air that Holloway is breathing rushes into the vacuum on the other side. This also throws Holloway through the doorway. Holloway can’t breathe and dies."
+
   "End."
   return
 
