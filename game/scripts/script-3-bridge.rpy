@@ -1,7 +1,6 @@
 # Bridge
 
 label to_bridge:
-  "You have arrived on the bridge."
 
 # 3.0.0. WALKING TO THE BRIDGE ################################################
 label walking_to_the_bridge:

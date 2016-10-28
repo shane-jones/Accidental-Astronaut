@@ -1,7 +1,6 @@
 # Cargo Hold
 
 label to_cargo_hold:
-  "You have arrived in the cargo hold"
   
 # 4.0.0. CARGO HOLD ###########################################################
 label cargo_hold:
@@ -10,7 +9,7 @@ label cargo_hold:
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
   
-  h "It is safe to open that door, unknown human is in there though."
+  H "It is safe to open that door, unknown human is in there though."
 
 # 4.0.1. JINX… ################################################################
 label jinx:
@@ -45,7 +44,7 @@ label preparations:
 
   "There is quite a bit of prep work to be done."
   
-  "Holloway follows instructions from HANC and Jinx to prepare the Shuttle."
+  "Holloway follows instructions from HANC and Jinx to prepare the shuttle."
   
   # [ Additional graphic - Two Containers (close up) ]
   

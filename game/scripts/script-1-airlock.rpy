@@ -1,7 +1,6 @@
 # Airlock
 
 label to_airlock:
-  "You have arrived in the airlcok."
 
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
@@ -154,7 +153,9 @@ label hancs_advice:
 # 1.9.0. RADIO SILENCE ########################################################
 label radio_silence:
   
-  "Holloway leaves the ship, but discovers that he does not know how to repair the hull and he has no communication with HANC. Sadly he has spent too much time finding this out. In fact, this means that by the time Holloway returns to the Airlock finds out what to do to establish radio communication and go back to the repair site that he no longer has enough air to do the task."
+  "Holloway leaves the ship, but discovers that he does not know how to repair the hull and he has no communication with HANC."
+  
+  "Sadly he has spent too much time finding this out. In fact, this means that by the time Holloway returns to the Airlock finds out what to do to establish radio communication and go back to the repair site that he no longer has enough air to do the task."
     
   "The end."
   return

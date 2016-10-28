@@ -99,16 +99,14 @@ label jinx_gets_the_code:
 
   # [ Background image - Inside the shuttle. ]
   
-  h [ The code is 776uythy. ]
+  h "The code is 776uythy."
   
-  j [ Thankyou, I will test these interplanetary systems for performance. ]
+  j "Thankyou, I will test these interplanetary systems for performance."
   
   # [ Character image - Jinx: smiling. ]
   
   "Jinx enters the code and starts the tests to ensure the systems will work and that Holloway gave her the correct code."
   
-  "Everything works and then Jinx moves towards Holloway to hug him."
-
 # 5.3.1. JINX KILLS HOLLOWAY ##################################################
 label jinx_kills_holloway:
 
@@ -118,7 +116,7 @@ label jinx_kills_holloway:
   
   # [ Sound effect - Snapping neck and gurgle sound. ]
   
-  j [ Sorry Holloway. Only enough air for one where I am going. ]
+  j "Sorry Holloway. Only enough air for one where I am going."
 
   "The end."
   return
