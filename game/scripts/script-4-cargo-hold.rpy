@@ -5,6 +5,7 @@ label to_cargo_hold:
 # 4.0.0. CARGO HOLD ###########################################################
 label cargo_hold:
 
+  scene bg cargo-hold-h
   # [ Background image - door to the cargo bay. ]
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
