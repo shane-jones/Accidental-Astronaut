@@ -1,6 +1,4 @@
-
-# change test
-#test
+#testing on mac
 
 ###############################################################################
 # Character declarations
