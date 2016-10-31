@@ -51,6 +51,7 @@ image jinx i = "images/characters/jinx/jinx-thoughtful-smile-backward-run-turnin
 image jinx j = "images/characters/jinx/jinx-thoughtful-smile-walking.png"
 image jinx k = "images/characters/jinx/jinx-totally-calm-arms-down.png"
 image jinx l = "images/characters/jinx/jinx-wide-eyed-fear-leaning-forward-right-hand-supporting.png"
+image jinx m = "images/characters/jinx/jinx-totally-calm-arms-down-standing-closeup.png"
 
 ###############################################################################
 # Background images
