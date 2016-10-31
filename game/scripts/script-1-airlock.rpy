@@ -5,7 +5,10 @@ label to_airlock:
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
 
-# [ Background image - Airlock. ]
+# [ Background image - Airlock. ] 
+
+  scene bg airlock-a
+  
 # [ Sound - Struggling to breath (background moody space music). ]
 
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
