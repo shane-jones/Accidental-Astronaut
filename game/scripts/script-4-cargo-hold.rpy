@@ -28,10 +28,11 @@ label jinx:
   "Jinx quickly realises that HANC is around."
 
   show jinx m
-  # needs to be edited to close up
   # [ Character image - Jinx standing normal ]
   
   j "Hi. My name is Jinx 'Takanoma'."
+
+  hide jinx
   
   "HANC, of course, runs this name through a database and is unable to locate a match."
   
@@ -39,11 +40,15 @@ label jinx:
   
   h "Why were you hiding?"
   
+  show jinx b
+
   j "I was not sure if you were armed."
   
   "Jinx changes the subject."
   
   j "I am a flight training officer and I can pilot the shuttle... just."
+
+  hide jinx
   
   H "It is easy, I am the most capable so I will do it."
 
@@ -55,15 +60,21 @@ label preparations:
   "Holloway follows instructions from HANC and Jinx to prepare the shuttle."
   
   # [ Additional graphic - Two Containers (close up) ]
+  scene bg cargo-hold-j
   
   "There are also two large containers in the hold. Both have supplies and rescue equipment in them. One does say 'TAKE CARE'."
-  
+
+  scene bg cargo-hold-b
+
   h "Jinx, are you able to get the shuttle to the surface below?"
   
   # [ Character graphic - Jinx with arms out to side (shrugging shoulders) ]
+  show jinx c
   
   j "I can’t be sure. I think we must go into deep space and attempt to get to the next planet some three weeks away - Dorphia. The planet below is very primitive so we should avoid it."
   
+  hide jinx
+
   h "If you can fly, Why not use the freighter?"
   
   H "The Illustrious is far too damaged to even attempt this."
