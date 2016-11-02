@@ -20,14 +20,14 @@ label jinx:
   scene bg cargo-hold-b
   # [ Background image - cargo hold. ]
 
-  show jinx n at right
+  
   # [ Character image - Jinx crouched down. ]
   
   "HANC identifies Jinx’s position and she emerges from the shadows after realising Holloway is not an officer."
   
   "Jinx quickly realises that HANC is around."
 
-  show jinx m
+  show jinx n
   # [ Character image - Jinx standing normal ]
   
   j "Hi. My name is Jinx 'Takanoma'."
@@ -40,7 +40,7 @@ label jinx:
   
   h "Why were you hiding?"
   
-  show jinx b
+  show jinx n
 
   j "I was not sure if you were armed."
   
@@ -62,14 +62,14 @@ label preparations:
   # [ Additional graphic - Two Containers (close up) ]
   scene bg cargo-hold-j
   
-  "There are also two large containers in the hold. Both have supplies and rescue equipment in them. One does say 'TAKE CARE'."
+  "There are also two large containers in the hold. Both have supplies and rescue equipment in them. One does say 'CAUTION'."
 
   scene bg cargo-hold-b
 
   h "Jinx, are you able to get the shuttle to the surface below?"
   
   # [ Character graphic - Jinx with arms out to side (shrugging shoulders) ]
-  show jinx c
+  show jinx n
   
   j "I can’t be sure. I think we must go into deep space and attempt to get to the next planet some three weeks away - Dorphia. The planet below is very primitive so we should avoid it."
   
@@ -100,9 +100,12 @@ label secrets:
 label the_code:
 
   # [ Character graphic - Jinx with hand on face (thinking pose). ]
-  
+  show jinx m
+
   j "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
   
+  hide jinx 
+
   h "So the best thing for us to do is get to the planet below for help."
   
   "Holloway has basic training which tells him all trading planets have contact facilities left by high command in case of a problem and its suitable in accordance with standard emergency procedures."
@@ -132,6 +135,8 @@ label jinx_gets_away:
   "Holloway is convinced to give Jinx the code."
   
   h "The code is: 776uythy"
+
+  show jinx n
   
   j "Thankyou. You won’t regret it..."
   
@@ -141,9 +146,13 @@ label jinx_gets_away:
   
   j "Now before we board the shuttle, there is only one more thing that we need..."
   
-  "Jinx instructs Holloway to grab the ropes from the container on the right, the one with ‘take care’ written on the label."
+  "Jinx instructs Holloway to grab the ropes from the container on the right, the one with ‘caution’ written on the label."
   
-  # [ Additional graphic - close up of container with ‘Take Care’ on the label. ]
+  hide jinx
+
+  # [ Additional graphic - close up of container with ‘CAUTION’ on the label. ]
+
+  scene bg cargo-hold-j
   
   "As Holloway turns his back to open the container, Jinx slips into the Shuttle and engages the locks."
   
@@ -176,7 +185,11 @@ label smart_boy_holloway:
   
   h "Look, I just want to get back safely on land and my best shot is Orbita, the planet below."
   
+  show jinx n
+
   j "I understand, but there is a small problem."
+
+  hide jinx
   
   "Jinx identifies her dilemma and confesses she does not want to be arrested. They agree to go to the planet below and drop him off so Jinx can continue on to planet Dorphia."
     
