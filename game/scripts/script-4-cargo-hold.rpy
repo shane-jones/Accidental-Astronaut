@@ -20,15 +20,16 @@ label jinx:
   scene bg cargo-hold-b
   # [ Background image - cargo hold. ]
 
-  show jinx a
+  show jinx n at right
   # [ Character image - Jinx crouched down. ]
   
   "HANC identifies Jinx’s position and she emerges from the shadows after realising Holloway is not an officer."
   
   "Jinx quickly realises that HANC is around."
 
-  show jinx m at right
-  # [ Character image - Jinx crouched down. ]
+  show jinx m
+  # needs to be edited to close up
+  # [ Character image - Jinx standing normal ]
   
   j "Hi. My name is Jinx 'Takanoma'."
   

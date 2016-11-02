@@ -132,6 +132,10 @@ label debugging:
   j "k."
   show jinx l
   j "l."
+  show jinx m
+  m "m."
+  show jinx n
+  n "n."
   hide jinx
   
   "End of game."
