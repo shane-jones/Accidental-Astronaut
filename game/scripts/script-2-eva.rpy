@@ -1,6 +1,7 @@
 # EVA
 
 label to_eva:
+  stop music
   scene bg eva-empty-space
   
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
@@ -8,8 +9,11 @@ label to_eva:
   h "I’ve never been in free space before."
   
   # [ Sound effect - The sound of the tether snapping taught. ]
-  
   # [ Sound effect - A pained grunt as Holloway suddenly stops. ]
+  
+  queue sound [ tether_snap_sound, pained_grunt_sound ]
+  
+  $ renpy.pause(2.0)
   
   h "At least I’ve stopped."
 
