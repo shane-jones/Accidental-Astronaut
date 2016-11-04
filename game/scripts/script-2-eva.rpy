@@ -145,6 +145,8 @@ label the_ship_is_sealed:
 
   # [ Background image - Close up image of repair rig. ]
   
+  scene bg eva-with-a-frame
+  
   h "HANC, the last bolt failed."
   
   H "The seal is tight. I am going to begin pressurising the ship."
@@ -174,9 +176,13 @@ label enough_rope:
   
   "Holloway releases the other line and pulls himself along the tether for the last few meters to the open hatch and climbs into the airlock."
   
+  scene bg airlock-door-open
+  
   "Completely exhausted, Holloway falls to the floor."
   
   H "Closing the hatch. Please remain clear."
+  
+  scene bg airlock-door-closed
   
   h "HANC, why didn’t you open it like that for me earlier?"
   
