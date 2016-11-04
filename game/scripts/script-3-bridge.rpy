@@ -4,7 +4,8 @@ label to_bridge:
 
 # 3.0.0. WALKING TO THE BRIDGE ################################################
 label walking_to_the_bridge:
-
+  
+  play music audio.space_main_theme
   scene bg bridge-c
   show holloway k
 
