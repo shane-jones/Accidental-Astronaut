@@ -11,11 +11,7 @@ label waking_up_in_the_airlock:
   
 # [ Sound - Struggling to breath (background moody space music). ]
 
-<<<<<<< HEAD
- 
-=======
   play music space_main_theme
->>>>>>> origin/master
 
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
