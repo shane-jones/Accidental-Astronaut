@@ -126,6 +126,8 @@ image bg shuttle-in-cargo-hold = "images/backgrounds/4-cargo-hold/cargo-hold-shu
 ###############################################################################
 
 image shuttle a = "images/objects/shuttle-with-drawn-picture-filter.png"
+show shuttel a 
+image shuttle-clear-windows = "images/objects/shuttle-clear-windows-1280x720.png"
 
 ###############################################################################
 # Music
