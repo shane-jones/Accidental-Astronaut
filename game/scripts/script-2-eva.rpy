@@ -123,11 +123,22 @@ label a_sign_of_life:
   # image jinx scaled  = im.FactorScale(jinx listening, 0.5)
   # show jinx scaled
   
+  # This is jinx listening using ATL with a show statement.
+  
   show jinx listening:
-    zoom 0.5
-  
-  
+    zoom 0.5 # half size
+    xpos 0.25 # 25 % of the way accross the background
+    ypos 0.8 # 80 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
+    
+  play sound distant_explosive_bolt_sound
+  $ renpy.pause(1.0)
+    
   j "Someone is alive and outside but I have no space suit. I need whoever it is to pressurise the hull, and soon."
+  
+  play sound distant_explosive_bolt_sound
+  $ renpy.pause(1.0)
 
 # 2.2.0. THE SHIP IS SEALED ###################################################
 label the_ship_is_sealed:
