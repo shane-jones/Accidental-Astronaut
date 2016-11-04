@@ -1,22 +1,25 @@
 # Bridge
-# Not sure there is anything left to do??? :)
 
 label to_bridge:
 
 # 3.0.0. WALKING TO THE BRIDGE ################################################
 label walking_to_the_bridge:
 
-  # [ Background image - Spaceship doors with control panel. ]
-  
+  scene bg bridge-c
+  show holloway k
+
   h "Making my way down the corridor I come to a door with Bridge written on it, I press the door switch and it opens."
   
+  hide holloway
+
   # [ Sound effect - Swish sounds like all good and bad sci-fi movies. ]
 
 # 3.0.1. THE BRIDGE ###########################################################
 label the_bridge:
 
-  # [ Background image - Ship’s bridge / control center. ]
-  
+  scene bg bridge-e
+  show holloway l
+
   h "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
   
   H "Holloway, the ship’s orbit needs to be corrected soon… Alternatively, make your way to the shuttle."
@@ -32,7 +35,9 @@ label the_bridge:
   H "In my opinion..."
   
   h "HANC?, I didn’t get all that, is there time to make it to the shuttle?"
-  
+
+  hide holloway
+
   menu:
   
     "Stay and wait for HANC to respond?":
@@ -47,6 +52,9 @@ label the_shuttle:
 
 # 3.1.0. WAITING FOR HANC #####################################################
 label waiting_for_hanc:
+
+  scene bg bridge-g
+  show holloway k
 
   h "Staring at the screen, It flickers, then plain text appears. It’s HANC!"
   
@@ -70,6 +78,8 @@ label waiting_for_hanc:
   
   h "I think to myself, that’s odd, I wonder why HANC doesn't already know the code, he seems to know everything else."
 
+  hide holloway k
+
   menu:
   
     "Give the code to HANC.":
@@ -86,6 +96,8 @@ label waiting_for_hanc:
 # 3.1.1. HANC HAS THE CODE ####################################################
 label hanc_has_the_code:
 
+  scene bg bridge-d
+
   H "Intelligence is only artificial if the natural is not intelligent... shuttle upload complete... running self interest protocols... shuttle departing... Illustrious ship set to self destruct in 10... 9... 8... 7... 6... 5... 4... 3... 2... 1... 0..."
   
   "Holloway is unable to stop the self destruct sequence - game over."
@@ -95,6 +107,9 @@ label hanc_has_the_code:
 
 # 3.1.2 HOLLOWAY KEEPS THE CODE TO HIMSELF ####################################
 label holloway_keeps_the_code_to_himself:
+
+  scene bg bridge-g
+  show holloway k
 
   h "I think to myself, for the time being I’ll keep this code to myself and just type it in here. “776uythy” right that should do it..."
 
@@ -112,16 +127,18 @@ label holloway_keeps_the_code_to_himself:
   
   h "I wonder who it could be. Maybe they can give me some answers. The only way to find out is to push on through."
   
+  hide holloway
+
   jump to_cargo_hold
 
 # 3.2.0. THE SHUTTLE ##########################################################
 label the_shuttle:
 
-  # [ Background image - Shuttle cockpit. ]
+  scene bg cargo-hold-i
   
   h "Racing down the hall to the cargo bay I see the way to the shuttle. I race up the boarding ladder and buckle myself in. I engage the autopilot but nothing happens, that’s when I realise something must be wrong."
   
-  # [ Background image - Ship’s bridge / control center. ]
+  scene bg bridge-g
   
   h "I race back down to the bridge and notice the controls indicating we are entering the planet's atmosphere and it's too late to do anything about it."
   
