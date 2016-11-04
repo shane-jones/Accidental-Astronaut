@@ -11,6 +11,8 @@ label waking_up_in_the_airlock:
   
 # [ Sound - Struggling to breath (background moody space music). ]
 
+  play music
+
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
   h "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
