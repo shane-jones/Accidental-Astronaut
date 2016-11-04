@@ -34,6 +34,8 @@ image holloway g = "images/characters/holloway/holloway-goodbye-jinx.png"
 image holloway h = "images/characters/holloway/holloway-intense-stare-walking-forward-looking-right.png"
 image holloway i = "images/characters/holloway/holloway-looked-in-the-box.png"
 image holloway j = "images/characters/holloway/holloway-slammed.png"
+image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
+image holloway l = "images/characters/holloway/holloway-back-resized.png"
 
 # HANC Handy Autonomous Networking Computer
 
@@ -69,6 +71,7 @@ image bg airlock-b = "images/backgrounds/1-airlock/airlock-2.png"
 image bg airlock-c = "images/backgrounds/1-airlock/airlock-3.png"
 image bg airlock-d = "images/backgrounds/1-airlock/airlock-4.png"
 image bg airlock-e = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
+image bg airlock-f = "images/backgrounds/1-airlock/holloway-floating-away.png"
 
 # 2 EVA
 
@@ -76,6 +79,8 @@ image bg eva-a = "images/backgrounds/2-eva/eva-2.png"
 image bg eva-b = "images/backgrounds/2-eva/eva-space.jpg"
 image bg eva-c = "images/backgrounds/2-eva/eva-with-a-frame.png"
 image bg eva-d = "images/backgrounds/2-eva/eva-with-planet-background.png"
+image bg eva-e = "images/backgrounds/2-eva/eva-with-bolts-fired.png"
+image bg eva-f = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
 
 image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 
@@ -84,6 +89,10 @@ image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 image bg bridge-a = "images/backgrounds/3-bridge/bridge-20161002-124219.jpg"
 image bg bridge-b = "images/backgrounds/3-bridge/bridge-20161007-193840.jpg"
 image bg bridge-c = "images/backgrounds/3-bridge/bridge-door.png"
+image bg bridge-d = "images/backgrounds/3-bridge/HANC-background.png"
+image bg bridge-e = "images/backgrounds/3-bridge/bridge-with-stars.png"
+image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
+image bg bridge-g = "images/backgrounds/3-bridge/bridge-close-up.png"
 
 # 4 Cargo Hold
 image bg cargo-hold-a = "images/backgrounds/4-cargo-hold/cargo-hold-1.png"
