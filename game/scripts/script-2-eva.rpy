@@ -1,7 +1,7 @@
 # EVA
 
 label to_eva:
-  stop music
+  stop music fadeout 5.0
   scene bg eva-empty-space
   
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
