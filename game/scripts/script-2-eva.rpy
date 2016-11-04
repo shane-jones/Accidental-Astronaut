@@ -13,7 +13,7 @@ label to_eva:
   
   queue sound [ tether_snap_sound, pained_grunt_sound ]
   
-  $ renpy.pause(2.0)
+  "The tether has snapped taught."
   
   h "At least I’ve stopped."
 
@@ -25,6 +25,8 @@ label the_ship:
 
   # [ Background image - An old ship with a beaten up hull, from about 50 meters out. ]
   
+  scene bg eva-with-planet
+  
   h "This ship is really beaten up."
   
   h "There’s scaffolding on the hull and an “A” frame with a large metal plate attached. So that must be where the damage is."
@@ -34,6 +36,8 @@ label the_ship:
   h "But if I make it to the scaffolding, I might be able to repair the hull."
   
   "Holloway slowly pulls on the tether and moves towards the airlock."
+  
+  scene bg eva-with-a-frame
   
   h "Look, there are some climbing grabs on the hull above the airlock hatch."
   
@@ -92,9 +96,20 @@ label the_repair:
   
   "Holloway makes his way around the plate, pressing the firing pins, one at a time."
   
+  # [ Sound effect - Three explosions. ]
+
+  play sound explosive_bolt_sound
+  $ renpy.pause(1.0)
+  
   "The hull vibrates violently underfoot with each bolt smashing into the hull."
   
-  # [ Sound effect - Three explosions. ]
+  play sound explosive_bolt_sound
+  $ renpy.pause(1.0)
+  
+  h "That's two."
+
+  play sound explosive_bolt_sound
+  $ renpy.pause(1.0)
 
 # 2.1.0. A SIGN OF LIFE #######################################################
 label a_sign_of_life:
@@ -102,6 +117,15 @@ label a_sign_of_life:
   # [ Background image - Inside the shuttle. ]
   # [ Character image - Jinx sitting - straining to hear. ]
   # [ Sound effect - Two muffled explosions followed by a rattle. ]
+  
+  scene bg shuttle-in-cargo-hold
+  
+  # image jinx scaled  = im.FactorScale(jinx listening, 0.5)
+  # show jinx scaled
+  
+  show jinx listening:
+    zoom 0.5
+  
   
   j "Someone is alive and outside but I have no space suit. I need whoever it is to pressurise the hull, and soon."
 

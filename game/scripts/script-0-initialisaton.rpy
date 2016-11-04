@@ -13,7 +13,14 @@ label start:
       jump to_airlock
     
     "Start at EVA.":
-      jump to_eva
+      
+      menu:
+        
+        "Start at to_eva":
+          jump to_eva
+        
+        "Start at a_sign_of_life":
+          jump a_sign_of_life
     
     "Start at Bridge.":
       jump to_bridge

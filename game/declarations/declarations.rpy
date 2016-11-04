@@ -58,6 +58,8 @@ image jinx l = "images/characters/jinx/jinx-wide-eyed-fear-leaning-forward-right
 image jinx m = "images/characters/jinx/jinx-totally-calm-arms-down-standing-closeup.png"
 image jinx n = "images/characters/jinx/jinx-piercing-stare-arms-behind-back-crop-page.png"
 
+image jinx listening = "images/characters/jinx/jinx-anticipating-sitting-slightly-aggravated.png"
+
 
 
 ###############################################################################
@@ -84,6 +86,8 @@ image bg eva-e = "images/backgrounds/2-eva/eva-with-bolts-fired.png"
 image bg eva-f = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
 
 image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
+image bg eva-with-planet = "images/backgrounds/2-eva/eva-with-planet-background.png"
+image bg eva-with-a-frame = "images/backgrounds/2-eva/eva-with-a-frame.png"
 
 # 3 Bridge
 
@@ -108,6 +112,8 @@ image bg cargo-hold-i = "images/backgrounds/4-cargo-hold/cargo-hold-shuttle-in-c
 image bg cargo-hold-j = "images/backgrounds/4-cargo-hold/cargo-hold-two-containers.png"
 image bg cargo-hold-k = "images/backgrounds/4-cargo-hold/cargo-hold-with-shuttle.png"
 
+image bg shuttle-in-cargo-hold = "images/backgrounds/4-cargo-hold/cargo-hold-shuttle-in-cargo-hold-1280x720.jpg" 
+
 # 5 Shuttle
 # The shuttle image with transparent windows will need to be used with a bg image.
 # See objects
@@ -131,5 +137,8 @@ define audio.space_main_theme = "sounds/music/space-main-theme.mp3"
 define audio.beep_sound = "sounds/effects/beep-sound.mp3" 
 define audio.breathing_sound = "sounds/effects/breathing-sound.mp3"
 define audio.ice_sound = "sounds/effects/ice-sound.mp3"
+
+# 3 EVA
 define audio.tether_snap_sound = "sounds/effects/cartoon-springboard-ruler-twang-pitched-shifted-up-001.mp3"
 define audio.pained_grunt_sound = "sounds/effects/noisecreations-nc-sfx-fistpunch-fistpunch-vocal-01.mp3"
+define audio.explosive_bolt_sound = "sounds/effects/explosion-loud-internal-reverberant.mp3"
