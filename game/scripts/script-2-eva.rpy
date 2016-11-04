@@ -123,7 +123,8 @@ label a_sign_of_life:
   # image jinx scaled  = im.FactorScale(jinx listening, 0.5)
   # show jinx scaled
   
-  show jinx listening
+  show jinx listening:
+    zoom 0.5
   
   
   j "Someone is alive and outside but I have no space suit. I need whoever it is to pressurise the hull, and soon."
