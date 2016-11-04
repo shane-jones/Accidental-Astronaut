@@ -69,7 +69,7 @@ image jinx listening = "images/characters/jinx/jinx-anticipating-sitting-slightl
 # 1 Airlock
 
 image bg airlock-a = "images/backgrounds/1-airlock/airlock-1(copy).png"
-image bg airlock-b = "images/backgrounds/1-airlock/airlock-2.png"
+image bg airlock-b = "images/backgrounds/1-airlock/airlock-monitor.png"
 image bg airlock-c = "images/backgrounds/1-airlock/airlock-3.png"
 image bg airlock-d = "images/backgrounds/1-airlock/airlock-4.png"
 image bg airlock-e = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"

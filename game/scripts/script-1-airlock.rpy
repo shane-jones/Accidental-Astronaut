@@ -11,7 +11,7 @@ label waking_up_in_the_airlock:
   
 # [ Sound - Struggling to breath (background moody space music). ]
 
-  play music
+ 
 
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
@@ -19,6 +19,8 @@ label waking_up_in_the_airlock:
 
 # 1.0.1. DECIDING WHAT TO DO ##################################################
 label deciding_what_to_do:
+
+  scene bg airlock-b
 
   "Holloway sees a red flashing light. The oxygen indicator, faintly blinking next to the red light shows that there is limited oxygen."
 
@@ -61,6 +63,8 @@ label the_last_log:
   "Holloway turns on the monitor. A LOG MENU appears on the screen."
   
   l "Log Ready.\nSelect Log. (Holloway selects the most recent log.)\nPlay. (Holloway taps the play button)\nHANC"
+
+  scene bg airlock-g
   
   "Captain Abrahams appears as a video recording."
   
