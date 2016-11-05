@@ -41,13 +41,44 @@ label the_ship:
   
   h "There’s scaffolding on the hull and an “A” frame with a large metal plate attached. So that must be where the damage is."
   
+  scene black
+  
+  show bg eva-open-airlock
+  
+  show helmet-black
+  
   h "The airlock is still open. I should just go back in and wait for help."
   
   h "But if I make it to the scaffolding, I might be able to repair the hull."
   
+  scene black
+
+  show bg eva-with-planet:
+    zoom 1.0
+    xpos 0.7
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    linear 3.0 zoom 1.2 xpos 0.8
+    
+  show helmet-black
+  
   "Holloway slowly pulls on the tether and moves towards the airlock."
   
-  scene bg eva-with-a-frame
+  #scene bg eva-with-a-frame
+  
+  scene black
+  
+  show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    
+  
+  show helmet-black
+    
   
   h "Look, there are some climbing grabs on the hull above the airlock hatch."
   

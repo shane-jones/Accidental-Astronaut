@@ -96,6 +96,7 @@ image bg eva-f = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
 image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 image bg eva-with-planet = "images/backgrounds/2-eva/eva-with-planet-background.png"
 image bg eva-with-a-frame = "images/backgrounds/2-eva/eva-with-a-frame.png"
+image bg eva-open-airlock = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
 
 # 3 Bridge
 
