@@ -67,6 +67,10 @@ image jinx standing_thinking = "images/characters/jinx/jinx-anticipating-female-
 # Background images
 ###############################################################################
 
+# Miscs
+
+image black = "#000"
+
 # 1 Airlock
 
 image bg airlock-a = "images/backgrounds/1-airlock/airlock-1(copy).png"

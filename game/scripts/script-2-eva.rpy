@@ -26,7 +26,15 @@ label the_ship:
 
   # [ Background image - An old ship with a beaten up hull, from about 50 meters out. ]
   
-  scene bg eva-with-planet
+  scene black
+
+  show bg eva-with-planet:
+    zoom 1.0
+    xpos 0.7
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    
   show helmet-black
   
   h "This ship is really beaten up."
