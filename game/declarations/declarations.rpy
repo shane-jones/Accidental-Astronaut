@@ -59,6 +59,7 @@ image jinx m = "images/characters/jinx/jinx-totally-calm-arms-down-standing-clos
 image jinx n = "images/characters/jinx/jinx-piercing-stare-arms-behind-back-crop-page.png"
 
 image jinx listening = "images/characters/jinx/jinx-anticipating-sitting-slightly-aggravated.png"
+image jinx standing_thinking = "images/characters/jinx/jinx-anticipating-female-standing-jump-in-place.png"
 
 
 
@@ -127,7 +128,10 @@ image bg shuttle-in-cargo-hold = "images/backgrounds/4-cargo-hold/cargo-hold-shu
 
 image shuttle a = "images/objects/shuttle-with-drawn-picture-filter.png"
 show shuttel a 
+
 image shuttle-clear-windows = "images/objects/shuttle-clear-windows-1280x720.png"
+
+image helmet-black = "images/objects/helmet-black-1280x720.png"
 
 ###############################################################################
 # Music

@@ -3,6 +3,7 @@
 label to_eva:
   stop music fadeout 5.0
   scene bg eva-empty-space
+  show helmet-black
   
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
   
@@ -26,6 +27,7 @@ label the_ship:
   # [ Background image - An old ship with a beaten up hull, from about 50 meters out. ]
   
   scene bg eva-with-planet
+  show helmet-black
   
   h "This ship is really beaten up."
   
@@ -270,6 +272,17 @@ label jinx_makes_plans:
   
   # [ Background image - Inside the shuttle. ]
   # [ Character image - Jinx standing - thinking. ]
+  
+  scene bg cargo-hold-f
+  
+  show shuttle-clear-windows
+  
+  show jinx standing_thinking:
+    zoom 0.75
+    xpos 0.35
+    ypos 0.75
+    xanchor 0.5
+    yanchor 0.5
   
   "Jinx notices the pressure change and knows that someone has to get to the bridge to transfer shuttle locks and control from there to the cargo hold so she can take the shuttle."
   
