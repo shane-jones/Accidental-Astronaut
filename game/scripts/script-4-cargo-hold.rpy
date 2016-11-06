@@ -27,8 +27,13 @@ label jinx:
   
   "Jinx quickly realises that HANC is around."
 
-  show jinx n
-  # [ Character image - Jinx standing normal ]
+  show jinx k: # [ Character image - Jinx standing normal ]
+    zoom 0.5 # half size
+    xpos 0.25 # 25 % of the way accross the background
+    ypos 0.8 # 80 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
+  
   
   j "Hi. My name is Jinx 'Takanoma'."
 
