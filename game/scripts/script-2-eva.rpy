@@ -2,7 +2,9 @@
 
 label to_eva:
   stop music fadeout 5.0
+  
   scene black
+  
   show bg eva-empty-space:
     zoom 1.0
     xpos 0.5
@@ -11,8 +13,7 @@ label to_eva:
     yanchor 0.5
     linear 3.0 xpos 0.49
     pause 2.0
-    linear 3.0 xpos 0.5
-    linear 3.0 xpos 0.51
+    linear 6.0 xpos 0.51
     pause 2.0
     linear 3.0 xpos 0.5
     repeat
@@ -22,6 +23,22 @@ label to_eva:
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
   
   h "I’ve never been in free space before."
+  
+  scene bg eva-empty-space
+  
+  show helmet-black:
+    zoom 1.0
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    linear 0.1 xpos 0.49 zoom 1.02
+    linear 0.1 xpos 0.5 zoom 1.0
+    linear 0.1 xpos 0.51 zoom 1.02
+    linear 0.1 xpos 0.5 zoom 1.0
+    repeat 5
+
+  
   
   # [ Sound effect - The sound of the tether snapping taught. ]
   # [ Sound effect - A pained grunt as Holloway suddenly stops. ]
