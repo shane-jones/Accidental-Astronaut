@@ -5,6 +5,7 @@ label to_shuttle:
 # 5.0.0. SHUTTLE IN THE CARGO BAY #############################################
 label shuttle_in_cargo_hold:
 
+  scene bg shuttle-a
   # [ Background Image - Largo cargo bay with the shuttle through an open door. ]
   
   "Jinx and Holloway make their way inside the shuttle and the door closes behind them."
@@ -13,7 +14,8 @@ label shuttle_in_cargo_hold:
 
 # 5.1.0. INSIDE THE SHUTTLE ###################################################
 label inside_shuttle_transfer:
-
+    
+  scene bg shuttle-b
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
   
   H "Holloway, Please transfer me to the shuttle systems so I may help you."
@@ -45,6 +47,8 @@ label hanc_transferred_aboard:
   
   "Holloway pushes and hold the “upload” button HANC begins to be downloaded on board the shuttle and populates the main computer."
   
+  scene bg shuttle-d
+  
   # [ Background image - The computer's light up. ]
 
 # 5.1.0. HANC TAKES CONTROL ###################################################
@@ -66,6 +70,7 @@ label hanc_takes_control:
 # 5.2.0. LEAVING THE CARGO HOLD ###############################################
 label leaving_cargo_hold:
 
+  scene bg shuttle-c
   # [ Background image - Escape rockets firing under shuttle. ]
   
   "HANC realises they are leaving without him and he explosively decompresses the cargo bay in the hope of damaging the shuttle. But Jinx is too good a pilot and the shuttle moves out of the cargo bay."
@@ -79,6 +84,7 @@ label leaving_cargo_hold:
   h "The code book is back there."
   
   "Holloway points to the Illustrious which is falling out of orbit."
+  
   
   # [ Background image - Illustrious front section burning as it moves slowly out of orbit and towards the planet. ]
   
@@ -96,7 +102,8 @@ label leaving_cargo_hold:
 
 # 5.3.0. JINX GETS THE CODE ###################################################
 label jinx_gets_the_code:
-
+    
+  scene bg shuttle-h
   # [ Background image - Inside the shuttle. ]
   
   h "The code is 776uythy."
@@ -132,6 +139,7 @@ label preparing_for_orbita:
   
   "HANC has turned the huge defensive weapons towards the shuttle."
   
+  
   # [ Background image - Illustrious front section red with flames - Through the shuttle windows. ]
   
   # [ Background image - Illustrious large gun turret - Through the shuttle windows. ]
@@ -152,9 +160,12 @@ label preparing_for_orbita:
   
   j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay there as you know."
   
+  scene bg shuttle-e
+  # [ Background image - Illustrious completely in flames. Aiming straight at the planet - Through the shuttle windows. ]
+  
+  
   "The Illustrious now falls deeper into the atmosphere and burns up."
   
-  # [ Background image - Illustrious completely in flames. Aiming straight at the planet - Through the shuttle windows. ]
 
 # 5.4.1 TURNING TOWARD ORBITA #################################################
 label turning_towards_orbita:
@@ -164,9 +175,15 @@ label turning_towards_orbita:
 # 5.5.0 LANDING ON ORBITA #####################################################
 label landing_on_orbita:
 
+  scene bg shuttle-f
+  # [ Background image - Shuttle landed on a clearing of bush. ]
+  
   "They enter the atmosphere and land."
   
-  # [ Background image - Shuttle landed on a clearing of bush. ]
+  scene bg shuttle-g
+  
+  # [ Background image - Holloway, leaving the shuttle and turning with a wink. ]
+  
   
   "They get up from their seats and Jinx opens the shuttle hatch so that Holloway can leave the ship. He moves towards the exit and turns."
   
@@ -176,7 +193,6 @@ label landing_on_orbita:
   
   "Holloway winks at Jinx."
   
-  # [ Character image - Holloway, leaving the shuttle and turning with a wink. ]
 
 "Game over."
 return
