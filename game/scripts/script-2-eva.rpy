@@ -2,7 +2,21 @@
 
 label to_eva:
   stop music fadeout 5.0
-  scene bg eva-empty-space
+  scene black
+  show bg eva-empty-space:
+    zoom 1.0
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    linear 3.0 xpos 0.49
+    pause 2.0
+    linear 3.0 xpos 0.5
+    linear 3.0 xpos 0.51
+    pause 2.0
+    linear 3.0 xpos 0.5
+    repeat
+  
   show helmet-black
   
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
