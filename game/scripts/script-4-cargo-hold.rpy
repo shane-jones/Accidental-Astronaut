@@ -9,8 +9,13 @@ label cargo_hold:
   # [ Background image - door to the cargo bay. ]
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
+
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "It is safe to open that door, unknown human is in there though."
+
+  hide hanc
 
 # 4.0.1. JINX… ################################################################
 label jinx:
@@ -54,8 +59,13 @@ label jinx:
   j "I am a flight training officer and I can pilot the shuttle... just."
 
   hide jinx
+
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "It is easy, I am the most capable so I will do it."
+
+  hide hanc
 
 # 4.0.2. PREPARATIONS #########################################################
 label preparations:
@@ -81,8 +91,13 @@ label preparations:
   hide jinx
 
   h "If you can fly, Why not use the freighter?"
+
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "The Illustrious is far too damaged to even attempt this."
+
+  hide hanc
   
   h "Protocols suggest we must go to the nearest suitable planet in an emergency. Since the Illustrious is too damaged we will take the shuttle and land below."
   
