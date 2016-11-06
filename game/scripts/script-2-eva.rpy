@@ -5,17 +5,18 @@ label to_eva:
   
   scene black
   
+  # interpolation warpers https://www.renpy.org/doc/html/atl.html#interpolation-statement
   show bg eva-empty-space:
     zoom 1.0
     xpos 0.5
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    linear 3.0 xpos 0.49
+    easein 3.0 xpos 0.49
     pause 2.0
-    linear 6.0 xpos 0.51
+    ease 6.0 xpos 0.51
     pause 2.0
-    linear 3.0 xpos 0.5
+    easeout 3.0 xpos 0.5
     repeat
   
   show helmet-black
@@ -47,7 +48,7 @@ label to_eva:
   
   "The tether has snapped taught."
   
-  h "At least I’ve stopped."
+  h "At least I’ve stopped. I turn around."
 
 # 2.0.0. OUTSIDE ##############################################################
 label outside:
@@ -80,6 +81,14 @@ label the_ship:
   
   h "The airlock is still open. I should just go back in and wait for help."
   
+  show bg eva-open-airlock:
+    zoom 1.0
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55    
+  
   h "But if I make it to the scaffolding, I might be able to repair the hull."
   
   scene black
@@ -90,7 +99,8 @@ label the_ship:
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    linear 3.0 zoom 1.2 xpos 0.8
+    pause 1.0
+    ease 3.0 zoom 1.2 xpos 0.8
     
   show helmet-black
   
