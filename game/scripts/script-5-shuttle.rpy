@@ -121,6 +121,11 @@ label jinx_kills_holloway:
   
   "Everything works and then Jinx moves towards Holloway to hug him. But as she grabs him she snaps his neck killing him instantly."
   
+  scene bg shuttle-g
+  show holloway m
+  
+  # [ Character Image - Holloway neck broken - falling back ]
+  
   # [ Sound effect - Snapping neck and gurgle sound. ]
   
   j "Sorry Holloway. Only enough air for one where I am going."
@@ -161,6 +166,9 @@ label preparing_for_orbita:
   j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay there as you know."
   
   scene bg shuttle-e
+  
+
+        
   # [ Background image - Illustrious completely in flames. Aiming straight at the planet - Through the shuttle windows. ]
   
   
@@ -181,6 +189,9 @@ label landing_on_orbita:
   "They enter the atmosphere and land."
   
   scene bg shuttle-g
+  show holloway l
+  
+  
   
   # [ Background image - Holloway, leaving the shuttle and turning with a wink. ]
   

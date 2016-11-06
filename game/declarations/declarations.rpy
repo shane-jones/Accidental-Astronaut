@@ -36,6 +36,7 @@ image holloway i = "images/characters/holloway/holloway-looked-in-the-box.png"
 image holloway j = "images/characters/holloway/holloway-slammed.png"
 image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
 image holloway l = "images/characters/holloway/holloway-back-resized.png"
+image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
 
 # HANC Handy Autonomous Networking Computer
 
