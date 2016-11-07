@@ -15,6 +15,8 @@ label waking_up_in_the_airlock:
 
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
+  scene bg airlock-c
+
   h "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
 
 # 1.0.1. DECIDING WHAT TO DO ##################################################
