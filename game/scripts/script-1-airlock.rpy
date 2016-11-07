@@ -100,10 +100,13 @@ label hanc:
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
   
   H "Holloway, you must go outside and make a repair to the hull."
+
+  scene bg airlock-a
   
   h "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
   
   h "HANC, where’s my helmet?"
+  show hanc a
   
   H "There's a locker room off the airlock that contains a helmet and a tether that you will need to fix the hole outside. It has its own oxygen supplies."
 
