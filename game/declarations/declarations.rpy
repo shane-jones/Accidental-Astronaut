@@ -40,7 +40,7 @@ image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.p
 
 # HANC Handy Autonomous Networking Computer
 
-image hanc a = "images/characters/hanc/hanc-sound-wave-1657431-1280.jpg"
+image hanc a = "images/characters/hanc/hanc-soundwave.jpg"
 
 # Jinx Takanoma
 
