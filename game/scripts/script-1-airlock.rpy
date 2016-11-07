@@ -92,6 +92,8 @@ label the_last_log:
 label hanc:
 
   "After playing the LOG Holloway pressed on a button labeled “HANC”. HANC (the console) boots up after 30 seconds and analyses the ship."
+
+  show hanc a
   
   "HANC attempts to power up and pressurise the ship but it’s damaged with a hole and needs to be sealed first. The crew left the ship as there is only minimal oxygen supplies left. They took one of the two space shuttles. The crew didn't make any radio contact so there won't be help for a while."
   
