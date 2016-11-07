@@ -15,7 +15,15 @@ label shuttle_in_cargo_hold:
 # 5.1.0. INSIDE THE SHUTTLE ###################################################
 label inside_shuttle_transfer:
     
-  scene bg shuttle-b
+  
+  scene bg cargo-hold-f
+  
+  show shuttle-clear-windows
+  
+  
+  
+  
+  # scene bg shuttle-b
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
   
   H "Holloway, Please transfer me to the shuttle systems so I may help you."
