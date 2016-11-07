@@ -1,5 +1,5 @@
 # Run the declartions.
-call declaratons
+call declarations
 
 # The game starts here.
 

@@ -1,3 +1,5 @@
+label declarations:
+
 #testing on mac
 
 ###############################################################################
@@ -107,7 +109,8 @@ image bg bridge-b = "images/backgrounds/3-bridge/bridge-20161007-193840.jpg"
 image bg bridge-c = "images/backgrounds/3-bridge/bridge-door.png"
 image bg bridge-d = "images/backgrounds/3-bridge/HANC-background.png"
 image bg bridge-e = "images/backgrounds/3-bridge/bridge-with-stars.png"
-image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
+# Was moved/deleted?
+#image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
 image bg bridge-g = "images/backgrounds/3-bridge/bridge-close-up.png"
 
 # 4 Cargo Hold
@@ -137,14 +140,16 @@ image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
-image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
+
+# The image of jinx is missing
+#image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
 
 ###############################################################################
 # Objects
 ###############################################################################
 
 image shuttle a = "images/objects/shuttle-with-drawn-picture-filter.png"
-show shuttel a 
+show shuttle a 
 
 image shuttle-clear-windows = "images/objects/shuttle-clear-windows-1280x720.png"
 
