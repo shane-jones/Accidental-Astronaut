@@ -72,11 +72,16 @@ label hanc_takes_control:
   H "You won’t be around to find out."
   
   scene bg shuttle-g
-  show jinx e
+  show jinx e:
+      zoom 0.30         # 30 % size
+      xpos 0.70         # 70 % of the way accross the background
+      ypos 0.75         # 75 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
       
   show holloway b:
-      zoom 0.68
-      xpos 0.35         # 65 % of the way accross the background
+      zoom 0.58         # 58 % size
+      xpos 0.35         # 35 % of the way accross the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -125,13 +130,13 @@ label jinx_gets_the_code:
   show shuttle-clear-windows
   
   show jinx listening:
-    zoom 0.65
+    zoom 0.65 # 65 % size
     xpos 0.25 # 25 % of the way accross the background
-    ypos 0.75 # 70 % of the way down the background
+    ypos 0.75 # 75 % of the way down the background
     xanchor 0.5 # using the centre of the character image
     yanchor 0.5 # using the centre of the character image
     
-    # 65% size
+  
   
   
   
@@ -155,7 +160,7 @@ label jinx_kills_holloway:
       zoom 0.40
   show holloway a:
       zoom 0.68
-      xpos 0.35         # 65 % of the way accross the background
+      xpos 0.35         # 35 % of the way accross the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
