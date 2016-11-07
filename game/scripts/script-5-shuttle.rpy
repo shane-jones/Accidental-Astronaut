@@ -50,6 +50,15 @@ label hanc_transferred_aboard:
   
   j "Are you sure Holloway?"
   
+  show holloway-arm:
+      zoom 1.8
+      xpos 0.96         # 80 % of the way accross the background
+      ypos 0.19         # 50 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
+  
+  
   "Holloway pushes and hold the “upload” button HANC begins to be downloaded on board the shuttle and populates the main computer."
   
   scene bg shuttle-d
