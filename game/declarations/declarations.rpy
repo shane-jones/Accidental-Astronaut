@@ -39,6 +39,7 @@ image holloway j = "images/characters/holloway/holloway-slammed.png"
 image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
 image holloway l = "images/characters/holloway/holloway-back-resized.png"
 image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
+image holloway n = "images/characters/holloway/holloway-arm.png"
 
 # HANC Handy Autonomous Networking Computer
 
@@ -159,6 +160,8 @@ image long-rope = "images/objects/long-rope.png"
 
 image long-rope = "images/objects/long-rope-2.png"
 
+image holloway-arm = "images/objects/holloway-arm.png"
+
 ###############################################################################
 # Music
 ###############################################################################
@@ -179,3 +182,10 @@ define audio.pained_grunt_sound = "sounds/effects/noisecreations-nc-sfx-fistpunc
 define audio.explosive_bolt_sound = "sounds/effects/explosion-loud-internal-reverberant.mp3"
 define audio.distant_explosive_bolt_sound = "sounds/effects/explosion-distant-002.mp3"
 
+# 5 Shuttle
+define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
+                                                         
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                    

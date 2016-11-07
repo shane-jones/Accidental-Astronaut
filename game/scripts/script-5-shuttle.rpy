@@ -77,8 +77,11 @@ label hanc_takes_control:
   h "You can’t have the code perhaps the electrical systems will fail over the two years and your memory will be destroyed."
   
  
+  play sound hanc_50_sound
+  $ renpy.pause(1.0)
   
-  H "You won’t be around to find out."
+  
+  H  "You won’t be around to find out."
   
   scene bg shuttle-g
   show jinx e:
@@ -139,9 +142,9 @@ label jinx_gets_the_code:
   show shuttle-clear-windows
   
   show jinx listening:
-    zoom 0.65 # 65 % size
-    xpos 0.25 # 25 % of the way accross the background
-    ypos 0.75 # 75 % of the way down the background
+    zoom 0.65   # 65 % size
+    xpos 0.25   # 25 % of the way accross the background
+    ypos 0.75   # 75 % of the way down the background
     xanchor 0.5 # using the centre of the character image
     yanchor 0.5 # using the centre of the character image
     
@@ -176,7 +179,7 @@ label jinx_kills_holloway:
       
 
 
-  "Everything is great Holloway."
+  j "Everything is great Holloway."
   
   "Everything works and then Jinx moves towards Holloway to hug him. But as she grabs him she snaps his neck killing him instantly."
   
