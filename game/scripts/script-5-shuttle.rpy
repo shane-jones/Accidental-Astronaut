@@ -20,10 +20,7 @@ label inside_shuttle_transfer:
   
   show shuttle-clear-windows
   
-  
-  
-  
-  # scene bg shuttle-b
+
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
   
   H "Holloway, Please transfer me to the shuttle systems so I may help you."
@@ -111,7 +108,22 @@ label leaving_cargo_hold:
 # 5.3.0. JINX GETS THE CODE ###################################################
 label jinx_gets_the_code:
     
-  scene bg shuttle-h
+  scene black
+  
+  show shuttle-clear-windows
+  
+  show jinx listening:
+    zoom 0.65
+    xpos 0.25 # 25 % of the way accross the background
+    ypos 0.75 # 70 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
+    
+    # 65% size
+  
+  
+  
+  # scene bg shuttle-h
   # [ Background image - Inside the shuttle. ]
   
   h "The code is 776uythy."
@@ -125,12 +137,34 @@ label jinx_gets_the_code:
 # 5.3.1. JINX KILLS HOLLOWAY ##################################################
 label jinx_kills_holloway:
 
-  j "Everything is great Holloway."
+  scene bg shuttle-g
+  
+  show jinx j:
+      zoom 0.40
+  show holloway a:
+      zoom 0.68
+      xpos 0.35         # 65 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
+
+
+  "Everything is great Holloway."
   
   "Everything works and then Jinx moves towards Holloway to hug him. But as she grabs him she snaps his neck killing him instantly."
   
+  
+  
+  
+  
   scene bg shuttle-g
+  
   show holloway m
+  
+  show jinx i:
+      zoom 0.40
+      
   
   # [ Character Image - Holloway neck broken - falling back ]
   
