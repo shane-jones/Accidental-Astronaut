@@ -38,8 +38,6 @@ label to_eva:
     linear 0.1 xpos 0.51 zoom 1.02
     linear 0.1 xpos 0.5 zoom 1.0
     repeat 5
-
-  
   
   # [ Sound effect - The sound of the tether snapping taught. ]
   # [ Sound effect - A pained grunt as Holloway suddenly stops. ]
@@ -67,6 +65,13 @@ label the_ship:
     xanchor 0.5
     yanchor 0.5
     
+  show long-rope-2:  
+    zoom 1.0
+    xpos 0.7
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+  
   show helmet-black
   
   h "This ship is really beaten up."
@@ -99,7 +104,16 @@ label the_ship:
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    pause 1.0
+    pause 0.5
+    ease 3.0 zoom 1.2 xpos 0.8
+    
+  show long-rope-2:
+    zoom 1.0
+    xpos 0.7
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    pause 0.5
     ease 3.0 zoom 1.2 xpos 0.8
     
   show helmet-black
@@ -117,10 +131,8 @@ label the_ship:
     xanchor 0.5
     yanchor 0.5
     
-  
   show helmet-black
     
-  
   h "Look, there are some climbing grabs on the hull above the airlock hatch."
   
   h "I can use the grabs to pull myself up the side and over the top of the hull to get to the scaffolding."

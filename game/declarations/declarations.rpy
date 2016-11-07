@@ -149,6 +149,10 @@ image shuttle-clear-windows = "images/objects/shuttle-clear-windows-1280x720.png
 
 image helmet-black = "images/objects/helmet-black-1280x720.png"
 
+image long-rope = "images/objects/long-rope.png"
+
+image long-rope = "images/objects/long-rope-2.png"
+
 ###############################################################################
 # Music
 ###############################################################################
