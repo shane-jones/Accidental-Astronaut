@@ -67,7 +67,19 @@ label hanc_takes_control:
   
   h "You can’t have the code perhaps the electrical systems will fail over the two years and your memory will be destroyed."
   
+ 
+  
   H "You won’t be around to find out."
+  
+  scene bg shuttle-g
+  show jinx e
+      
+  show holloway b:
+      zoom 0.68
+      xpos 0.35         # 65 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
 
   "The end."
   return
