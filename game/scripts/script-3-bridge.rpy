@@ -17,24 +17,51 @@ label walking_to_the_bridge:
 
 # 3.0.1. THE BRIDGE ###########################################################
 label the_bridge:
+  
+  scene black
 
-  scene bg bridge-e
+  show bg bridge-e:
+    xpos 0 xanchor 0
+    ease 5.0 xpos -50
+    pause 2.0
+    ease 5.0 xpos 50
+    pause 2.0
+    ease 5.0 xpos 0
+    repeat
+
   show holloway l
 
   h "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
   
+  scene bg bridge-e
+
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "Holloway, the ship’s orbit needs to be corrected soon… Alternatively, make your way to the shuttle."
   
+  hide hanc
+
   h "If I make it to the shuttle, can you fly it?"
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "The shuttle is mostly automated, however I can be downloaded and takeover the non automated sequences."
   
+  hide hanc
+
   h "Looking at the next monitor I can see a schematic of the shuttle and directions to it."
   
   h "Can I make it to the shuttle in time or do I need to correct the ship's orbit first?"
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "In my opinion..."
   
+  hide hanc
+
   h "HANC?, I didn’t get all that, is there time to make it to the shuttle?"
 
   hide holloway
@@ -67,16 +94,26 @@ label waiting_for_hanc:
   
   H "I’m not human, of course I can!"
   
-  "HANC’s voice control has been lost but he was able to repair it and is still able to communicate."
+  "HANC’s voice control has been lost temporarily but he was able to repair it and is still able to communicate."
   
   h "Looking at the screen I can see how to transfer control to the shuttle. After typing the commands - nothing happens!"
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "Holloway, in order for this to work you’ll need the codes from the Captain's manual. It’s in the small cupboard behind you."
   
+  hide hanc
+
   h "Looking around I see the cupboard. Flipping through the pages of the manual I find the code “776uythy”."
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "If you give me the code, I can make the changes and initialise the sequence."
   
+  hide hanc
+
   h "I think to myself, that’s odd, I wonder why HANC doesn't already know the code, he seems to know everything else."
 
   hide holloway k
@@ -116,16 +153,33 @@ label holloway_keeps_the_code_to_himself:
 
   h "OK HANC, looks like the Bridge control has transferred to the shuttle, what’s next?"
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "Time to leave!"
+
+  hide hanc
+
+  scene bg cargo-hold-h
   
   h "Right, back down the hall to the cargo bay. As quick as I can. I notice on the panel next to the door to the cargo bay another message from HANC."
   
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "Holloway, it a appears we’re not alone!"
   
+  hide hanc
+
   h "Who is it?"
-  
+
+  show hanc a:
+    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+
   H "I’m not sure, it is human but I don’t recognise the vital signs."
   
+  hide hanc
+
   h "I wonder who it could be. Maybe they can give me some answers. The only way to find out is to push on through."
   
   hide holloway

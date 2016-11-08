@@ -138,6 +138,7 @@ image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
 image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
+image bg shuttle-j = "images/backgrounds/5-shuttle/shuttle-leaving-illustrious"
 
 ###############################################################################
 # Objects
