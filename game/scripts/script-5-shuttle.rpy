@@ -259,8 +259,12 @@ label landing_on_orbita:
   "They enter the atmosphere and land."
   
   scene bg shuttle-g
-  show holloway l
-  
+  show holloway l:
+      zoom 1.0
+      xpos 0.60         # 60 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
   
   
   # [ Background image - Holloway, leaving the shuttle and turning with a wink. ]
@@ -268,12 +272,41 @@ label landing_on_orbita:
   
   "They get up from their seats and Jinx opens the shuttle hatch so that Holloway can leave the ship. He moves towards the exit and turns."
   
-  "Holloway writes the computer code down on a piece of and leaves it for Jinx and walks down the exit of the shuttle. As he walks out:"
   
+  scene bg shuttle-g
+  show holloway l:
+      zoom 0.7
+      xpos 0.55         # 55 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
+  "Holloway had written the computer code down on a piece of and left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
+  scene bg shuttle-g
+  show holloway l:
+      zoom 0.5
+      xpos 0.50         # 50 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
   h "I hope I remembered it correctly!!"
-  
+  scene bg shuttle-g
+  show holloway l:
+      zoom 0.45
+      xpos 0.47         # 47 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
   "Holloway winks at Jinx."
-  
-
+  scene bg shuttle-g
+  show holloway l:
+      zoom 0.40
+      xpos 0.44         # 44 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
 "Game over."
 return

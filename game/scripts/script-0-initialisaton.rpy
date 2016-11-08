@@ -44,6 +44,9 @@ label start:
     
     "Start at Shuttle.":
       jump to_shuttle
+      
+    "Start at Bye":
+      jump landing_on_orbita 
     
     "Start at Debugging.":
       jump to_debugging

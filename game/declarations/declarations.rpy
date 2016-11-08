@@ -139,12 +139,13 @@ image bg shuttle-in-cargo-hold = "images/backgrounds/4-cargo-hold/cargo-hold-shu
 
 image bg shuttle-a = "images/backgrounds/5-shuttle/cargo-hold-shuttle.png"
 image bg shuttle-b = "images/backgrounds/5-shuttle/shuttle-in-cargo-hold-1280x720.png"
-image bg shuttle-c = "images/backgrounds/5-shuttle/gemini.png"
+image bg shuttle-c = "images/backgrounds/5-shuttle/shuttle-leaving-illustrious.png"
 image bg shuttle-d = "images/backgrounds/5-shuttle/flight-deck.png"
 image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
+
 
 ###############################################################################
 # Objects
