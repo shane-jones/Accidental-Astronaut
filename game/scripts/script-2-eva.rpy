@@ -352,7 +352,18 @@ label slammed:
   # [ Character image - Holloway - unconscious. ]
   # [ Sound effect - depressurisation and a loud thump. ]
   
+  scene bg airlock-door-closed
+  
   "Unfortunately for Holloway, he opened the door too soon. He is slammed into the opening airlock door, caused by the pressure differential, and is severely injured."
+  
+  show holloway slammed:
+    zoom 0.8
+    xpos 0.5
+    ypos 0.4
+    xanchor 0.5
+    yanchor 0.5
+    easein 0.1 xpos 0.75
+    linear 0.1 xpos 0.5 ypos 0.8
   
   "No-one can help him. As he lay unconscious for hours on the airlock floor the ship sinks into the planet’s atmosphere and is destroyed."
 
