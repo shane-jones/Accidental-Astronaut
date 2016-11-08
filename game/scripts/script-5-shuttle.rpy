@@ -76,12 +76,11 @@ label hanc_takes_control:
   
   h "You can’t have the code perhaps the electrical systems will fail over the two years and your memory will be destroyed."
   
- 
+  
+  
   play sound hanc_50_sound
   $ renpy.pause(1.0)
-  
-  
-  H  " "                     #"You won’t be around to find out."
+  H  "You won’t be around to find out."
   
   scene bg shuttle-g
   show jinx e:
