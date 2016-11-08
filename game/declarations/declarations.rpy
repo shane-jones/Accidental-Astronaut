@@ -88,7 +88,6 @@ image bg airlock-e = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-f = "images/backgrounds/1-airlock/holloway-floating-away.png"
 image bg airlock-g = "images/backgrounds/1-airlock/captain-background.png"
 
-
 image bg airlock-door-open = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-door-closed = "images/backgrounds/1-airlock/airlock-4.png"
 
@@ -106,7 +105,7 @@ image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 image bg eva-with-planet = "images/backgrounds/2-eva/eva-with-planet-background.png"
 image bg eva-with-a-frame = "images/backgrounds/2-eva/eva-with-a-frame.png"
 image bg eva-open-airlock = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
-
+image bg eva-bolts-fired = "images/backgrounds/2-eva/eva-with-bolts-fired.png"
 
 # 3 Bridge
 

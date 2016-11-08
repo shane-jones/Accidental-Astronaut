@@ -19,6 +19,9 @@ label start:
         "Start at to_eva":
           jump to_eva
         
+        "Start at two_tethers":
+          jump two_tethers
+        
         "Start at a_sign_of_life with has_two_tethers":
           $ has_two_tethers = True
           jump a_sign_of_life

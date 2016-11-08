@@ -150,6 +150,15 @@ label two_tethers:
 
   # [ Background image - Close in graphic of working area. ]
   
+  show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0 
+    
+  show helmet-black
   h "There’s another tether."
   
   menu:
@@ -168,6 +177,14 @@ label two_tethers:
       "Holloway hooks the second tether onto his suit."
       
       h "Feeling safer already."
+    
+  show bg eva-open-airlock:
+    zoom 1.0
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7   
   
   h "I make my way up to the repair rig."
 
@@ -217,11 +234,7 @@ label a_sign_of_life:
   show shuttle-clear-windows
   
   show jinx listening:
-    zoom 0.6
-    xpos 0.25
-    ypos 0.75
-    xanchor 0.5
-    yanchor 0.5
+
   
   
   # scene bg shuttle-in-cargo-hold
@@ -231,7 +244,7 @@ label a_sign_of_life:
   
   # This is jinx listening using ATL with a show statement.
   
-    
+  $ renpy.pause(1.0)  
   play sound distant_explosive_bolt_sound
   $ renpy.pause(1.0)
     
@@ -245,7 +258,14 @@ label the_ship_is_sealed:
 
   # [ Background image - Close up image of repair rig. ]
   
-  scene bg eva-with-a-frame
+  scene bg eva-bolts-fired:
+    zoom 1.0
+    xpos 0.4
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+  
+  show helmet-black
   
   h "HANC, the last bolt failed."
   
@@ -259,6 +279,16 @@ label back_to_the_ship:
   # [ Background image - Close in graphic of repair rig. ]
   
   h "25 minutes oxygen. Good."
+  
+  show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0
+    
+  show helmet-black
   
   "Holloway makes his way back to the airlock using the grab points."
   
