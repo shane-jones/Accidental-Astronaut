@@ -259,6 +259,14 @@ label landing_on_orbita:
   "They enter the atmosphere and land."
   
   scene bg shuttle-g
+  show jinx a:
+      zoom 0.30
+      xpos 0.50         # 60 % of the way accross the background
+      ypos 0.55         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
+      
   show holloway l:
       zoom 1.0
       xpos 0.60         # 60 % of the way accross the background
@@ -274,6 +282,13 @@ label landing_on_orbita:
   
   
   scene bg shuttle-g
+  show jinx a:
+      zoom 0.30
+      xpos 0.50         # 60 % of the way accross the background
+      ypos 0.55         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
   show holloway l:
       zoom 0.7
       xpos 0.55         # 55 % of the way accross the background
@@ -283,6 +298,13 @@ label landing_on_orbita:
       
   "Holloway had written the computer code down on a piece of and left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
   scene bg shuttle-g
+  show jinx a:
+      zoom 0.30
+      xpos 0.50         # 60 % of the way accross the background
+      ypos 0.55         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
   show holloway l:
       zoom 0.5
       xpos 0.50         # 50 % of the way accross the background
@@ -290,8 +312,15 @@ label landing_on_orbita:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
-  h "I hope I remembered it correctly!!"
+  "Holloway winks at Jinx." 
   scene bg shuttle-g
+  show jinx a:
+      zoom 0.30
+      xpos 0.50         # 60 % of the way accross the background
+      ypos 0.55         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
   show holloway l:
       zoom 0.45
       xpos 0.47         # 47 % of the way accross the background
@@ -299,8 +328,16 @@ label landing_on_orbita:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
-  "Holloway winks at Jinx."
+  
+  h "I hope I remembered it correctly!!"
   scene bg shuttle-g
+  show jinx a:
+      zoom 0.30
+      xpos 0.50         # 60 % of the way accross the background
+      ypos 0.55         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
   show holloway l:
       zoom 0.40
       xpos 0.44         # 44 % of the way accross the background
