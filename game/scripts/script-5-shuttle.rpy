@@ -81,7 +81,7 @@ label hanc_takes_control:
   $ renpy.pause(1.0)
   
   
-  H  " "                     #"You won’t be around to find out."
+  H  "You won’t be around to find out."
   
   scene bg shuttle-g
   show jinx e:
