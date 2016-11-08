@@ -145,14 +145,6 @@ image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
-<<<<<<< HEAD
-image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
-image bg shuttle-j = "images/backgrounds/5-shuttle/shuttle-leaving-illustrious"
-=======
-
-# The image of jinx is missing
-#image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
->>>>>>> 7d556b0f6c37174b2e80f01ea8b5b86e72fc9b04
 
 ###############################################################################
 # Objects
