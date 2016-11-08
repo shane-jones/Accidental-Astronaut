@@ -15,7 +15,12 @@ label shuttle_in_cargo_hold:
 # 5.1.0. INSIDE THE SHUTTLE ###################################################
 label inside_shuttle_transfer:
     
-  scene bg shuttle-b
+  
+  scene bg cargo-hold-f
+  
+  show shuttle-clear-windows
+  
+
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
   
   H "Holloway, Please transfer me to the shuttle systems so I may help you."
@@ -45,6 +50,15 @@ label hanc_transferred_aboard:
   
   j "Are you sure Holloway?"
   
+  show holloway-arm:
+      zoom 1.8
+      xpos 0.96         # 80 % of the way accross the background
+      ypos 0.19         # 50 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
+  
+  
   "Holloway pushes and hold the “upload” button HANC begins to be downloaded on board the shuttle and populates the main computer."
   
   scene bg shuttle-d
@@ -62,7 +76,26 @@ label hanc_takes_control:
   
   h "You can’t have the code perhaps the electrical systems will fail over the two years and your memory will be destroyed."
   
-  H "You won’t be around to find out."
+  
+  
+  play sound hanc_50_sound
+  $ renpy.pause(1.0)
+  H  "You won’t be around to find out."
+  
+  scene bg shuttle-g
+  show jinx e:
+      zoom 0.30         # 30 % size
+      xpos 0.70         # 70 % of the way accross the background
+      ypos 0.75         # 75 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
+  show holloway b:
+      zoom 0.58         # 58 % size
+      xpos 0.35         # 35 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
 
   "The end."
   return
@@ -103,7 +136,22 @@ label leaving_cargo_hold:
 # 5.3.0. JINX GETS THE CODE ###################################################
 label jinx_gets_the_code:
     
-  scene bg shuttle-h
+  scene black
+  
+  show shuttle-clear-windows
+  
+  show jinx listening:
+    zoom 0.65   # 65 % size
+    xpos 0.25   # 25 % of the way accross the background
+    ypos 0.75   # 75 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
+    
+  
+  
+  
+  
+  # scene bg shuttle-h
   # [ Background image - Inside the shuttle. ]
   
   h "The code is 776uythy."
@@ -117,12 +165,34 @@ label jinx_gets_the_code:
 # 5.3.1. JINX KILLS HOLLOWAY ##################################################
 label jinx_kills_holloway:
 
+  scene bg shuttle-g
+  
+  show jinx j:
+      zoom 0.40
+  show holloway a:
+      zoom 0.68
+      xpos 0.35         # 35 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+      
+
+
   j "Everything is great Holloway."
   
   "Everything works and then Jinx moves towards Holloway to hug him. But as she grabs him she snaps his neck killing him instantly."
   
+  
+  
+  
+  
   scene bg shuttle-g
+  
   show holloway m
+  
+  show jinx i:
+      zoom 0.40
+      
   
   # [ Character Image - Holloway neck broken - falling back ]
   

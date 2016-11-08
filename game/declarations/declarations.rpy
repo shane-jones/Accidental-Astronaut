@@ -1,3 +1,5 @@
+label declarations:
+
 #testing on mac
 
 ###############################################################################
@@ -37,6 +39,10 @@ image holloway j = "images/characters/holloway/holloway-slammed.png"
 image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
 image holloway l = "images/characters/holloway/holloway-back-resized.png"
 image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
+image holloway n = "images/characters/holloway/holloway-arm.png"
+
+image holloway floating = "images/characters/holloway/holloway-floating.png"
+image holloway slammed = "images/characters/holloway/holloway-slammed.png"
 
 # HANC Handy Autonomous Networking Computer
 
@@ -82,9 +88,9 @@ image bg airlock-e = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-f = "images/backgrounds/1-airlock/holloway-floating-away.png"
 image bg airlock-g = "images/backgrounds/1-airlock/captain-background.png"
 
-
 image bg airlock-door-open = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-door-closed = "images/backgrounds/1-airlock/airlock-4.png"
+
 
 # 2 EVA
 
@@ -99,6 +105,7 @@ image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 image bg eva-with-planet = "images/backgrounds/2-eva/eva-with-planet-background.png"
 image bg eva-with-a-frame = "images/backgrounds/2-eva/eva-with-a-frame.png"
 image bg eva-open-airlock = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
+image bg eva-bolts-fired = "images/backgrounds/2-eva/eva-with-bolts-fired.png"
 
 # 3 Bridge
 
@@ -107,7 +114,8 @@ image bg bridge-b = "images/backgrounds/3-bridge/bridge-20161007-193840.jpg"
 image bg bridge-c = "images/backgrounds/3-bridge/bridge-door.png"
 image bg bridge-d = "images/backgrounds/3-bridge/HANC-background.png"
 image bg bridge-e = "images/backgrounds/3-bridge/bridge-with-stars.png"
-image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
+# Was moved/deleted?
+#image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
 image bg bridge-g = "images/backgrounds/3-bridge/bridge-close-up.png"
 
 # 4 Cargo Hold
@@ -137,15 +145,21 @@ image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
+<<<<<<< HEAD
 image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
 image bg shuttle-j = "images/backgrounds/5-shuttle/shuttle-leaving-illustrious"
+=======
+
+# The image of jinx is missing
+#image bg shuttle-i = "images/backgrounds/5-shuttle/Copy of jinx-piercing-stare-arms-behind-back-in-shuttle.png"
+>>>>>>> 7d556b0f6c37174b2e80f01ea8b5b86e72fc9b04
 
 ###############################################################################
 # Objects
 ###############################################################################
 
 image shuttle a = "images/objects/shuttle-with-drawn-picture-filter.png"
-show shuttel a 
+show shuttle a 
 
 image shuttle-clear-windows = "images/objects/shuttle-clear-windows-1280x720.png"
 
@@ -154,6 +168,10 @@ image helmet-black = "images/objects/helmet-black-1280x720.png"
 image long-rope = "images/objects/long-rope.png"
 
 image long-rope = "images/objects/long-rope-2.png"
+
+image holloway-arm = "images/objects/holloway-arm.png"
+
+image airlock-door-open-transparent = "images/backgrounds/1-airlock/airlock-4-with-door-open-transparent.png"
 
 ###############################################################################
 # Music
@@ -175,3 +193,10 @@ define audio.pained_grunt_sound = "sounds/effects/noisecreations-nc-sfx-fistpunc
 define audio.explosive_bolt_sound = "sounds/effects/explosion-loud-internal-reverberant.mp3"
 define audio.distant_explosive_bolt_sound = "sounds/effects/explosion-distant-002.mp3"
 
+# 5 Shuttle
+define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
+                                                         
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                    

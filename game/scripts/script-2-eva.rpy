@@ -150,6 +150,15 @@ label two_tethers:
 
   # [ Background image - Close in graphic of working area. ]
   
+  show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0 
+    
+  show helmet-black
   h "There’s another tether."
   
   menu:
@@ -168,6 +177,14 @@ label two_tethers:
       "Holloway hooks the second tether onto his suit."
       
       h "Feeling safer already."
+    
+  show bg eva-open-airlock:
+    zoom 1.0
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7   
   
   h "I make my way up to the repair rig."
 
@@ -217,11 +234,7 @@ label a_sign_of_life:
   show shuttle-clear-windows
   
   show jinx listening:
-    zoom 0.6 # 60% size
-    xpos 0.25 # 25 % of the way accross the background
-    ypos 0.75 # 75 % of the way down the background
-    xanchor 0.5 # using the centre of the character image
-    yanchor 0.5 # using the centre of the character image
+
   
   
   # scene bg shuttle-in-cargo-hold
@@ -231,7 +244,7 @@ label a_sign_of_life:
   
   # This is jinx listening using ATL with a show statement.
   
-    
+  $ renpy.pause(1.0)  
   play sound distant_explosive_bolt_sound
   $ renpy.pause(1.0)
     
@@ -245,7 +258,14 @@ label the_ship_is_sealed:
 
   # [ Background image - Close up image of repair rig. ]
   
-  scene bg eva-with-a-frame
+  scene bg eva-bolts-fired:
+    zoom 1.0
+    xpos 0.4
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+  
+  show helmet-black
   
   h "HANC, the last bolt failed."
   
@@ -259,6 +279,16 @@ label back_to_the_ship:
   # [ Background image - Close in graphic of repair rig. ]
   
   h "25 minutes oxygen. Good."
+  
+  show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0
+    
+  show helmet-black
   
   "Holloway makes his way back to the airlock using the grab points."
   
@@ -299,8 +329,25 @@ label not_enough_rope:
   
   h "I can’t reach. 20 minutes oxygen."
   
+  scene bg eva-empty-space:
+    zoom 0.75
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+
+  show holloway floating:
+    zoom 0.5
+    xpos 0.8
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    easeout 3.0 xpos 0.2 
+
+  show airlock-door-open-transparent
+
   "Holloway struggles to reach the hatch. He makes a desperate leap but misses. 20 minutes later, in orbit around the planet below, he runs out of air and life."
-    
+  
   "The end."
   return
 
@@ -335,7 +382,18 @@ label slammed:
   # [ Character image - Holloway - unconscious. ]
   # [ Sound effect - depressurisation and a loud thump. ]
   
+  scene bg airlock-door-closed
+  
   "Unfortunately for Holloway, he opened the door too soon. He is slammed into the opening airlock door, caused by the pressure differential, and is severely injured."
+  
+  show holloway slammed:
+    zoom 0.8
+    xpos 0.5
+    ypos 0.4
+    xanchor 0.5
+    yanchor 0.5
+    easein 0.1 xpos 0.75
+    linear 0.1 xpos 0.5 ypos 0.8
   
   "No-one can help him. As he lay unconscious for hours on the airlock floor the ship sinks into the planet’s atmosphere and is destroyed."
 

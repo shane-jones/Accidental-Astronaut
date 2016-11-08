@@ -1,5 +1,5 @@
 # Run the declartions.
-call declaratons
+call declarations
 
 # The game starts here.
 
@@ -19,13 +19,19 @@ label start:
         "Start at to_eva":
           jump to_eva
         
+        "Start at two_tethers":
+          jump two_tethers
+        
         "Start at a_sign_of_life with has_two_tethers":
           $ has_two_tethers = True
           jump a_sign_of_life
     
         "Start at a_sign_of_life with !has_two_tethers":
-          $ has_two_tethers = Falso
+          $ has_two_tethers = False
           jump a_sign_of_life
+          
+        "Start at label slammed":  
+          jump slammed          
         
         "Start at label jinx_makes_plans":  
           jump jinx_makes_plans
