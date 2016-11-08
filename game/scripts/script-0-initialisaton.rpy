@@ -24,7 +24,7 @@ label start:
           jump a_sign_of_life
     
         "Start at a_sign_of_life with !has_two_tethers":
-          $ has_two_tethers = Falso
+          $ has_two_tethers = False
           jump a_sign_of_life
         
         "Start at label jinx_makes_plans":  

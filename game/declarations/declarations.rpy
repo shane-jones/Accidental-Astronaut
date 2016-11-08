@@ -41,6 +41,8 @@ image holloway l = "images/characters/holloway/holloway-back-resized.png"
 image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
 image holloway n = "images/characters/holloway/holloway-arm.png"
 
+image holloway floating = "images/characters/holloway/holloway-floating.png"
+
 # HANC Handy Autonomous Networking Computer
 
 image hanc a = "images/characters/hanc/hanc-soundwave.jpg"
@@ -89,6 +91,7 @@ image bg airlock-g = "images/backgrounds/1-airlock/captain-background.png"
 image bg airlock-door-open = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-door-closed = "images/backgrounds/1-airlock/airlock-4.png"
 
+
 # 2 EVA
 
 image bg eva-a = "images/backgrounds/2-eva/eva-2.png"
@@ -102,6 +105,7 @@ image bg eva-empty-space = "images/backgrounds/2-eva/eva-space.jpg"
 image bg eva-with-planet = "images/backgrounds/2-eva/eva-with-planet-background.png"
 image bg eva-with-a-frame = "images/backgrounds/2-eva/eva-with-a-frame.png"
 image bg eva-open-airlock = "images/backgrounds/2-eva/eva-with-a-frame-and-door-open.png"
+
 
 # 3 Bridge
 
@@ -161,6 +165,8 @@ image long-rope = "images/objects/long-rope.png"
 image long-rope = "images/objects/long-rope-2.png"
 
 image holloway-arm = "images/objects/holloway-arm.png"
+
+image airlock-door-open-transparent = "images/backgrounds/1-airlock/airlock-4-with-door-open-transparent.png"
 
 ###############################################################################
 # Music

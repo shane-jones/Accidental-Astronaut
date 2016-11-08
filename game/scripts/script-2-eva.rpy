@@ -217,11 +217,11 @@ label a_sign_of_life:
   show shuttle-clear-windows
   
   show jinx listening:
-    zoom 0.6 # 60% size
-    xpos 0.25 # 25 % of the way accross the background
-    ypos 0.75 # 75 % of the way down the background
-    xanchor 0.5 # using the centre of the character image
-    yanchor 0.5 # using the centre of the character image
+    zoom 0.6
+    xpos 0.25
+    ypos 0.75
+    xanchor 0.5
+    yanchor 0.5
   
   
   # scene bg shuttle-in-cargo-hold
@@ -299,8 +299,25 @@ label not_enough_rope:
   
   h "I can’t reach. 20 minutes oxygen."
   
+  scene bg eva-empty-space:
+    zoom 0.75
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+
+  show holloway floating:
+    zoom 0.5
+    xpos 0.8
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    easeout 3.0 xpos 0.2 
+
+  show airlock-door-open-transparent
+
   "Holloway struggles to reach the hatch. He makes a desperate leap but misses. 20 minutes later, in orbit around the planet below, he runs out of air and life."
-    
+  
   "The end."
   return
 
