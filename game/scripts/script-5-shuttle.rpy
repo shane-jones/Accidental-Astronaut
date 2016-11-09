@@ -12,7 +12,7 @@ label shuttle_in_cargo_hold:
   
   # [ Sound effect - Door Closing. ]
 
-# 5.1.0. INSIDE THE SHUTTLE ###################################################
+# 5.0.1. INSIDE THE SHUTTLE ###################################################
 label inside_shuttle_transfer:
     
   
@@ -22,6 +22,9 @@ label inside_shuttle_transfer:
   
 
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
+  
+  play sound hanc_5_0_1_sound
+  $ renpy.pause(1.0)
   
   H "Holloway, Please transfer me to the shuttle systems so I may help you."
   
@@ -39,12 +42,16 @@ label inside_shuttle_transfer:
     "Do not transfer HANC to the shuttle.":
       jump leaving_cargo_hold
 
-# 5.0.1 HANC TRANSFERRED ABOARD ###############################################
+# 5.1.0 HANC TRANSFERRED ABOARD ###############################################
 label hanc_transferred_aboard:
 
   "Holloway agrees to upload HANC. There is a button on the console marked computer upload."
   
   h "Is the “upload” button the way to do this?"
+  
+  
+  play sound hanc_5_1_0_sound
+  $ renpy.pause(1.0)
   
   H "Yes, just press and hold and I can do the rest."
   
@@ -65,9 +72,12 @@ label hanc_transferred_aboard:
   
   # [ Background image - The computer's light up. ]
 
-# 5.1.0. HANC TAKES CONTROL ###################################################
+# 5.1.1. HANC TAKES CONTROL ###################################################
 label hanc_takes_control:
 
+
+  play sound hanc_5_1_1_1_sound
+  $ renpy.pause(1.0)
   H "Thankyou. Can I also have the code please. It will help."
   
   "Whether Holloway does or does not give HANC the code is irrelevant here. HANC locks them out of the systems and launches from the Illustrious. HANC aims the vessel away from the planet below and begins the journey towards High command."
@@ -78,7 +88,7 @@ label hanc_takes_control:
   
   
   
-  play sound hanc_50_sound
+  play sound hanc_5_1_1_2_sound
   $ renpy.pause(1.0)
   H  "You won’t be around to find out."
   
@@ -218,6 +228,9 @@ label preparing_for_orbita:
   # [ Background image - Illustrious front section red with flames - Through the shuttle windows. ]
   
   # [ Background image - Illustrious large gun turret - Through the shuttle windows. ]
+  
+  play sound hanc_5_4_0_sound
+  $ renpy.pause(1.0)
   
   H "Transfer me now! or else I will destroy the shuttle."
   
