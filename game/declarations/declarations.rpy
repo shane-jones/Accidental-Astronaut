@@ -8,7 +8,7 @@ label declarations:
 
 define a = Character('Captain Abrahams')
 define h = Character('Holloway')
-define H = Character('HANC')
+define H = Character('HANC', image='hanc')
 define j = Character('Jinx')
 define l = Character('Log Computer')
 define p = Character ('PC')
@@ -49,6 +49,7 @@ image holloway slammed = "images/characters/holloway/holloway-slammed.png"
 # HANC Handy Autonomous Networking Computer
 
 image hanc a = "images/characters/hanc/hanc-soundwave.jpg"
+image side hanc = "images/characters/hanc/side-hanc-soundwave.jpg"
 
 # Jinx Takanoma
 
