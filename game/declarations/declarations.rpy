@@ -194,7 +194,17 @@ define audio.distant_explosive_bolt_sound = "sounds/effects/explosion-distant-00
 # 5 Shuttle
 define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
                                                          
+###############################################################################
+# Character Voices - Sounds
+###############################################################################                                                                                      
                                                                                       
-                                                                                      
-                                                                                      
-                                                                                    
+# 5 Shuttle
+
+define audio.hanc_5_0_1_sound = "sounds/effects/hanc-5-0-1.mp3" 
+define audio.hanc_5_1_0_sound = "sounds/effects/hanc-5-1-0.mp3"
+define audio.hanc_5_1_1_1_sound = "sounds/effects/hanc-5-1-1-1.mp3"
+define audio.hanc_5_1_1_2_sound = "sounds/effects/hanc-5-1-1-2.mp3"
+define audio.hanc_5_4_0_sound = "sounds/effects/hanc-5-4-0.mp3"
+
+
+
