@@ -117,7 +117,8 @@ label secrets:
 label the_code:
 
   # [ Character graphic - Jinx with hand on face (thinking pose). ]
-  show jinx m
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
 
   j "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
   
@@ -131,7 +132,12 @@ label the_code:
   
   "HANC wants the shuttle and can go far into space beyond oxygen levels and make it to command headquarters and rebuild his systems."
   
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+
   j "Holloway, I’ll need the captain’s code to finish the preparations."
+
+  hide jinx
   
   "What should Holloway do with the code?"
 
@@ -152,14 +158,18 @@ label jinx_gets_away:
   "Holloway is convinced to give Jinx the code."
   
   h "The code is: 776uythy"
-
-  show jinx n
+  
+  show jinx f: 
+    zoom 0.7 xpos 0.53 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Jinx laughing ]
   
   j "Thankyou. You won’t regret it..."
-  
-  # [ Character image - Jinx: smiling. ]
+
+  hide jinx
   
   "Jinx uses the code to prepare the shuttle/locks and cargo door."
+
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx laughing ]
   
   j "Now before we board the shuttle, there is only one more thing that we need..."
   
