@@ -10,8 +10,8 @@ label cargo_hold:
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
 
-  show hanc a:
-    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+  show hanc b:
+    zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "It is safe to open that door, unknown human is in there though."
 
@@ -19,26 +19,21 @@ label cargo_hold:
 
 # 4.0.1. JINX… ################################################################
 label jinx:
-
-  "Holloway opens the door and Jinx is hiding in one corner."
   
   scene bg cargo-hold-b
   # [ Background image - cargo hold. ]
 
-  
-  # [ Character image - Jinx crouched down. ]
+  "Holloway opens the door and Jinx is hiding in one corner."
+
+  show jinx l:
+    zoom 0.065 xpos 0.72 ypos 0.48 xanchor 0.5 yanchor 0.5 # Jinx tiny - crouched down 
   
   "HANC identifies Jinx’s position and she emerges from the shadows after realising Holloway is not an officer."
   
   "Jinx quickly realises that HANC is around."
 
-  show jinx k: # [ Character image - Jinx standing normal ]
-    zoom 0.5 # half size
-    xpos 0.25 # 25 % of the way accross the background
-    ypos 0.8 # 80 % of the way down the background
-    xanchor 0.5 # using the centre of the character image
-    yanchor 0.5 # using the centre of the character image
-  
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
   
   j "Hi. My name is Jinx 'Takanoma'."
 
@@ -50,7 +45,8 @@ label jinx:
   
   h "Why were you hiding?"
   
-  show jinx n
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
 
   j "I was not sure if you were armed."
   
@@ -60,8 +56,8 @@ label jinx:
 
   hide jinx
 
-  show hanc a:
-    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+  show hanc b:
+    zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "It is easy, I am the most capable so I will do it."
 
@@ -84,7 +80,8 @@ label preparations:
   h "Jinx, are you able to get the shuttle to the surface below?"
   
   # [ Character graphic - Jinx with arms out to side (shrugging shoulders) ]
-  show jinx n
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
   
   j "I can’t be sure. I think we must go into deep space and attempt to get to the next planet some three weeks away - Dorphia. The planet below is very primitive so we should avoid it."
   
@@ -92,8 +89,8 @@ label preparations:
 
   h "If you can fly, Why not use the freighter?"
 
-  show hanc a:
-    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+  show hanc b:
+    zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "The Illustrious is far too damaged to even attempt this."
 
