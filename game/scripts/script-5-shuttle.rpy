@@ -26,7 +26,7 @@ label inside_shuttle_transfer:
   play sound hanc_5_0_1_sound
   $ renpy.pause(1.0)
   
-  H "Holloway, Please transfer me to the shuttle systems so I may help you."
+  H radio "Holloway, Please transfer me to the shuttle systems so I may help you."
   
   j "Holloway, HANC is not operating normally and I think it might be safer to not transfer him to the shuttle."
   
@@ -53,7 +53,7 @@ label hanc_transferred_aboard:
   play sound hanc_5_1_0_sound
   $ renpy.pause(1.0)
   
-  H "Yes, just press and hold and I can do the rest."
+  H radio "Yes, just press and hold and I can do the rest."
   
   j "Are you sure Holloway?"
   
@@ -78,7 +78,7 @@ label hanc_takes_control:
 
   play sound hanc_5_1_1_1_sound
   $ renpy.pause(1.0)
-  H "Thankyou. Can I also have the code please. It will help."
+  H radio "Thankyou. Can I also have the code please. It will help."
   
   "Whether Holloway does or does not give HANC the code is irrelevant here. HANC locks them out of the systems and launches from the Illustrious. HANC aims the vessel away from the planet below and begins the journey towards High command."
   
@@ -90,7 +90,7 @@ label hanc_takes_control:
   
   play sound hanc_5_1_1_2_sound
   $ renpy.pause(1.0)
-  H  "You won’t be around to find out."
+  H radio "You won’t be around to find out."
   
   scene bg shuttle-g
   show jinx e:
@@ -209,7 +209,18 @@ label jinx_kills_holloway:
   # [ Sound effect - Snapping neck and gurgle sound. ]
   
   j "Sorry Holloway. Only enough air for one where I am going."
-
+  
+  scene bg shuttle-g
+  
+  show holloway c:
+      zoom 0.68
+      xpos 0.50         # 35 % of the way accross the background
+      ypos 0.45         # 45 % of the way down the background
+      xanchor 0.5       # using the centre of the character image
+      yanchor 0.5       # using the centre of the character image
+  
+  
+  
   "The end."
   return
 
@@ -232,7 +243,7 @@ label preparing_for_orbita:
   play sound hanc_5_4_0_sound
   $ renpy.pause(1.0)
   
-  H "Transfer me now! or else I will destroy the shuttle."
+  H radio "Transfer me now! or else I will destroy the shuttle."
   
   "Jinx winks at Hollway."
   
