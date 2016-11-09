@@ -141,7 +141,7 @@ label the_ship:
   
   h "HANC. What do I do now?"
   
-  H "What can you see? Describe it."
+  H radio "What can you see? Describe it."
   
   h "Surely this suit has a camera. Can’t I just send images via the radio system to you?"
 
