@@ -169,21 +169,36 @@ label jinx_gets_away:
   "Jinx uses the code to prepare the shuttle/locks and cargo door."
 
   show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx laughing ]
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing ]
   
   j "Now before we board the shuttle, there is only one more thing that we need..."
+
+  hide jinx
   
   "Jinx instructs Holloway to grab the ropes from the container on the right, the one with ‘caution’ written on the label."
-  
-  hide jinx
+
 
   # [ Additional graphic - close up of container with ‘CAUTION’ on the label. ]
 
-  scene bg cargo-hold-j
+  scene bg cargo-hold-b
   
+  show holloway i: 
+    zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Holloway looks in box]
+
+  show jinx i: 
+    zoom 0.14 xpos 0.93 ypos 0.55 xanchor 0.5 yanchor 0.5 #[ Jinx standing in escape door ]
+
   "As Holloway turns his back to open the container, Jinx slips into the Shuttle and engages the locks."
+
+  hide holloway
+  hide jinx
+
+  show holloway g: 
+    zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Holloway faces door closing]
   
   "Holloway opens the lid and turns to ask which rope density only to see the door to the Shuttle close."
+
+  scene bg cargo-hold-a # cargo door closes
   
   "He realises he has been tricked."
 
