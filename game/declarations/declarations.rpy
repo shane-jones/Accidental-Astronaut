@@ -39,7 +39,9 @@ image holloway j = "images/characters/holloway/holloway-slammed.png"
 image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
 image holloway l = "images/characters/holloway/holloway-back-resized.png"
 image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
-image holloway n = "images/characters/holloway/holloway-arm.png"
+
+#This 
+#image holloway n = "images/characters/holloway/holloway-arm.png"
 
 image holloway floating = "images/characters/holloway/holloway-floating.png"
 image holloway slammed = "images/characters/holloway/holloway-slammed.png"
@@ -144,7 +146,7 @@ image bg shuttle-d = "images/backgrounds/5-shuttle/flight-deck.png"
 image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
-image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-a-cheeky-smile-leaning-forward-elbows-on-knees-in-shuttle.png"
+image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-cheeky-smile-leaning-elbows-on-knees-in-shuttle.png"
 
 
 ###############################################################################
