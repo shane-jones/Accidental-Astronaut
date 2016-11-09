@@ -93,8 +93,13 @@ label hanc:
 
   "After playing the LOG Holloway pressed on a button labeled “HANC”. HANC (the console) boots up after 30 seconds and analyses the ship."
 
-  show hanc a
-  
+  show hanc a:
+      zoom 0.15 xpos 0.2 xpos 0.6 xanchor 0.5 yanchor 0.5 #reduced size has the file is large
+       #25% of the way across the background
+       #80% of the way down the background
+       #using the centre of the character image
+       #using the centre of the character image 
+      
   "HANC attempts to power up and pressurise the ship but it’s damaged with a hole and needs to be sealed first. The crew left the ship as there is only minimal oxygen supplies left. They took one of the two space shuttles. The crew didn't make any radio contact so there won't be help for a while."
   
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
