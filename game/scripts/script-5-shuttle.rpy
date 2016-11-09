@@ -210,15 +210,15 @@ label jinx_kills_holloway:
   
   j "Sorry Holloway. Only enough air for one where I am going."
   
-  scene bg shuttle-g
-  
+  scene bg shuttle-g:
+     
   show holloway c:
       zoom 0.68
       xpos 0.50         # 35 % of the way accross the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
-  
+      
   
   
   "The end."
