@@ -20,16 +20,46 @@ label the_bridge:
   
   scene black
 
+  # CR I have just commented out temporarily. It keeps panning of the edge and I 
+  # am difficulty fixing it. I have created another version using % instead of
+  #pixels.
+  #show bg bridge-e:
+  #  xpos 0 xanchor 0
+  #  ease 5.0 xpos -50
+  #  pause 2.0
+  #  ease 5.0 xpos 50
+  #  pause 2.0
+  #  ease 5.0 xpos 0
+  #  repeat
+  
   show bg bridge-e:
-    xpos 0 xanchor 0
-    ease 5.0 xpos -50
+    zoom 1.1 # this give a bit of space at the edges so the pan does not go outside 
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 5.0 xpos .45
     pause 2.0
-    ease 5.0 xpos 50
+    ease 5.0 xpos .55
     pause 2.0
-    ease 5.0 xpos 0
+    ease 5.0 xpos 0.5
     repeat
-
-  show holloway l
+    
+  #show holloway l
+  
+  # And do the same for hollow if you don't want him sliding around the room
+  # I don't think we need to zoom though
+  show holloway l:
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 5.0 xpos .45
+    pause 2.0
+    ease 5.0 xpos .55
+    pause 2.0
+    ease 5.0 xpos 0.5
+    repeat  
 
   h "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
   
