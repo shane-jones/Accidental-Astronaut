@@ -201,7 +201,15 @@ define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
 ###############################################################################
 # Character Voices - Sounds
 ###############################################################################                                                                                      
-                                                                                      
+ 
+# 1 Airlock
+
+# 2 EVA
+
+# 3 Bridge
+
+# 4 Cargo Hold
+ 
 # 5 Shuttle
 
 define audio.hanc_5_0_1_sound = "sounds/effects/hanc-5-0-1.mp3" 
