@@ -5,7 +5,14 @@ label to_shuttle:
 # 5.0.0. SHUTTLE IN THE CARGO BAY #############################################
 label shuttle_in_cargo_hold:
 
+  scene black
+  with dissolve
+
+  # if you want to extend a dissolve use "with Dissolve (5.0)" NB upper-case 'D'
+  
   scene bg shuttle-a
+  with dissolve
+    
   # [ Background Image - Largo cargo bay with the shuttle through an open door. ]
   
   "Jinx and Holloway make their way inside the shuttle and the door closes behind them."
@@ -16,9 +23,14 @@ label shuttle_in_cargo_hold:
 label inside_shuttle_transfer:
     
   
+  scene black
+  with dissolve
+  
   scene bg cargo-hold-f
   
   show shuttle-clear-windows
+  
+  with dissolve
   
 
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
@@ -68,7 +80,11 @@ label hanc_transferred_aboard:
   
   "Holloway pushes and hold the “upload” button HANC begins to be downloaded on board the shuttle and populates the main computer."
   
+  scene black
+  with dissolve
+  
   scene bg shuttle-d
+  with dissolve
   
   # [ Background image - The computer's light up. ]
 
@@ -92,6 +108,9 @@ label hanc_takes_control:
   $ renpy.pause(1.0)
   H radio "You won’t be around to find out."
   
+  scene black
+  with dissolve
+  
   scene bg shuttle-g
   show jinx e:
       zoom 0.30         # 30 % size
@@ -106,14 +125,20 @@ label hanc_takes_control:
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
+      
+  with dissolve
 
   "The end."
   return
 
 # 5.2.0. LEAVING THE CARGO HOLD ###############################################
 label leaving_cargo_hold:
-
+  
+  scene black
+  with dissolve
+  
   scene bg shuttle-c
+  with dissolve
   # [ Background image - Escape rockets firing under shuttle. ]
   
   "HANC realises they are leaving without him and he explosively decompresses the cargo bay in the hope of damaging the shuttle. But Jinx is too good a pilot and the shuttle moves out of the cargo bay."
@@ -147,6 +172,7 @@ label leaving_cargo_hold:
 label jinx_gets_the_code:
     
   scene black
+  with dissolve
   
   show shuttle-clear-windows
   
@@ -162,6 +188,7 @@ label jinx_gets_the_code:
   
   
   # scene bg shuttle-h
+  with dissolve
   # [ Background image - Inside the shuttle. ]
   
   h "The code is 776uythy."
@@ -175,6 +202,9 @@ label jinx_gets_the_code:
 # 5.3.1. JINX KILLS HOLLOWAY ##################################################
 label jinx_kills_holloway:
 
+  scene black
+  with dissolve  
+  
   scene bg shuttle-g
   
   show jinx j:
@@ -186,15 +216,11 @@ label jinx_kills_holloway:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
-
-
+  with dissolve
+      
   j "Everything is great Holloway."
   
   "Everything works and then Jinx moves towards Holloway to hug him. But as she grabs him she snaps his neck killing him instantly."
-  
-  
-  
-  
   
   scene bg shuttle-g
   
@@ -202,6 +228,8 @@ label jinx_kills_holloway:
   
   show jinx i:
       zoom 0.40
+      
+  with dissolve
       
   
   # [ Character Image - Holloway neck broken - falling back ]
@@ -218,6 +246,8 @@ label jinx_kills_holloway:
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
+      
+  with dissolve
       
   
   
@@ -260,6 +290,7 @@ label preparing_for_orbita:
   j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay there as you know."
   
   scene bg shuttle-e
+  with dissolve
   
 
         
@@ -278,6 +309,7 @@ label turning_towards_orbita:
 label landing_on_orbita:
 
   scene bg shuttle-f
+  with dissolve
   # [ Background image - Shuttle landed on a clearing of bush. ]
   
   "They enter the atmosphere and land."
@@ -298,6 +330,7 @@ label landing_on_orbita:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
   
+  with dissolve
   
   # [ Background image - Holloway, leaving the shuttle and turning with a wink. ]
   
@@ -319,6 +352,7 @@ label landing_on_orbita:
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
+  with dissolve
       
   "Holloway had written the computer code down on a piece of and left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
   scene bg shuttle-g
@@ -336,6 +370,8 @@ label landing_on_orbita:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
+  with dissolve
+      
   "Holloway winks at Jinx." 
   scene bg shuttle-g
   show jinx a:
@@ -351,6 +387,8 @@ label landing_on_orbita:
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
+      
+  with dissolve
       
   
   h "I hope I remembered it correctly!!"
@@ -368,6 +406,8 @@ label landing_on_orbita:
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
+      
+  with dissolve
       
 "Game over."
 return
