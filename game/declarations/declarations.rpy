@@ -169,6 +169,8 @@ image long-rope = "images/objects/long-rope.png"
 
 image long-rope = "images/objects/long-rope-2.png"
 
+image two-tethers = "images/objects/two-tethers.png"
+
 image holloway-arm = "images/objects/holloway-arm.png"
 
 image airlock-door-open-transparent = "images/backgrounds/1-airlock/airlock-4-with-door-open-transparent.png"

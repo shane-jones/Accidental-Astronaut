@@ -24,23 +24,29 @@ label start:
       menu:
         
         "Start at to_eva":
+          stop music
           jump to_eva
         
         "Start at two_tethers":
+          stop music
           jump two_tethers
         
         "Start at a_sign_of_life with has_two_tethers":
+          stop music
           $ has_two_tethers = True
           jump a_sign_of_life
     
         "Start at a_sign_of_life with !has_two_tethers":
+          stop music
           $ has_two_tethers = False
           jump a_sign_of_life
           
         "Start at label slammed":  
+          stop music
           jump slammed          
         
         "Start at label jinx_makes_plans":  
+          stop music
           jump jinx_makes_plans
 
     "Start at Bridge.":

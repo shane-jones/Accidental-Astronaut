@@ -82,6 +82,8 @@ label the_ship:
   
   show bg eva-open-airlock
   
+  show two-tethers
+  
   show helmet-black
   
   h "The airlock is still open. I should just go back in and wait for help."
@@ -92,7 +94,15 @@ label the_ship:
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55    
+    ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55
+  
+  show two-tethers:
+    zoom 1.0
+    xpos 0.5
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55
   
   h "But if I make it to the scaffolding, I might be able to repair the hull."
   
@@ -130,7 +140,14 @@ label the_ship:
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    
+  
+  show two-tethers:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+  
   show helmet-black
     
   h "Look, there are some climbing grabs on the hull above the airlock hatch."
@@ -151,6 +168,14 @@ label two_tethers:
   # [ Background image - Close in graphic of working area. ]
   
   show bg eva-open-airlock:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0 
+  
+  show two-tethers:
     zoom 1.5
     xpos 0.3
     ypos 0.5
@@ -184,7 +209,15 @@ label two_tethers:
     ypos 0.5
     xanchor 0.5
     yanchor 0.5
-    ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7   
+    ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7 
+  
+  show two-tethers:
+    zoom 1.0
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7 
   
   h "I make my way up to the repair rig."
 
@@ -288,6 +321,14 @@ label back_to_the_ship:
     yanchor 0.5
     ease 2.0 zoom 1.0
     
+  show two-tethers:
+    zoom 1.5
+    xpos 0.3
+    ypos 0.5
+    xanchor 0.5
+    yanchor 0.5
+    ease 2.0 zoom 1.0
+      
   show helmet-black
   
   "Holloway makes his way back to the airlock using the grab points."
