@@ -24,7 +24,6 @@ label start:
       menu:
         
         "Start at to_eva":
-          stop music
           jump to_eva
         
         "Start at two_tethers":

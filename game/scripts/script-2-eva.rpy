@@ -4,6 +4,9 @@ label to_eva:
   stop music fadeout 5.0
   
   scene black
+  with dissolve
+  
+  pause 0.5
   
   # interpolation warpers https://www.renpy.org/doc/html/atl.html#interpolation-statement
   show bg eva-empty-space:
@@ -13,13 +16,15 @@ label to_eva:
     xanchor 0.5
     yanchor 0.5
     easein 3.0 xpos 0.49
-    pause 2.0
+    pause 1.0
     ease 6.0 xpos 0.51
-    pause 2.0
+    pause 1.0
     easeout 3.0 xpos 0.5
     repeat
   
   show helmet-black
+  
+  with dissolve
   
   h "I move out of the airlock; a bit too fast. Maybe I shouldn’t have jumped."
   
@@ -38,9 +43,8 @@ label to_eva:
     linear 0.1 xpos 0.51 zoom 1.02
     linear 0.1 xpos 0.5 zoom 1.0
     repeat 5
-  
-  # [ Sound effect - The sound of the tether snapping taught. ]
-  # [ Sound effect - A pained grunt as Holloway suddenly stops. ]
+    
+  with dissolve
   
   queue sound [ tether_snap_sound, pained_grunt_sound ]
   
@@ -53,10 +57,6 @@ label outside:
    
 # 2.0.1. THE SHIP #############################################################
 label the_ship:
-
-  # [ Background image - An old ship with a beaten up hull, from about 50 meters out. ]
-  
-  scene black
 
   show bg eva-with-planet:
     zoom 1.0
@@ -74,17 +74,20 @@ label the_ship:
   
   show helmet-black
   
+  with dissolve
+  
   h "This ship is really beaten up."
   
   h "There’s scaffolding on the hull and an “A” frame with a large metal plate attached. So that must be where the damage is."
   
-  scene black
+  hide long-rope-2
+  with None
   
   show bg eva-open-airlock
-  
   show two-tethers
-  
   show helmet-black
+  
+  with dissolve
   
   h "The airlock is still open. I should just go back in and wait for help."
   
@@ -104,10 +107,13 @@ label the_ship:
     yanchor 0.5
     ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55
   
-  h "But if I make it to the scaffolding, I might be able to repair the hull."
+  with dissolve
   
-  scene black
-
+  h "But if I make it to the scaffolding, I might be able to repair the hull."
+    
+  hide two-tethers
+  with None
+  
   show bg eva-with-planet:
     zoom 1.0
     xpos 0.7
@@ -128,11 +134,12 @@ label the_ship:
     
   show helmet-black
   
+  with dissolve
+  
   "Holloway slowly pulls on the tether and moves towards the airlock."
   
-  #scene bg eva-with-a-frame
-  
-  scene black
+  hide long-rope-2
+  with None
   
   show bg eva-open-airlock:
     zoom 1.5
@@ -149,6 +156,8 @@ label the_ship:
     yanchor 0.5
   
   show helmet-black
+  
+  with dissolve
     
   h "Look, there are some climbing grabs on the hull above the airlock hatch."
   
@@ -165,8 +174,6 @@ label the_ship:
 # 2.0.2. TWO TETHERS ##########################################################
 label two_tethers:
 
-  # [ Background image - Close in graphic of working area. ]
-  
   show bg eva-open-airlock:
     zoom 1.5
     xpos 0.3
@@ -184,6 +191,9 @@ label two_tethers:
     ease 2.0 zoom 1.0 
     
   show helmet-black
+  
+  with dissolve
+  
   h "There’s another tether."
   
   menu:
@@ -218,6 +228,8 @@ label two_tethers:
     xanchor 0.5
     yanchor 0.5
     ease 2.0 zoom 1.5 xpos 0.1 ypos 0.7 
+    
+  with dissolve
   
   h "I make my way up to the repair rig."
 
@@ -230,7 +242,7 @@ label the_repair:
   
   h "HANC. I’m at the repair site. What do I do with this oversized manhole cover?"
   
-  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
+  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the explosive bolts fixed around the perimeter of the plate to lock it to the hull."
   
   # [ Sound music - Ominous music while the plate fits it into place. ]
   
@@ -258,38 +270,36 @@ label the_repair:
 # 2.1.0. A SIGN OF LIFE #######################################################
 label a_sign_of_life:
 
-  # [ Background image - Inside the shuttle. ]
-  # [ Character image - Jinx sitting - straining to hear. ]
-  # [ Sound effect - Two muffled explosions followed by a rattle. ]
+  scene black
+  with dissolve
   
   scene bg cargo-hold-f
   
   show shuttle-clear-windows
   
   show jinx listening:
-
   
+  with dissolve
   
-  # scene bg shuttle-in-cargo-hold
-  
-  # image jinx scaled  = im.FactorScale(jinx listening, 0.5)
-  # show jinx scaled
-  
-  # This is jinx listening using ATL with a show statement.
-  
-  $ renpy.pause(1.0)  
-  play sound distant_explosive_bolt_sound
   $ renpy.pause(1.0)
-    
+  
+  play sound distant_explosive_bolt_sound
+  
   j "Someone is alive and outside but I have no space suit. I need whoever it is to pressurise the hull, and soon."
+    
+  $ renpy.pause(1.0)
   
   play sound distant_explosive_bolt_sound
-  $ renpy.pause(1.0)
+  
+  $ renpy.pause(2.0)
 
 # 2.2.0. THE SHIP IS SEALED ###################################################
 label the_ship_is_sealed:
 
   # [ Background image - Close up image of repair rig. ]
+  
+  scene black
+  with dissolve
   
   scene bg eva-bolts-fired:
     zoom 1.0
@@ -300,6 +310,8 @@ label the_ship_is_sealed:
   
   show helmet-black
   
+  with dissolve
+  
   h "HANC, the last bolt failed."
   
   H radio "The seal is tight. I am going to begin pressurising the ship."
@@ -309,8 +321,6 @@ label the_ship_is_sealed:
 # 2.2.1. BACK TO THE SHIP #####################################################
 label back_to_the_ship:
 
-  # [ Background image - Close in graphic of repair rig. ]
-  
   h "25 minutes oxygen. Good."
   
   show bg eva-open-airlock:
@@ -331,6 +341,8 @@ label back_to_the_ship:
       
   show helmet-black
   
+  with dissolve
+  
   "Holloway makes his way back to the airlock using the grab points."
   
   "Three meters from the airlock the grab points run out. Holloway is above the airlock but there is nothing to hold onto."
@@ -349,11 +361,15 @@ label enough_rope:
   
   scene bg airlock-door-open
   
+  with dissolve
+  
   "Completely exhausted, Holloway falls to the floor."
   
   H "Closing the hatch. Please remain clear."
   
   scene bg airlock-door-closed
+  
+  with dissolve
   
   h "HANC, why didn’t you open it like that for me earlier?"
   
@@ -386,6 +402,8 @@ label not_enough_rope:
     easeout 3.0 xpos 0.2 
 
   show airlock-door-open-transparent
+  
+  with dissolve
 
   "Holloway struggles to reach the hatch. He makes a desperate leap but misses. 20 minutes later, in orbit around the planet below, he runs out of air and life."
   
@@ -425,6 +443,8 @@ label slammed:
   
   scene bg airlock-door-closed
   
+  with dissolve
+  
   "Unfortunately for Holloway, he opened the door too soon. He is slammed into the opening airlock door, caused by the pressure differential, and is severely injured."
   
   show holloway slammed:
@@ -456,13 +476,13 @@ label sixty_more_seconds:
   
   "Holloway removes his helmet and enjoys the rich warm air of the ship."
   
-  h "The ship’s orbit is decaying. You need to make your way to the bridge"
+  H "The ship’s orbit is decaying. You need to make your way to the bridge"
   
 # 2.4.0. JINX MAKES PLANS #####################################################
 label jinx_makes_plans:
   
-  # [ Background image - Inside the shuttle. ]
-  # [ Character image - Jinx standing - thinking. ]
+  scene black
+  with dissolve
   
   scene bg cargo-hold-f
   
@@ -475,6 +495,13 @@ label jinx_makes_plans:
     xanchor 0.5
     yanchor 0.5
   
+  with dissolve 
+  
   "Jinx notices the pressure change and knows that someone has to get to the bridge to transfer shuttle locks and control from there to the cargo hold so she can take the shuttle."
+  
+  scene black
+  with dissolve
+  
+  $ renpy.pause(1.0)  
   
 jump to_bridge 
