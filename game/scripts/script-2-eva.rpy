@@ -447,9 +447,11 @@ label pressurising:
   
   H "The pressurisation checklist is complete. Hull atmosphere is being restored."
   
+  play music repressurisation
+  
   "The ship’s hull protests as it fills with air. The creaking sound of stressed metal is cause for concern."
   
-  h "I hope that steel plate holds with only five bolts."
+  h "I hope that steel plate holds with only nine bolts."
   
   H "(Silence)"
   
@@ -475,6 +477,9 @@ label slammed:
   with dissolve
   
   "Unfortunately for Holloway, he opened the door too soon. He is slammed into the opening airlock door, caused by the pressure differential, and is severely injured."
+  
+  stop music
+  play sound door_release
   
   show holloway slammed:
     zoom 0.8
@@ -507,9 +512,13 @@ label sixty_more_seconds:
   play sound hanc_2_3_2b_sound
   $ renpy.pause(1.0)
   
-  H "The pressure is equal. Opening the door. Please remain clear."
+  stop music fadeout 3.0
   
+  H "The pressure is equal. Opening the door. Please remain clear."
+    
   "Holloway removes his helmet and enjoys the rich warm air of the ship."
+  
+  play music audio.space_main_theme fadein 3.0
   
   H "The ship’s orbit is decaying. You need to make your way to the bridge"
   

@@ -194,6 +194,9 @@ define audio.tether_snap_sound = "sounds/effects/cartoon-springboard-ruler-twang
 define audio.pained_grunt_sound = "sounds/effects/noisecreations-nc-sfx-fistpunch-fistpunch-vocal-01.mp3"
 define audio.explosive_bolt_sound = "sounds/effects/explosion-loud-internal-reverberant.mp3"
 define audio.distant_explosive_bolt_sound = "sounds/effects/explosion-distant-002.mp3"
+define audio.repressurisation = "sounds/effects/industrial-machine-air_pressure-machine.mp3"
+define audio.door_release = "sounds/effects/johnj-science-fiction-door-open-air-pressure-release.mp3"
+define audio.breathing = "sounds/effects/human-breath-inhale-and-exhale-through-snorkel.mp3"
 
 # 5 Shuttle
 define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"

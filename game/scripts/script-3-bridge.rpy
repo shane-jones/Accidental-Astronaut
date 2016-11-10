@@ -5,7 +5,8 @@ label to_bridge:
 # 3.0.0. WALKING TO THE BRIDGE ################################################
 label walking_to_the_bridge:
   
-  play music audio.space_main_theme
+  # I started the music again at the end of EVA so it will be continued in your scene. SJ
+  # play music audio.space_main_theme
   scene bg bridge-c
   show holloway k
 
