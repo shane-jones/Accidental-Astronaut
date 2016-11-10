@@ -158,7 +158,14 @@ label the_ship:
   
   h "HANC. What do I do now?"
   
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_2_0_1_sound
+  $ renpy.pause(1.0)
+  
+  
   H radio "What can you see? Describe it."
+  
   
   h "Surely this suit has a camera. Can’t I just send images via the radio system to you?"
 
@@ -230,11 +237,23 @@ label the_repair:
   
   h "HANC. I’m at the repair site. What do I do with this oversized manhole cover?"
   
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_2_0_3_sound
+  $ renpy.pause(1.0)
+  
+  
   H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
   
   # [ Sound music - Ominous music while the plate fits it into place. ]
   
   h "Okay HANC. It’s in position. How do I work these bolts."
+  
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_2_0_3b_sound
+  $ renpy.pause(1.0)
+  
   
   H radio "Just press on the firing pins."
   
@@ -302,6 +321,12 @@ label the_ship_is_sealed:
   
   h "HANC, the last bolt failed."
   
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_2_2_0_sound
+  $ renpy.pause(1.0)
+ 
+  
   H radio "The seal is tight. I am going to begin pressurising the ship."
   
   "HANC begins the checklist to return atmosphere to the ship."
@@ -351,11 +376,17 @@ label enough_rope:
   
   "Completely exhausted, Holloway falls to the floor."
   
+  play sound hanc_2_2_2_sound
+  $ renpy.pause(1.0)
+  
   H "Closing the hatch. Please remain clear."
   
   scene bg airlock-door-closed
   
   h "HANC, why didn’t you open it like that for me earlier?"
+  
+  play sound hanc_2_2_2b_sound
+  $ renpy.pause(1.0)
   
   H "You didn’t ask."
   
@@ -397,6 +428,9 @@ label pressurising:
 
   # [ Background image - The airlock. ]
   # [ Sound effect - creaking metal. ]
+  
+  play sound hanc_2_3_0_sound
+  $ renpy.pause(1.0)
   
   H "The pressurisation checklist is complete. Hull atmosphere is being restored."
   
@@ -448,9 +482,15 @@ label sixty_more_seconds:
   
   h "HANC, is it okay to enter?"
   
+  play sound hanc_2_3_2_sound
+  $ renpy.pause(1.0)
+  
   H "Not yet. Wait 60 more seconds."
   
   "Holloway waits 60 seconds."
+  
+  play sound hanc_2_3_2b_sound
+  $ renpy.pause(1.0)
   
   H "The pressure is equal. Opening the door. Please remain clear."
   

@@ -203,12 +203,45 @@ define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
 ###############################################################################                                                                                      
  
 # 1 Airlock
+define audio.hanc_1_4_0_sound = "sounds/effects/hanc-1-4-0.mp3"
+define audio.hanc_1_4_0b_sound = "sounds/effects/hanc-1-4-0b.mp3"
+define audio.hanc_1_6_0_sound = "sounds/effects/hanc-1-6-0.mp3"
+define audio.hanc_1_8_0_sound = "sounds/effects/hanc-1-8-0.mp3"
+define audio.hanc_1_8_0b_sound = "sounds/effects/hanc-1-8-0b.mp3"
+define audio.hanc_1_10_0_sound = "sounds/effects/hanc-1-10-0.mp3"
 
 # 2 EVA
+define audio.hanc_2_0_1_sound = "sounds/effects/hanc-2-0-1.mp3"
+define audio.hanc_2_0_3_sound = "sounds/effects/hanc-2-0-3.mp3"
+define audio.hanc_2_0_3b_sound = "sounds/effects/hanc-2-0-3b.mp3"
+define audio.hanc_2_2_0_sound = "sounds/effects/hanc-2-2-0.mp3"
+define audio.hanc_2_2_2_sound = "sounds/effects/hanc-2-2-2.mp3"
+define audio.hanc_2_2_2b_sound = "sounds/effects/hanc-2-2-2b.mp3"
+define audio.hanc_2_3_0_sound = "sounds/effects/hanc-2-3-0.mp3"
+define audio.hanc_2_3_2_sound = "sounds/effects/hanc-2-3-2.mp3"
+define audio.hanc_2_3_2b_sound = "sounds/effects/hanc-2-3-2b.mp3"
+
 
 # 3 Bridge
+define audio.hanc_3_0_1_sound = "sounds/effects/hanc-3-0-1.mp3"
+define audio.hanc_3_0_1b_sound = "sounds/effects/hanc-3-0-1b.mp3"
+define audio.hanc_3_0_1c_sound = "sounds/effects/hanc-3-0-1c.mp3"
+define audio.hanc_3_1_0_sound = "sounds/effects/hanc-3-1-0.mp3"
+define audio.hanc_3_1_0b_sound = "sounds/effects/hanc-3-1-0b.mp3"
+define audio.hanc_3_1_1_sound = "sounds/effects/hanc-3-1-1.mp3"
+define audio.hanc_3_1_2_sound = "sounds/effects/hanc-3-1-2.mp3"
+define audio.hanc_3_1_2b_sound = "sounds/effects/hanc-3-1-2b.mp3"
+define audio.hanc_3_1_2c_sound = "sounds/effects/hanc-3-1-2c.mp3"
+
 
 # 4 Cargo Hold
+define audio.hanc_4_0_0_sound = "sounds/effects/hanc-4-0-0.mp3"
+define audio.hanc_4_0_1_sound = "sounds/effects/hanc-4-0-1.mp3"
+define audio.hanc_4_0_2_sound = "sounds/effects/hanc-4-0-2.mp3"
+define audio.hanc_4_1_1_sound = "sounds/effects/hanc-4-1-1.mp3"
+define audio.hanc_4_1_1b_sound = "sounds/effects/hanc-4-1-1b.mp3"
+define audio.hanc_4_1_1c_sound = "sounds/effects/hanc-4-1-1c.mp3"
+ 
  
 # 5 Shuttle
 
