@@ -7,13 +7,22 @@ label cargo_hold:
 
   scene bg cargo-hold-h
   # [ Background image - door to the cargo bay. ]
+
+  show holloway a:
+    zoom 1 xpos 0.2 ypos 0.8 xanchor 0.5 yanchor 0.5
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
+
+  hide holloway
 
   # show hanc b:
   #   zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H radio "It is safe to open that door, unknown human is in there though."
+
+  "Holloway opens the door and HANC identifies Jinx’s position."
+
+  # door opening sound effect??
 
   # hide hanc
 
@@ -23,17 +32,15 @@ label jinx:
   scene bg cargo-hold-b
   # [ Background image - cargo hold. ]
 
-  "Holloway opens the door and Jinx is hiding in one corner."
-
   show jinx l:
     zoom 0.065 xpos 0.72 ypos 0.48 xanchor 0.5 yanchor 0.5 # Jinx tiny - crouched down 
   
-  "HANC identifies Jinx’s position and she emerges from the shadows after realising Holloway is not an officer."
+  "Jinx is hiding in one corner. She emerges from the shadows after realising Holloway is not an officer."
   
-  "Jinx quickly realises that HANC is around."
-
   show jinx k: 
     zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+
+  "Jinx quickly realises that HANC is around."
   
   j "Hi. My name is Jinx 'Takanoma'."
 
