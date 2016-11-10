@@ -50,7 +50,8 @@ image holloway slammed = "images/characters/holloway/holloway-slammed.png"
 
 image hanc a = "images/characters/hanc/hanc-soundwave.jpg"
 image hanc b = "images/characters/hanc/side-hanc-soundwave.jpg"
-image side hanc = "images/characters/hanc/side-hanc.png"
+#image side hanc = "images/characters/hanc/side-hanc.png"
+image side hanc = "images/characters/hanc/side-hanc-soundwave.jpg"
 image side hanc radio = "images/characters/hanc/side-hanc-soundwave.jpg"
 
 

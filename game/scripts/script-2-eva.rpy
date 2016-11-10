@@ -197,13 +197,13 @@ label the_repair:
   
   h "HANC. I’m at the repair site. What do I do with this oversized manhole cover?"
   
-  H "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
+  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
   
   # [ Sound music - Ominous music while the plate fits it into place. ]
   
   h "Okay HANC. It’s in position. How do I work these bolts."
   
-  H "Just press on the firing pins."
+  H radio "Just press on the firing pins."
   
   "Holloway makes his way around the plate, pressing the firing pins, one at a time."
   
@@ -269,7 +269,7 @@ label the_ship_is_sealed:
   
   h "HANC, the last bolt failed."
   
-  H "The seal is tight. I am going to begin pressurising the ship."
+  H radio "The seal is tight. I am going to begin pressurising the ship."
   
   "HANC begins the checklist to return atmosphere to the ship."
 
