@@ -10,7 +10,14 @@ label start:
   menu:
   
     "Start at airlock.":
-      jump to_airlock
+    
+      menu:
+    
+        "Start at Airlock":
+          jump to_airlock
+        
+        "Start at HANC.":
+          jump hanc
     
     "Start at EVA.":
       
