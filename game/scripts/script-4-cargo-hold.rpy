@@ -59,7 +59,7 @@ label jinx:
   # show hanc b:
   #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
-  H "It is easy, I am the most capable so I will do it."
+  H radio "It is easy, I am the most capable so I will do it."
 
   # hide hanc
 
