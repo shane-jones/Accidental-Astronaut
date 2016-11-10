@@ -10,12 +10,12 @@ label cargo_hold:
   
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
 
-  show hanc b:
-    zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
+  # show hanc b:
+  #   zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
   
-  H "It is safe to open that door, unknown human is in there though."
+  H radio "It is safe to open that door, unknown human is in there though."
 
-  hide hanc
+  # hide hanc
 
 # 4.0.1. JINX… ################################################################
 label jinx:
@@ -56,12 +56,12 @@ label jinx:
 
   hide jinx
 
-  show hanc b:
-    zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
+  # show hanc b:
+  #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   H "It is easy, I am the most capable so I will do it."
 
-  hide hanc
+  # hide hanc
 
 # 4.0.2. PREPARATIONS #########################################################
 label preparations:
@@ -89,12 +89,12 @@ label preparations:
 
   h "If you can fly, Why not use the freighter?"
 
-  show hanc b:
-    zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
+  # show hanc b:
+  #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
-  H "The Illustrious is far too damaged to even attempt this."
+  H radio "The Illustrious is far too damaged to even attempt this."
 
-  hide hanc
+  # hide hanc
   
   h "Protocols suggest we must go to the nearest suitable planet in an emergency. Since the Illustrious is too damaged we will take the shuttle and land below."
   
@@ -205,13 +205,13 @@ label jinx_gets_away:
 # 4.1.1 CONTAINER MISTAKE #####################################################
 label container_mistage:
 
-  H "Please tell me you did not open that container?"
+  H radio "Please tell me you did not open that container?"
   
   h "Umm. What if I did."
   
-  H "There is a toxic gas that was isolated in there. It was leaking out of that chamber and is now infecting the cargo cabin."
+  H radio "There is a toxic gas that was isolated in there. It was leaking out of that chamber and is now infecting the cargo cabin."
   
-  H "I’m afraid you do not have long."
+  H radio "I’m afraid you do not have long."
   
   "Holloway keels over and suffocates to death. He tried his best."
 
