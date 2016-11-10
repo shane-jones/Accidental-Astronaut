@@ -120,6 +120,11 @@ label hanc:
   
   h "HANC, where’s my helmet?"
   # show hanc a
+
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_1_4_0b_sound
+  $ renpy.pause(1.0)
   
   H "There's a locker room off the airlock that contains a helmet and a tether that you will need to fix the hole outside. It has its own oxygen supplies."
 
@@ -134,6 +139,12 @@ label leaving_the_airlock:
   h "I return to the airlock and move towards the hatch."
   
   h "HANC, open the hatch."
+
+
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_1_6_0_sound
+  $ renpy.pause(1.0)
   
   H "Do you want me to equalise the pressure first?"
   
@@ -162,10 +173,21 @@ label floating_away:
 label hancs_advice:
   
   h "HANC, what should I do."
+
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_1_8_0_sound
+  $ renpy.pause(1.0)
   
   H "Take the tether and attach it to the lock point just outside the airlock."
   
+  
   h "Why didn't you offer that advice before I was about to open the hatch."
+
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_1_8_0b_sound
+  $ renpy.pause(1.0)
   
   H "You didn't ask."
   
@@ -193,6 +215,11 @@ label radio_silence:
 label radio_controls:
   
   h "How can we talk when I’m outside? I don’t know how to repair a spaceship."
+
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  play sound hanc_1_10_0_sound
+  $ renpy.pause(1.0)
   
   H "We can communicate on the radio that’s built into your suit. Can you see it. Just power it up."
   
