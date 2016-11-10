@@ -171,7 +171,7 @@ label the_ship:
   $ renpy.pause(1.0)
   play sound hanc_2_0_1_sound
   $ renpy.pause(1.0)
-
+    
   H radio "What can you see? Describe it."
   
   h "Surely this suit has a camera. Can’t I just send images via the radio system to you?"
@@ -262,7 +262,7 @@ label the_repair:
   $ renpy.pause(1.0)
   play sound hanc_2_0_3b_sound
   $ renpy.pause(1.0)
-    
+
   H radio "Just press on the firing pins."
   
   "Holloway makes his way around the plate, pressing the firing pins, one at a time."
@@ -333,7 +333,7 @@ label the_ship_is_sealed:
   $ renpy.pause(1.0)
   play sound hanc_2_2_0_sound
   $ renpy.pause(1.0)
- 
+  
   H radio "The seal is tight. I am going to begin pressurising the ship."
   
   "HANC begins the checklist to return atmosphere to the ship."
@@ -439,9 +439,6 @@ label not_enough_rope:
 # 2.3.0. PRESSURISING #########################################################
 label pressurising:
 
-  # [ Background image - The airlock. ]
-  # [ Sound effect - creaking metal. ]
-  
   play sound hanc_2_3_0_sound
   $ renpy.pause(1.0)
   
