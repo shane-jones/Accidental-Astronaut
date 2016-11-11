@@ -168,7 +168,7 @@ label the_ship:
   h "HANC. What do I do now?"
   
   play sound beep_sound
- 
+  $ renpy.pause(1.0)
   play sound hanc_2_0_1_sound
  
     
@@ -248,7 +248,7 @@ label the_repair:
   h "HANC. I’m at the repair site. What do I do with this oversized manhole cover?"
   
   play sound beep_sound
-  
+  $ renpy.pause(1.0)
   play sound hanc_2_0_3_sound
   
   
@@ -259,7 +259,7 @@ label the_repair:
   h "Okay HANC. It’s in position. How do I work these bolts."
   
   play sound beep_sound
-  
+  $ renpy.pause(1.0)
   play sound hanc_2_0_3b_sound
   
 
@@ -330,7 +330,7 @@ label the_ship_is_sealed:
   h "HANC, the last bolt failed."
   
   play sound beep_sound
- 
+  $ renpy.pause(1.0)
   play sound hanc_2_2_0_sound
   
   
@@ -385,6 +385,9 @@ label enough_rope:
   
   "Completely exhausted, Holloway falls to the floor."
   
+  play sound beep_sound
+  $ renpy.pause(1.0)
+  
   play sound hanc_2_2_2_sound
   
   
@@ -396,8 +399,10 @@ label enough_rope:
   
   h "HANC, why didn’t you open it like that for me earlier?"
   
-  play sound hanc_2_2_2b_sound
+  play sound beep_sound
+  $ renpy.pause(1.0)
   
+  play sound hanc_2_2_2b_sound
   
   H "You didn’t ask."
   
@@ -439,8 +444,10 @@ label not_enough_rope:
 # 2.3.0. PRESSURISING #########################################################
 label pressurising:
 
-  play sound hanc_2_3_0_sound
+  play sound beep_sound
+  $ renpy.pause(1.0)
   
+  play sound hanc_2_3_0_sound
   
   H "The pressurisation checklist is complete. Hull atmosphere is being restored."
   
