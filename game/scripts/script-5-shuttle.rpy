@@ -36,7 +36,7 @@ label inside_shuttle_transfer:
   # [ Background image - The shuttle internal area, several seats with two at the front like pilot seats. ]
   
   play sound hanc_5_0_1_sound
-  $ renpy.pause(1.0)
+  
   
   H radio "Holloway, Please transfer me to the shuttle systems so I may help you."
   
@@ -63,7 +63,7 @@ label hanc_transferred_aboard:
   
   
   play sound hanc_5_1_0_sound
-  $ renpy.pause(1.0)
+  
   
   H radio "Yes, just press and hold and I can do the rest."
   
@@ -93,7 +93,7 @@ label hanc_takes_control:
 
 
   play sound hanc_5_1_1_1_sound
-  $ renpy.pause(1.0)
+ 
   H radio "Thankyou. Can I also have the code please. It will help."
   
   "Whether Holloway does or does not give HANC the code is irrelevant here. HANC locks them out of the systems and launches from the Illustrious. HANC aims the vessel away from the planet below and begins the journey towards High command."
@@ -105,7 +105,7 @@ label hanc_takes_control:
   
   
   play sound hanc_5_1_1_2_sound
-  $ renpy.pause(1.0)
+ 
   H radio "You won’t be around to find out."
   
   scene black
@@ -282,7 +282,7 @@ label preparing_for_orbita:
   
   
   play sound hanc_5_4_0_sound
-  $ renpy.pause(1.0)
+  
   
   H radio "Transfer me now! or else I will destroy the shuttle."
   
