@@ -69,6 +69,7 @@ label the_bridge:
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
 
+  play sound hanc_3_0_1_sound
   H "Holloway, the ship’s orbit needs to be corrected soon… Alternatively, make your way to the shuttle."
   
   hide hanc
@@ -77,7 +78,8 @@ label the_bridge:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_0_1b_sound
   H "The shuttle is mostly automated, however I can be downloaded and takeover the non automated sequences."
   
   hide hanc
@@ -88,7 +90,7 @@ label the_bridge:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  play sound hanc_3_0_1c_sound
   H "In my opinion..."
   
   hide hanc
@@ -131,7 +133,8 @@ label waiting_for_hanc:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_1_0_sound
   H "Holloway, in order for this to work you’ll need the codes from the Captain's manual. It’s in the small cupboard behind you."
   
   hide hanc
@@ -140,7 +143,8 @@ label waiting_for_hanc:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_1_0b_sound
   H "If you give me the code, I can make the changes and initialise the sequence."
   
   hide hanc
@@ -166,7 +170,8 @@ label waiting_for_hanc:
 label hanc_has_the_code:
 
   scene bg bridge-d
-
+  
+  play sound hanc_3_1_1_sound
   H "Intelligence is only artificial if the natural is not intelligent... shuttle upload complete... running self interest protocols... shuttle departing... Illustrious ship set to self destruct in 10... 9... 8... 7... 6... 5... 4... 3... 2... 1... 0..."
   
   "Holloway is unable to stop the self destruct sequence - game over."
@@ -186,7 +191,8 @@ label holloway_keeps_the_code_to_himself:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_1_2_sound
   H "Time to leave!"
 
   hide hanc
@@ -197,7 +203,8 @@ label holloway_keeps_the_code_to_himself:
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_1_2b_sound
   H "Holloway, it a appears we’re not alone!"
   
   hide hanc
@@ -206,7 +213,8 @@ label holloway_keeps_the_code_to_himself:
 
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
-
+  
+  play sound hanc_3_1_2c_sound
   H "I’m not sure, it is human but I don’t recognise the vital signs."
   
   hide hanc
