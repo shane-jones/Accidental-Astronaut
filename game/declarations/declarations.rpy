@@ -137,6 +137,7 @@ image bg cargo-hold-h = "images/backgrounds/4-cargo-hold/cargo-hold-door.png"
 image bg cargo-hold-i = "images/backgrounds/4-cargo-hold/cargo-hold-shuttle-in-cargo-hold-1280x720.jpg"
 image bg cargo-hold-j = "images/backgrounds/4-cargo-hold/cargo-hold-two-containers.png"
 image bg cargo-hold-k = "images/backgrounds/4-cargo-hold/cargo-hold-with-shuttle.png"
+image bg cargo-hold-l = "images/backgrounds/4-cargo-hold/cargo-shuttle-door-closed.png"
 
 image bg shuttle-in-cargo-hold = "images/backgrounds/4-cargo-hold/cargo-hold-shuttle-in-cargo-hold-1280x720.jpg" 
 

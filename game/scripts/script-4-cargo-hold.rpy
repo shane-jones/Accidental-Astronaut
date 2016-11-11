@@ -203,14 +203,16 @@ label jinx_gets_away:
   hide holloway
   hide jinx
 
+  scene bg cargo-hold-l # cargo door closes
+
   show holloway g: 
     zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Holloway faces door closing]
   
   "Holloway opens the lid and turns to ask which rope density only to see the door to the Shuttle close."
-
-  scene bg cargo-hold-a # cargo door closes
   
   "He realises he has been tricked."
+
+  hide holloway
 
 # 4.1.1 CONTAINER MISTAKE #####################################################
 label container_mistage:
@@ -225,8 +227,13 @@ label container_mistage:
   
   play sound hanc_4_1_1c_sound
   H radio "I’m afraid you do not have long."
+
+  show holloway e:
+    zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 # holloway dying backward
   
   "Holloway keels over and suffocates to death. He tried his best."
+
+  hide holloway
 
   "The end."
   return
