@@ -300,13 +300,13 @@ label a_sign_of_life:
   
   play sound distant_explosive_bolt_sound
   
-  j "Someone is alive and outside but I have no space suit. I need whoever it is to pressurise the hull, and soon."
+  j "Someone is alive and outside but I have no space suit."
     
   $ renpy.pause(1.0)
   
   play sound distant_explosive_bolt_sound
   
-  $ renpy.pause(2.0)
+  j "I need whoever it is to pressurise the hull, and soon."
 
 # 2.2.0. THE SHIP IS SEALED ###################################################
 label the_ship_is_sealed:

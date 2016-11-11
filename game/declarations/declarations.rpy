@@ -8,7 +8,7 @@ label declarations:
 
 define a = Character('Captain Abrahams')
 define h = Character('Holloway')
-define H = Character('HANC', image='hanc')
+define H = Character('HANC', image='hanc', who_font='bitwise.ttf')
 define j = Character('Jinx')
 define l = Character('Log Computer')
 define p = Character ('PC')
