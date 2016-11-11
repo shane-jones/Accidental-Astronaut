@@ -139,7 +139,11 @@ label leaving_cargo_hold:
   
   scene bg shuttle-c
   with dissolve
-  # [ Background image - Escape rockets firing under shuttle. ]
+  
+  play sound launch_sound
+  
+  # [ Sound effect - Escape rockets firing under shuttle. ]
+  
   
   "HANC realises they are leaving without him and he explosively decompresses the cargo bay in the hope of damaging the shuttle. But Jinx is too good a pilot and the shuttle moves out of the cargo bay."
   

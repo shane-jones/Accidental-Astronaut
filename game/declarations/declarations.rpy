@@ -202,6 +202,7 @@ define audio.breathing = "sounds/effects/human-breath-inhale-and-exhale-through-
 
 # 5 Shuttle
 define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
+define audio.launch_sound = "sounds/effects/launch.mp3"
                                                          
 ###############################################################################
 # Character Voices - Sounds
