@@ -154,6 +154,7 @@ image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-cheeky-smile-leaning-elbows-on-knees-in-shuttle.png"
 image bg shuttle-i = "images/backgrounds/5-shuttle/Ship_enters_atmosphere.png"
 image bg shuttle-j = "images/backgrounds/5-shuttle/Shuttle-comming-in-to-land.png"
+image bg shuttle-k = "images/backgrounds/5-shuttle/Ship_enters_atmosphere2.png"
 
 ###############################################################################
 # Objects
@@ -254,5 +255,5 @@ define audio.hanc_5_1_1_1_sound = "sounds/effects/hanc-5-1-1-1.mp3"
 define audio.hanc_5_1_1_2_sound = "sounds/effects/hanc-5-1-1-2.mp3"
 define audio.hanc_5_4_0_sound = "sounds/effects/hanc-5-4-0.mp3"
 
-#### REFERNCE FOR VOICE TO ADD HERE #####
+#### REFERENCE FOR VOICE TO ADD HERE #####
 

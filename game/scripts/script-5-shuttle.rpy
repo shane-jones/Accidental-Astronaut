@@ -151,7 +151,13 @@ label leaving_cargo_hold:
   
   h "The code book is back there."
   
+  scene bg shuttle-i
+  show shuttle-clear-windows
+  
+  with dissolve
+  
   "Holloway points to the Illustrious which is falling out of orbit."
+  
   
   
   # [ Background image - Illustrious front section burning as it moves slowly out of orbit and towards the planet. ]
@@ -267,7 +273,7 @@ label preparing_for_orbita:
   
   "HANC has turned the huge defensive weapons towards the shuttle."
   
-  scene bg shuttle-i
+  scene bg shuttle-k
   show shuttle-clear-windows
   
   with dissolve
