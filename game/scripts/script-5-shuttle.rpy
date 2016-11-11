@@ -259,16 +259,21 @@ label preparing_for_orbita:
 
   h "I will give it to you when we land down there on Orbita and you can take the shuttle and go wherever you want."
   
+  
+  
   # [ Character image - Jinx with a resigned look on her face. ]
   
   "They both then look at the Illustrious burning as it moves into the upper atmosphere."
   
   "HANC has turned the huge defensive weapons towards the shuttle."
   
+  scene bg shuttle-i
+  show shuttle-clear-windows
+  
+  with dissolve
   
   # [ Background image - Illustrious front section red with flames - Through the shuttle windows. ]
   
-  # [ Background image - Illustrious large gun turret - Through the shuttle windows. ]
   
   play sound hanc_5_4_0_sound
   $ renpy.pause(1.0)
@@ -277,7 +282,7 @@ label preparing_for_orbita:
   
   "Jinx winks at Hollway."
   
-  # [ Character image - Jinx winking. ]
+  show jinx a
   
   j "Go ahead HANC!"
   
@@ -290,8 +295,10 @@ label preparing_for_orbita:
   j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay there as you know."
   
   scene bg shuttle-e
-  with dissolve
   
+  show shuttle-clear-windows
+  
+  with dissolve
 
         
   # [ Background image - Illustrious completely in flames. Aiming straight at the planet - Through the shuttle windows. ]
@@ -308,7 +315,7 @@ label turning_towards_orbita:
 # 5.5.0 LANDING ON ORBITA #####################################################
 label landing_on_orbita:
 
-  scene bg shuttle-f
+  scene bg shuttle-j
   with dissolve
   # [ Background image - Shuttle landed on a clearing of bush. ]
   

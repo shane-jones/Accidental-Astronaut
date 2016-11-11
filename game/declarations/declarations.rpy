@@ -152,7 +152,8 @@ image bg shuttle-e = "images/backgrounds/5-shuttle/goodbye-illustrious.png"
 image bg shuttle-f = "images/backgrounds/5-shuttle/land.png"
 image bg shuttle-g = "images/backgrounds/5-shuttle/rear-of-shuttle.png"
 image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-cheeky-smile-leaning-elbows-on-knees-in-shuttle.png"
-
+image bg shuttle-i = "images/backgrounds/5-shuttle/Ship_enters_atmosphere.png"
+image bg shuttle-j = "images/backgrounds/5-shuttle/Shuttle-comming-in-to-land.png"
 
 ###############################################################################
 # Objects
@@ -247,7 +248,6 @@ define audio.hanc_4_1_1c_sound = "sounds/effects/hanc-4-1-1c.mp3"
  
  
 # 5 Shuttle
-
 define audio.hanc_5_0_1_sound = "sounds/effects/hanc-5-0-1.mp3" 
 define audio.hanc_5_1_0_sound = "sounds/effects/hanc-5-1-0.mp3"
 define audio.hanc_5_1_1_1_sound = "sounds/effects/hanc-5-1-1-1.mp3"
