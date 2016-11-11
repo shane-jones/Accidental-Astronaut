@@ -18,6 +18,7 @@ label cargo_hold:
   # show hanc b:
   #   zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
   
+  play sound hanc_4_0_0_sound
   H radio "It is safe to open that door, unknown human is in there though."
 
   "Holloway opens the door and HANC identifies Jinx’s position."
@@ -66,6 +67,7 @@ label jinx:
   # show hanc b:
   #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
+  play sound hanc_4_0_1_sound
   H radio "It is easy, I am the most capable so I will do it."
 
   # hide hanc
@@ -99,6 +101,7 @@ label preparations:
   # show hanc b:
   #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
+  play sound hanc_4_0_2_sound
   H radio "The Illustrious is far too damaged to even attempt this."
 
   # hide hanc
@@ -212,12 +215,15 @@ label jinx_gets_away:
 # 4.1.1 CONTAINER MISTAKE #####################################################
 label container_mistage:
 
+  play sound hanc_4_1_1_sound
   H radio "Please tell me you did not open that container?"
   
   h "Umm. What if I did."
   
+  play sound hanc_4_1_1b_sound
   H radio "There is a toxic gas that was isolated in there. It was leaking out of that chamber and is now infecting the cargo cabin."
   
+  play sound hanc_4_1_1c_sound
   H radio "I’m afraid you do not have long."
   
   "Holloway keels over and suffocates to death. He tried his best."
