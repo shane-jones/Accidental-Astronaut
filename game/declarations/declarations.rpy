@@ -225,6 +225,7 @@ define audio.hanc_2_2_2b_sound = "sounds/effects/hanc-2-2-2b.mp3"
 define audio.hanc_2_3_0_sound = "sounds/effects/hanc-2-3-0.mp3"
 define audio.hanc_2_3_2_sound = "sounds/effects/hanc-2-3-2.mp3"
 define audio.hanc_2_3_2b_sound = "sounds/effects/hanc-2-3-2b.mp3"
+define audio.hanc_2_3_2c_sound = "sounds/effects/hanc-2-3-2c.mp3"
 
 
 # 3 Bridge

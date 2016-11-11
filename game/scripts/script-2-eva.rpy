@@ -517,6 +517,8 @@ label sixty_more_seconds:
   
   play music audio.space_main_theme fadein 3.0
   
+  play sound hanc_2_3_2c_sound
+  
   H "The ship’s orbit is decaying. You need to make your way to the bridge"
   
 # 2.4.0. JINX MAKES PLANS #####################################################
