@@ -72,7 +72,7 @@ label the_last_log:
 
   scene bg airlock-g
   show abrahams b:
-    zoom 1.3 xpos 0.45 ypos 1.0 xanchor 0.5 yanchor 0.5
+    zoom 1.3 xpos 0.45 ypos 1.0 xanchor 0.5 yanchor 0.5 
 
   
   "Captain Abrahams appears as a video recording."
@@ -89,6 +89,9 @@ label the_last_log:
   a "Holloway, if you read this, you need to get of there. Several problems exist though."
   
   a "This ship can't be flown to the surface without being destroyed passing through the atmosphere as it’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
+
+  show abrahams d:
+    zoom 1.2 xpos 0.50 ypos 0.90 xanchor 0.5 yanchor 0.5  
   
   a "Additionally, the ship is not very stable in the current orbit due to the explosion and is slowly drifting towards the planet."
   
