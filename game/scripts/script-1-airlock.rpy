@@ -71,10 +71,16 @@ label the_last_log:
   l "Log Ready.\nSelect Log. (Holloway selects the most recent log.)\nPlay. (Holloway taps the play button)\nHANC"
 
   scene bg airlock-g
+  show abrahams b:
+    zoom 1.3 xpos 0.45 ypos 1.0 xanchor 0.5 yanchor 0.5
+
   
   "Captain Abrahams appears as a video recording."
   
   a "We have the abandoned the Illustrious with all souls accounted for except one who could not be found - civilian Frank Holloway, a research Astrobiologist."
+
+  show abrahams c:
+    zoom 1.0 xpos 0.50 ypos 1.0 xanchor 0.5 yanchor 0.5 
   
   a "We searched but were unable to look any longer and left with diminishing air supplies."
   
