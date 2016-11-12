@@ -1,12 +1,42 @@
 # Airlock!
 
+
+
 label to_airlock:
+
+ show bg eva-b
+ with dissolve
+
+"It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and 
+ is well equipped with the latest navigation and weapons systems. "
+ 
+"It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy.
+ The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
+ 
+"Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC).
+ The Illustrious has been very badly damaged and HANC has also had sustained circuit damage."
+ 
+"The entire crew  had to abandon ship using one of the two shuttles on board."
+ 
+"Frank Holloway, an intern, was near the main airlock studying when the impact occured and could not
+ be found by the crew. The ship was hit so hard that most of the compartments were depressurised."
+ 
+"Frank was knocked to the ground by the main impact. He crawled towards the airlock and fell inside and collapsed gasping for air."
+
+"As the ship lost it's oxygen supply Holloway fell unconscious. The various pressure doors including the airlock automatically closed. 
+ Holloway was deprived of oxygen for some time but luckily the airlock is self contained."
+
+"When he wakes up he has an initial lost of memory due lack of oxygen."
+
+"You are Holloway - good luck with surviving what's ahead"
+
+
 
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
 
 # [ Background image - Airlock. ] 
-
+  with dissolve
   scene bg airlock-a
   
 # [ Sound - Struggling to breath (background moody space music). ]
