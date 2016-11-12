@@ -93,7 +93,7 @@ image bg airlock-c = "images/backgrounds/1-airlock/airlock-doorice.png"
 image bg airlock-d = "images/backgrounds/1-airlock/airlock-4.png"
 image bg airlock-e = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-f = "images/backgrounds/1-airlock/holloway-floating-away.png"
-image bg airlock-g = "images/backgrounds/1-airlock/captain-background.png"
+image bg airlock-g = "images/backgrounds/1-airlock/captain-background(copy).png"
 
 image bg airlock-door-open = "images/backgrounds/1-airlock/airlock-4-with-door-open.png"
 image bg airlock-door-closed = "images/backgrounds/1-airlock/airlock-4.png"
