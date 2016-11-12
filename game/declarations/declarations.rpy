@@ -201,6 +201,10 @@ define audio.repressurisation = "sounds/effects/industrial-machine-air_pressure-
 define audio.door_release = "sounds/effects/johnj-science-fiction-door-open-air-pressure-release.mp3"
 define audio.breathing = "sounds/effects/human-breath-inhale-and-exhale-through-snorkel.mp3"
 
+# Cargo Hold
+define audio.door_open = "sounds/effects/science_fiction_space_door_slide_internal_001.mp3"
+define audio.door_close = "sounds/effects/science_fiction_space_door_slide_internal_002.mp3"
+
 # 5 Shuttle
 define audio.hanc_50_sound = "sounds/effects/hanc-50.mp3"
 define audio.launch_sound = "sounds/effects/launch.mp3"

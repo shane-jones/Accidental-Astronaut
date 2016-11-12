@@ -23,9 +23,10 @@ label cargo_hold:
 
   "Holloway opens the door and HANC identifies Jinx’s position."
 
-  # door opening sound effect??
+  # door opening sound effect
+  play sound door_open
 
-  # hide hanc
+  scene bg cargo-hold-b with fade
 
 # 4.0.1. JINX… ################################################################
 label jinx:
@@ -38,10 +39,13 @@ label jinx:
   
   "Jinx is hiding in one corner. She emerges from the shadows after realising Holloway is not an officer."
   
-  show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+  show jinx j: 
+    zoom 0.2 xpos 0.6 ypos 0.5 xanchor 0.5 yanchor 0.5 #[ Jinx walking up ]
 
   "Jinx quickly realises that HANC is around."
+
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
   
   j "Hi. My name is Jinx 'Takanoma'."
 
@@ -209,6 +213,8 @@ label jinx_gets_away:
     zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Holloway faces door closing]
   
   "Holloway opens the lid and turns to ask which rope density only to see the door to the Shuttle close."
+
+  play sound door_close  
   
   "He realises he has been tricked."
 
@@ -247,7 +253,8 @@ label smart_boy_holloway:
   
   h "Look, I just want to get back safely on land and my best shot is Orbita, the planet below."
   
-  show jinx n
+  show jinx k: 
+    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing ]
 
   j "I understand, but there is a small problem."
 
