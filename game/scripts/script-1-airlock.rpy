@@ -102,7 +102,14 @@ label the_last_log:
 
   scene bg airlock-g
   show abrahams b:
-    zoom 1.3 xpos 0.45 ypos 1.0 xanchor 0.5 yanchor 0.5 
+    zoom 1.3 
+    xpos 0.45 
+    ypos 1.0 
+    xanchor 0.5 
+    yanchor 0.5
+
+  with dissolve 
+    
 
   
   "Captain Abrahams appears as a video recording."
@@ -110,8 +117,14 @@ label the_last_log:
   a "We have the abandoned the Illustrious with all souls accounted for except one who could not be found - civilian Frank Holloway, a research Astrobiologist."
 
   show abrahams c:
-    zoom 1.0 xpos 0.50 ypos 1.0 xanchor 0.5 yanchor 0.5 
-  
+    zoom 1.0 
+    xpos 0.50 
+    ypos 1.0 
+    xanchor 0.5 
+    yanchor 0.5
+ 
+  with dissolve
+
   a "We searched but were unable to look any longer and left with diminishing air supplies."
   
   a "This ship was hit by debris from an asteroid and is in orbit around Orbita, a planet that can sustain life."
@@ -121,7 +134,13 @@ label the_last_log:
   a "This ship can't be flown to the surface without being destroyed passing through the atmosphere as it’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
 
   show abrahams d:
-    zoom 1.2 xpos 0.50 ypos 0.90 xanchor 0.5 yanchor 0.5  
+    zoom 1.2 
+    xpos 0.50 
+    ypos 0.90 
+    xanchor 0.5 
+    yanchor 0.5
+
+  with dissolve  
   
   a "Additionally, the ship is not very stable in the current orbit due to the explosion and is slowly drifting towards the planet."
   
@@ -149,15 +168,18 @@ label hanc:
   
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
 
+  scene bg airlock-a
 
   #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0_sound
   $ renpy.pause(1.0)
+
+  scene bg airlock-a
   
   H "Holloway, you must go outside and make a repair to the hull."
 
-  scene bg airlock-a
+  
   
   h "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
   
