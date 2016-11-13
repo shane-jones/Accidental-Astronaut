@@ -12,6 +12,23 @@ label to_airlock:
   "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy. The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
  
   "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC). The Illustrious has been very badly damaged and HANC has also had sustained circuit damage."
+
+  show bg eva-b
+  with dissolve
+
+  play sound illustrious_sound
+  $ renpy.sound.set_volume (0.1)
+ 
+  "It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and 
+ is well equipped with the latest navigation and weapons systems. "
+ 
+  "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy.
+  
+  The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
+ 
+  "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC).
+
+  The Illustrious has been very badly damaged and HANC has also sustained circuit damage."
  
   "The entire crew  had to abandon ship using one of the two shuttles on board."
  
@@ -28,6 +45,7 @@ label to_airlock:
   scene black
   with Dissolve (2.0)
 
+  stop sound fadeout (3.0)
 
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
@@ -96,7 +114,14 @@ label the_last_log:
 
   scene bg airlock-g
   show abrahams b:
-    zoom 1.3 xpos 0.45 ypos 1.0 xanchor 0.5 yanchor 0.5 
+    zoom 1.3 
+    xpos 0.45 
+    ypos 1.0 
+    xanchor 0.5 
+    yanchor 0.5
+
+  with dissolve 
+    
 
   
   "Captain Abrahams appears as a video recording."
@@ -104,8 +129,14 @@ label the_last_log:
   a "We have the abandoned the Illustrious with all souls accounted for except one who could not be found - civilian Frank Holloway, a research Astrobiologist."
 
   show abrahams c:
-    zoom 1.0 xpos 0.50 ypos 1.0 xanchor 0.5 yanchor 0.5 
-  
+    zoom 1.0 
+    xpos 0.50 
+    ypos 1.0 
+    xanchor 0.5 
+    yanchor 0.5
+ 
+  with dissolve
+
   a "We searched but were unable to look any longer and left with diminishing air supplies."
   
   a "This ship was hit by debris from an asteroid and is in orbit around Orbita, a planet that can sustain life."
@@ -115,7 +146,13 @@ label the_last_log:
   a "This ship can't be flown to the surface without being destroyed passing through the atmosphere as it’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
 
   show abrahams d:
-    zoom 1.2 xpos 0.50 ypos 0.90 xanchor 0.5 yanchor 0.5  
+    zoom 1.2 
+    xpos 0.50 
+    ypos 0.90 
+    xanchor 0.5 
+    yanchor 0.5
+
+  with dissolve  
   
   a "Additionally, the ship is not very stable in the current orbit due to the explosion and is slowly drifting towards the planet."
   
@@ -143,22 +180,27 @@ label hanc:
   
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
 
+  scene bg airlock-a
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0_sound
+  $ renpy.sound.set_volume (1.0)
+  
   $ renpy.pause(1.0)
+
+  scene bg airlock-a
   
   H "Holloway, you must go outside and make a repair to the hull."
 
-  scene bg airlock-a
+  
   
   h "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
   
   h "HANC, where’s my helmet?"
   # show hanc a
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0b_sound
   $ renpy.pause(1.0)
@@ -178,7 +220,7 @@ label leaving_the_airlock:
   h "HANC, open the hatch."
 
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_6_0_sound
   $ renpy.pause(1.0)
@@ -211,7 +253,7 @@ label hancs_advice:
   
   h "HANC, what should I do."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_8_0_sound
   $ renpy.pause(1.0)
@@ -221,7 +263,7 @@ label hancs_advice:
   
   h "Why didn't you offer that advice before I was about to open the hatch."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_8_0b_sound
   $ renpy.pause(1.0)
@@ -253,7 +295,7 @@ label radio_controls:
   
   h "How can we talk when I’m outside? I don’t know how to repair a spaceship."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_10_0_sound
   $ renpy.pause(1.0)
