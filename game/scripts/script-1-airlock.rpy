@@ -7,6 +7,11 @@ label to_airlock:
  show bg eva-b
  with dissolve
 
+
+ play sound illustrious_sound
+ $ renpy.sound.set_volume (0.1)
+ 
+  
 "It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and 
  is well equipped with the latest navigation and weapons systems. "
  
@@ -14,7 +19,7 @@ label to_airlock:
  The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
  
 "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC).
- The Illustrious has been very badly damaged and HANC has also had sustained circuit damage."
+ The Illustrious has been very badly damaged and HANC has also sustained circuit damage."
  
 "The entire crew  had to abandon ship using one of the two shuttles on board."
  
@@ -30,6 +35,7 @@ label to_airlock:
 
 "You are Holloway - good luck with surviving what's ahead"
 
+stop sound fadeout (3.0)
 
 
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
@@ -173,6 +179,8 @@ label hanc:
   #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0_sound
+  $ renpy.sound.set_volume (1.0)
+  
   $ renpy.pause(1.0)
 
   scene bg airlock-a
