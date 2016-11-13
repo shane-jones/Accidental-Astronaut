@@ -252,7 +252,7 @@ label the_repair:
   play sound hanc_2_0_3_sound
   
   
-  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
+  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the explosive bolts fixed around the perimeter of the plate to lock it to the hull."
   
   # [ Sound music - Ominous music while the plate fits it into place. ]
   
