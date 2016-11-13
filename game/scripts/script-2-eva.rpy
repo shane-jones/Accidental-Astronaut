@@ -83,8 +83,20 @@ label the_ship:
   hide long-rope-2
   with None
   
-  show bg eva-open-airlock
-  show two-tethers
+  show bg eva-open-airlock:
+    zoom 1.1
+    xpos 0.5
+    ypos 0.4
+    xanchor 0.5
+    yanchor 0.5
+  
+  show two-tethers:
+    zoom 1.1
+    xpos 0.5
+    ypos 0.4
+    xanchor 0.5
+    yanchor 0.5
+  
   show helmet-black
   
   with dissolve
@@ -92,17 +104,17 @@ label the_ship:
   h "The airlock is still open. I should just go back in and wait for help."
   
   show bg eva-open-airlock:
-    zoom 1.0
+    zoom 1.1
     xpos 0.5
-    ypos 0.5
+    ypos 0.4
     xanchor 0.5
     yanchor 0.5
     ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55
   
   show two-tethers:
-    zoom 1.0
+    zoom 1.1
     xpos 0.5
-    ypos 0.5
+    ypos 0.4
     xanchor 0.5
     yanchor 0.5
     ease 3.0 zoom 1.1 xpos 0.3 ypos 0.55
@@ -252,7 +264,7 @@ label the_repair:
   play sound hanc_2_0_3_sound
   
   
-  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the six explosive bolts fixed around the perimeter of the plate to lock it to the hull."
+  H radio "Maneuver the plate over the breach using the controls on the rig. Once you've got it there you have to fire the explosive bolts fixed around the perimeter of the plate to lock it to the hull."
   
   # [ Sound music - Ominous music while the plate fits it into place. ]
   
@@ -455,6 +467,8 @@ label pressurising:
   
   "The ship’s hull protests as it fills with air. The creaking sound of stressed metal is cause for concern."
   
+  stop music fadeout 3.0
+  
   h "I hope that steel plate holds with only nine bolts."
   
   H "(Silence)"
@@ -468,7 +482,7 @@ label pressurising:
 
     "Ask HANC if it’s okay to open the door to go inside.":
       jump sixty_more_seconds
-
+      
 # 2.3.1. SLAMMED ##############################################################
 label slammed:
 
@@ -514,9 +528,6 @@ label sixty_more_seconds:
   "Holloway waits 60 seconds."
   
   play sound hanc_2_3_2b_sound
-  
-  
-  stop music fadeout 3.0
   
   H "The pressure is equal. Opening the door. Please remain clear."
     

@@ -40,6 +40,10 @@ label start:
           $ has_two_tethers = False
           jump a_sign_of_life
           
+        "Start at pressurising":  
+          stop music
+          jump pressurising
+          
         "Start at label slammed":  
           stop music
           jump slammed          
