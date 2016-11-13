@@ -150,7 +150,7 @@ label hanc:
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
 
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0_sound
   $ renpy.pause(1.0)
@@ -164,7 +164,7 @@ label hanc:
   h "HANC, where’s my helmet?"
   # show hanc a
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_4_0b_sound
   $ renpy.pause(1.0)
@@ -184,7 +184,7 @@ label leaving_the_airlock:
   h "HANC, open the hatch."
 
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_6_0_sound
   $ renpy.pause(1.0)
@@ -217,7 +217,7 @@ label hancs_advice:
   
   h "HANC, what should I do."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_8_0_sound
   $ renpy.pause(1.0)
@@ -227,7 +227,7 @@ label hancs_advice:
   
   h "Why didn't you offer that advice before I was about to open the hatch."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_8_0b_sound
   $ renpy.pause(1.0)
@@ -259,7 +259,7 @@ label radio_controls:
   
   h "How can we talk when I’m outside? I don’t know how to repair a spaceship."
 
-  play sound beep_sound
+  #play sound beep_sound
   $ renpy.pause(1.0)
   play sound hanc_1_10_0_sound
   $ renpy.pause(1.0)
