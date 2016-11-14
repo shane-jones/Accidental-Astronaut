@@ -124,6 +124,7 @@ image bg bridge-e = "images/backgrounds/3-bridge/bridge-with-stars.png"
 # Was moved/deleted?
 #image bg bridge-f = "images/backgrounds/3-bridge/shuttle-in-cargohold.png"
 image bg bridge-g = "images/backgrounds/3-bridge/bridge-close-up.png"
+image bg bridge-h = "images/backgrounds/3-bridge/bridge-door-open.png"
 
 # 4 Cargo Hold
 image bg cargo-hold-a = "images/backgrounds/4-cargo-hold/cargo-hold-1.png"
@@ -177,6 +178,8 @@ image two-tethers = "images/objects/two-tethers.png"
 image holloway-arm = "images/objects/holloway-arm.png"
 
 image airlock-door-open-transparent = "images/backgrounds/1-airlock/airlock-4-with-door-open-transparent.png"
+
+image captains-manual = "images/objects/captains-manual.png"
 
 ###############################################################################
 # Music

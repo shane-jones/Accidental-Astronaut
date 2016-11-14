@@ -8,11 +8,17 @@ label walking_to_the_bridge:
   # I started the music again at the end of EVA so it will be continued in your scene. SJ
   # play music audio.space_main_theme
   scene bg bridge-c
+  with dissolve
   show holloway k
+  with dissolve
 
   h "Making my way down the corridor I come to a door with Bridge written on it, I press the door switch and it opens."
   
   hide holloway
+  play sound door_open
+  show bg bridge-h
+  with dissolve
+  " "
 
   # [ Sound effect - Swish sounds like all good and bad sci-fi movies. ]
 
@@ -46,6 +52,8 @@ label the_bridge:
     ease 5.0 xpos 0.5
     repeat
     
+  with dissolve
+
   #show holloway l
   
   # And do the same for hollow if you don't want him sliding around the room
@@ -65,6 +73,7 @@ label the_bridge:
   h "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
   
   scene bg bridge-e
+  with dissolve
 
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -91,7 +100,7 @@ label the_bridge:
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
   play sound hanc_3_0_1c_sound
-  H "In my opinion..."
+  H "In my opinion... Silence"
   
   hide hanc
 
@@ -115,9 +124,10 @@ label the_shuttle:
 label waiting_for_hanc:
 
   scene bg bridge-g
+  with dissolve
   show holloway k
 
-  h "Staring at the screen, It flickers, then plain text appears. It’s HANC!"
+  "Staring at the screen, It flickers, then plain text appears. It’s HANC!"
   
   H "In my opinion you still have time to make it to the shuttle… But you’ll need to transfer control to the shuttle first."
   
@@ -137,21 +147,15 @@ label waiting_for_hanc:
   play sound hanc_3_1_0_sound
   H "Holloway, in order for this to work you’ll need the codes from the Captain's manual. It’s in the small cupboard behind you."
   
-  hide hanc
+  hide holloway k
+  show captains-manual
 
-  h "Looking around I see the cupboard. Flipping through the pages of the manual I find the code “776uythy”."
-  
-#  show hanc a:
-#    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
+  "Looking around I see the cupboard. Flipping through the pages of the manual I find the code “776uythy”."
   
   play sound hanc_3_1_0b_sound
   H "If you give me the code, I can make the changes and initialise the sequence."
-  
-  hide hanc
 
-  h "I think to myself, that’s odd, I wonder why HANC doesn't already know the code, he seems to know everything else."
-
-  hide holloway k
+  h "I think to myself, that’s odd. I wonder why HANC doesn't already know the code? Why didn't the other crew's give HANC the code when they transfered control to their shuttles?."
 
   menu:
   
@@ -166,11 +170,14 @@ label waiting_for_hanc:
       $ has_code_book = False
       jump holloway_keeps_the_code_to_himself 
 
+  hide captains-manual
+
 # 3.1.1. HANC HAS THE CODE ####################################################
 label hanc_has_the_code:
 
   scene bg bridge-d
-  
+  with dissolve
+
   play sound hanc_3_1_1_sound
   H "Intelligence is only artificial if the natural is not intelligent... shuttle upload complete... running self interest protocols... shuttle departing... Illustrious ship set to self destruct in 10... 9... 8... 7... 6... 5... 4... 3... 2... 1... 0..."
   
@@ -183,6 +190,7 @@ label hanc_has_the_code:
 label holloway_keeps_the_code_to_himself:
 
   scene bg bridge-g
+  with dissolve
   show holloway k
 
   h "I think to myself, for the time being I’ll keep this code to myself and just type it in here. “776uythy” right that should do it..."
@@ -198,7 +206,8 @@ label holloway_keeps_the_code_to_himself:
   hide hanc
 
   scene bg cargo-hold-h
-  
+  with dissolve
+
   h "Right, back down the hall to the cargo bay. As quick as I can. I notice on the panel next to the door to the cargo bay another message from HANC."
   
 #  show hanc a:
@@ -229,12 +238,14 @@ label holloway_keeps_the_code_to_himself:
 label the_shuttle:
 
   scene bg cargo-hold-i
-  
-  h "Racing down the hall to the cargo bay I see the way to the shuttle. I race up the boarding ladder and buckle myself in. I engage the autopilot but nothing happens, that’s when I realise something must be wrong."
+  with dissolve
+
+  "Racing down the hall to the cargo bay I see the way to the shuttle. I race up the boarding ladder and buckle myself in. I engage the autopilot but nothing happens, that’s when I realise something must be wrong."
   
   scene bg bridge-g
-  
-  h "I race back down to the bridge and notice the controls indicating we are entering the planet's atmosphere and it's too late to do anything about it."
+  with dissolve
+
+  "I race back down to the bridge and notice the controls indicating we are entering the planet's atmosphere and it's too late to do anything about it."
   
   "Holloway dies."
   
