@@ -194,6 +194,7 @@ define audio.space_main_theme = "sounds/music/space-main-theme.mp3"
 define audio.beep_sound = "sounds/effects/beep-sound.mp3" 
 define audio.breathing_sound = "sounds/effects/breathing-sound.mp3"
 define audio.ice_sound = "sounds/effects/ice-sound.mp3"
+define audio.illustrious_sound = "sounds/effects/illustrious.mp3"
 
 # 3 EVA
 define audio.tether_snap_sound = "sounds/effects/cartoon-springboard-ruler-twang-pitched-shifted-up-001.mp3"
