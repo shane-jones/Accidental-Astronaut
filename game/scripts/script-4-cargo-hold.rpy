@@ -5,7 +5,11 @@ label to_cargo_hold:
 # 4.0.0. CARGO HOLD ###########################################################
 label cargo_hold:
 
+  scene black
+  with dissolve
+  
   scene bg cargo-hold-h
+  with dissolve
   # [ Background image - door to the cargo bay. ]
 
   show holloway a:
@@ -14,6 +18,9 @@ label cargo_hold:
   "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
 
   hide holloway
+  with Dissolve (2.0)
+  
+  stop music fadeout 4.0
 
   # show hanc b:
   #   zoom 0.8 xpos 0.18 ypos 0.56 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -32,24 +39,40 @@ label cargo_hold:
 label jinx:
   
   scene bg cargo-hold-b
+  with dissolve
   # [ Background image - cargo hold. ]
 
-  show jinx l:
-    zoom 0.065 xpos 0.72 ypos 0.48 xanchor 0.5 yanchor 0.5 # Jinx tiny - crouched down 
+  show jinx l: # Jinx tiny - crouched down 
+    zoom 0.065 
+    xpos 0.72 
+    ypos 0.48 
+    xanchor 0.5 
+    yanchor 0.5 
   
   "Jinx is hiding in one corner. She emerges from the shadows after realising Holloway is not an officer."
   
-  show jinx j: 
-    zoom 0.2 xpos 0.6 ypos 0.5 xanchor 0.5 yanchor 0.5 #[ Jinx walking up ]
+  show jinx j: #[ Jinx walking up ]
+    zoom 0.2 
+    xpos 0.6 
+    ypos 0.5 
+    xanchor 0.5 
+    xanchor 0.5 
+    yanchor 0.5 
+  with Dissolve (1.5) 
 
   "Jinx quickly realises that HANC is around."
 
-  show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+  show jinx k: #[ Jinx standing normal ]
+    zoom 0.5 
+    xpos 0.7 
+    ypos 0.8 
+    xanchor 0.5 
+    yanchor 0.5 
+  with Dissolve (1.5)
   
   j "Hi. My name is Jinx 'Takanoma'."
 
-  hide jinx
+  #hide jinx
   
   "HANC, of course, runs this name through a database and is unable to locate a match."
   
@@ -57,8 +80,13 @@ label jinx:
   
   h "Why were you hiding?"
   
-  show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+  show jinx k: #[ Jinx standing normal ]
+    zoom 0.5 
+    xpos 0.7 
+    ypos 0.8 
+    xanchor 0.5 
+    yanchor 0.5
+  with Dissolve (2.0)
 
   j "I was not sure if you were armed."
   
@@ -66,7 +94,8 @@ label jinx:
   
   j "I am a flight training officer and I can pilot the shuttle... just."
 
-  hide jinx
+  scene bg cargo-hold-b
+  with Dissolve (2.0)
 
   # show hanc b:
   #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -89,16 +118,18 @@ label preparations:
   "There are also two large containers in the hold. Both have supplies and rescue equipment in them. One does say 'CAUTION'."
 
   scene bg cargo-hold-b
+  with dissolve
 
   h "Jinx, are you able to get the shuttle to the surface below?"
   
   # [ Character graphic - Jinx with arms out to side (shrugging shoulders) ]
   show jinx k: 
     zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+  with Dissolve (2.0)
   
   j "I can’t be sure. I think we must go into deep space and attempt to get to the next planet some three weeks away - Dorphia. The planet below is very primitive so we should avoid it."
   
-  hide jinx
+  #hide jinx
 
   h "If you can fly, Why not use the freighter?"
 
@@ -126,17 +157,25 @@ label secrets:
   "She is also concerned by its damage."
   
   "Poor Holloway knows nothing."
+  
+  play music audio.space_main_theme fadein 3.0
 
 # 4.0.4. THE CODE #############################################################
 label the_code:
 
   # [ Character graphic - Jinx with hand on face (thinking pose). ]
-  show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
+  show jinx k: #[ Jinx standing normal ]
+    zoom 0.5 
+    xpos 0.7 
+    ypos 0.8 
+    xanchor 0.5 
+    yanchor 0.5 
+  with Dissolve (2.0)
+  
 
   j "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
   
-  hide jinx 
+  # hide jinx 
 
   h "So the best thing for us to do is get to the planet below for help."
   
@@ -152,6 +191,7 @@ label the_code:
   j "Holloway, I’ll need the captain’s code to finish the preparations."
 
   hide jinx
+  with Dissolve (2.0)
   
   "What should Holloway do with the code?"
 
@@ -208,6 +248,7 @@ label jinx_gets_away:
   hide jinx
 
   scene bg cargo-hold-l # cargo door closes
+  with dissolve
 
   show holloway g: 
     zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 #[ Holloway faces door closing]
@@ -253,12 +294,17 @@ label smart_boy_holloway:
   
   h "Look, I just want to get back safely on land and my best shot is Orbita, the planet below."
   
-  show jinx k: 
-    zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing ]
+  show jinx k: #[ Jinx standing ] 
+    zoom 0.5 
+    xpos 0.7 
+    ypos 0.8 
+    xanchor 0.5 
+    yanchor 0.5 
+  with dissolve
 
   j "I understand, but there is a small problem."
 
-  hide jinx
+  #hide jinx
   
   "Jinx identifies her dilemma and confesses she does not want to be arrested. They agree to go to the planet below and drop him off so Jinx can continue on to planet Dorphia."
     

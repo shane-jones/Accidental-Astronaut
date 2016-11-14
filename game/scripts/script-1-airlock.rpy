@@ -120,9 +120,7 @@ label the_last_log:
     xanchor 0.5 
     yanchor 0.5
 
-  with dissolve 
-    
-
+  with dissolve
   
   "Captain Abrahams appears as a video recording."
   
@@ -135,7 +133,7 @@ label the_last_log:
     xanchor 0.5 
     yanchor 0.5
  
-  with dissolve
+  with Dissolve (1.5)
 
   a "We searched but were unable to look any longer and left with diminishing air supplies."
   
@@ -152,7 +150,7 @@ label the_last_log:
     xanchor 0.5 
     yanchor 0.5
 
-  with dissolve  
+  with Dissolve (1.5)  
   
   a "Additionally, the ship is not very stable in the current orbit due to the explosion and is slowly drifting towards the planet."
   
@@ -165,7 +163,11 @@ label the_last_log:
 # 1.4.0. HANC #################################################################
 label hanc:
 
-  scene bg airlock-g
+  scene black
+  with dissolve
+  
+  scene bg airlock-b
+  with dissolve
 
   "After playing the LOG Holloway pressed on a button labeled “HANC”. HANC (the console) boots up after 30 seconds and analyses the ship."
 

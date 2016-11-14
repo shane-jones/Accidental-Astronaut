@@ -258,8 +258,6 @@ label jinx_kills_holloway:
       yanchor 0.5       # using the centre of the character image
       
   with dissolve
-      
-  
   
   "The end."
   return
@@ -371,7 +369,7 @@ label landing_on_orbita:
       yanchor 0.5       # using the centre of the character image
   with dissolve
       
-  "Holloway had written the computer code down on a piece of and left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
+  "Holloway had scratched the computer code down on a piece plastic left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
