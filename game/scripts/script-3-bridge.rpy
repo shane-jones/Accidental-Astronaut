@@ -237,7 +237,8 @@ label holloway_keeps_the_code_to_himself:
 # 3.2.0. THE SHUTTLE ##########################################################
 label the_shuttle:
 
-  scene bg cargo-hold-i
+  scene bg cargo-hold-m
+  show shuttle-clear-windows
   with dissolve
 
   "Racing down the hall to the cargo bay I see the way to the shuttle. I race up the boarding ladder and buckle myself in. I engage the autopilot but nothing happens, that’s when I realise something must be wrong."
