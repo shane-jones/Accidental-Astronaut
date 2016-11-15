@@ -71,6 +71,7 @@ image jinx k = "images/characters/jinx/jinx-totally-calm-arms-down.png"
 image jinx l = "images/characters/jinx/jinx-wide-eyed-fear-leaning-forward-right-hand-supporting.png"
 image jinx m = "images/characters/jinx/jinx-totally-calm-arms-down-standing-closeup.png"
 image jinx n = "images/characters/jinx/jinx-piercing-stare-arms-behind-back-crop-page.png"
+image jinx o = "images/characters/jinx/jinx-sitting-and-shaking-finger.png"
 
 image jinx listening = "images/characters/jinx/jinx-anticipating-sitting-slightly-aggravated.png"
 image jinx standing_thinking = "images/characters/jinx/jinx-anticipating-female-standing-jump-in-place.png"
