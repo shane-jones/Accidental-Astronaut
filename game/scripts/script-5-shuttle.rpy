@@ -142,10 +142,7 @@ label leaving_cargo_hold:
   
   play sound launch_sound
   $ renpy.sound.set_volume (1.5)
-  
-  
-  
-  
+
   # [ Sound effect - Escape rockets firing under shuttle. ]
   
   
@@ -162,8 +159,6 @@ label leaving_cargo_hold:
   scene bg shuttle-i
   show shuttle-clear-windows
   
-  with dissolve
-  
   show jinx o:
     zoom 0.90   # 95 % size
     xpos 0.30   # 20 % of the way across the background
@@ -173,6 +168,7 @@ label leaving_cargo_hold:
   
   "Holloway points to the Illustrious which is falling out of orbit."
   
+  with dissolve
   
   # [ Background image - Illustrious front section burning as it moves slowly out of orbit and towards the planet. ]
   
@@ -303,6 +299,7 @@ label preparing_for_orbita:
   show jinx a
   
   j "Go ahead HANC!"
+  with dissolve
   
   "Holloway COVERS HIS EYES but nothing happens."
   
