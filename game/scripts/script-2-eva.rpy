@@ -300,7 +300,7 @@ label a_sign_of_life:
   scene black
   with dissolve
   
-  scene bg cargo-hold-f
+  scene bg cargo-hold-m
   
   show shuttle-clear-windows
   
@@ -545,7 +545,7 @@ label jinx_makes_plans:
   scene black
   with dissolve
   
-  scene bg cargo-hold-f
+  scene bg cargo-hold-m
   
   show shuttle-clear-windows
   

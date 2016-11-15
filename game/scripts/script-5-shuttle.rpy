@@ -26,7 +26,7 @@ label inside_shuttle_transfer:
   scene black
   with dissolve
   
-  scene bg cargo-hold-f
+  scene bg cargo-hold-m
   
   show shuttle-clear-windows
   
