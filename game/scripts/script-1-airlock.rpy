@@ -10,7 +10,6 @@ label to_airlock:
   play sound illustrious_sound
   $ renpy.sound.set_volume (0.1)
  
-  "It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and 
    is well equipped with the latest navigation and weapons systems. "
  
   "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy.
@@ -37,7 +36,8 @@ label to_airlock:
   with Dissolve (2.0)
 
   stop sound fadeout (3.0)
-
+  
+  
 # 1.0.0. WAKING UP IN THE AIRLOCK #############################################
 label waking_up_in_the_airlock:
 
@@ -126,13 +126,12 @@ label the_last_log:
  
   with Dissolve (1.5)
 
-  a "We searched but were unable to look any longer and left with diminishing air supplies."
+  a "We searched but were unable to look any longer and left with the air supply diminishing."
   
   a "This ship was hit by debris from an asteroid and is in orbit around Orbita, a planet that can sustain life."
   
-  a "Holloway, if you read this, you need to get of there. Several problems exist though."
   
-  a "This ship can't be flown to the surface without being destroyed passing through the atmosphere as it’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
+  a "This ship can't be flown to the surface without being destroyed as it passes through the atmosphere. It’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
 
   show abrahams d:
     zoom 1.2 
@@ -145,7 +144,7 @@ label the_last_log:
   
   a "Additionally, the ship is not very stable in the current orbit due to the explosion and is slowly drifting towards the planet."
   
-  a "There is a one shuttle left in the cargo bay. The ship is unpressurised the hull must be repaired and then possibly attempt to stabilise the ship from the bridge to buy more time."
+  a "There is a one shuttle left in the cargo bay. The Illustrious is unpressurised and the hull must be repaired and then you could possibly attempt to stabilise the ship from the bridge to buy more time."
   
   a "There is also an onboard computer called HANC who can help. HANC has suffered some logic damage but appears to be operating properly."
   
@@ -160,7 +159,7 @@ label hanc:
   scene bg airlock-b
   with dissolve
 
-  "After playing the LOG Holloway pressed on a button labeled “HANC”. HANC (the console) boots up after 30 seconds and analyses the ship."
+  "After playing the LOG, Holloway presses a button labeled “HANC”. HANC (the console) boots up after 30 seconds and analyses the ship."
 
 #  show hanc a:
 #      zoom 0.15 xpos 0.2 xpos 0.6 xanchor 0.5 yanchor 0.5 #reduced size has the file is large
@@ -169,7 +168,7 @@ label hanc:
 #       #using the centre of the character image
 #       #using the centre of the character image 
       
-  "HANC attempts to power up and pressurise the ship but it’s damaged with a hole and needs to be sealed first. The crew left the ship as there is only minimal oxygen supplies left. They took one of the two space shuttles. The crew didn't make any radio contact so there won't be help for a while."
+  "HANC attempts to power up and pressurise the ship but it’s damaged with a hole and needs to be sealed first."
   
   "The illustrious is still orbiting around planet Orbita, a trading partner. It’s heavily populated so there’s definitely water and food down there."
 
@@ -198,12 +197,12 @@ label hanc:
   play sound hanc_1_4_0b_sound
   $ renpy.pause(1.0)
   
-  H "There's a locker room off the airlock that contains a helmet and a tether that you will need to fix the hole outside. It has its own oxygen supplies."
+  H "There's a small cabinet to your left that contains a helmet and a tether that you will need to fix the hole outside. Your suit has it's own oxygen supply."
 
 # 1.5.0. THE LOCKER ###########################################################
 label the_locker:
 
-  h "I go to the room and put on my helmet with directions from HANC. The gauge in my helmet shows that I have 60 minutes of oxygen."
+  h "I go to the cabinet and put on my helmet with directions from HANC. The gauge in my helmet shows that I have 60 minutes of oxygen."
 
 # 1.6.0. LEAVING THE AIRLOCK ##################################################
 label leaving_the_airlock:
@@ -265,6 +264,7 @@ label hancs_advice:
   
   h "I feel uneasy about HANC’s less than helpful response."
   
+  h "I pause before jumping out into space. What should I do now?"
   menu:
     
     "Leave the ship.":
