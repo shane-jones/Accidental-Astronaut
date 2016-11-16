@@ -10,6 +10,7 @@ label to_airlock:
   play sound illustrious_sound
   $ renpy.sound.set_volume (0.1)
  
+  "It's 2425. The Illustrious, a Mega class freighter, is on a two year trading mission. The ship is a self sufficient craft capable of interstellar light speed and 
    is well equipped with the latest navigation and weapons systems. "
  
   "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy.
@@ -46,8 +47,8 @@ label waking_up_in_the_airlock:
   with dissolve
   
 # [ Sound - Struggling to breath (background moody space music). ]
-  play music breathing_sound
-
+  play music breathing_sound fadein (2.0)
+  
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
   play music space_main_theme fadein (5.0)
@@ -99,7 +100,7 @@ label force_open_the_airlock:
 # 1.3.0. THE LAST LOG #########################################################
 label the_last_log:
   
-  "Holloway turns on the monitor. A LOG MENU appears on the screen."
+  "Holloway turns on the monitor. A LOG Menu appears on the screen."
   
   l "Log Ready.\nSelect Log. (Holloway selects the most recent log.)\nPlay. (Holloway taps the play button)\nHANC"
 
@@ -130,6 +131,7 @@ label the_last_log:
   
   a "This ship was hit by debris from an asteroid and is in orbit around Orbita, a planet that can sustain life."
   
+  a "Holloway, if you read this, you need to get down there. Several problems exist though."
   
   a "This ship can't be flown to the surface without being destroyed as it passes through the atmosphere. It’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
 
