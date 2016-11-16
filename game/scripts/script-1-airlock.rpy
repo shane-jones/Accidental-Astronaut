@@ -10,7 +10,7 @@ label to_airlock:
   with Dissolve (5.0)
   
   play sound illustrious_sound
-  $ renpy.sound.set_volume (0.2)
+  $ renpy.sound.set_volume (0.15)
   
   "It's 2425. The Illustrious, a Mega class freighter, is on a two year trading mission. The ship is a self sufficient craft capable of interstellar light speed and 
    is well equipped with the latest navigation and weapons systems. "
@@ -51,13 +51,13 @@ label waking_up_in_the_airlock:
 # [ Sound - Struggling to breath (background moody space music). ]
   play music breathing_sound fadein (2.0)
   
-  h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
+  ht "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
   play music space_main_theme fadein (5.0)
   
   scene bg airlock-c
 
-  h "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
+  ht "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
 
 # 1.0.1. DECIDING WHAT TO DO ##################################################
 label deciding_what_to_do:
@@ -188,7 +188,7 @@ label hanc:
 
   
   
-  h "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
+  ht "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
   
   h "HANC, where’s my helmet?"
   
@@ -199,12 +199,12 @@ label hanc:
 # 1.5.0. THE LOCKER ###########################################################
 label the_locker:
 
-  h "I go to the cabinet and put on my helmet with directions from HANC. The gauge in my helmet shows that I have 60 minutes of oxygen."
+  ht "I go to the cabinet and put on my helmet with directions from HANC. The gauge in my helmet shows that I have 60 minutes of oxygen."
 
 # 1.6.0. LEAVING THE AIRLOCK ##################################################
 label leaving_the_airlock:
 
-  h "I return to the airlock and move towards the hatch."
+  ht "I return to the airlock and move towards the hatch."
   
   h "HANC, open the hatch."
 
@@ -216,7 +216,7 @@ label leaving_the_airlock:
   
   h "HANC equalises the pressure but does not open the door. I move a heavy lever to an open position which requires lots of effort."
   
-  h "I pause before opening the hatch. What should I do now?"
+  ht "I pause before opening the hatch. What should I do now?"
     
   menu:
   
@@ -249,9 +249,9 @@ label hancs_advice:
   
   H "You didn't ask."
   
-  h "I feel uneasy about HANC’s less than helpful response."
+  ht "I feel uneasy about HANC’s less than helpful response."
   
-  h "I pause before jumping out into space. What should I do now?"
+  ht "I pause before jumping out into space. What should I do now?"
   menu:
     
     "Leave the ship.":

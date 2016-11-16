@@ -8,7 +8,7 @@ label declarations:
 
 define a = Character('Captain Abrahams')
 define h = Character('Holloway')
-define ht = Character('Holloway')
+define ht = Character('Holloway', image='holloway')
 define H = Character('HANC', image='hanc', who_font='bitwise.ttf')
 define j = Character('Jinx')
 define jt = Character('Jinx', image='jinx')                                                  
@@ -41,6 +41,7 @@ image holloway j = "images/characters/holloway/holloway-slammed.png"
 image holloway k = "images/characters/holloway/half-holloway-facing-away.png"
 image holloway l = "images/characters/holloway/holloway-back-resized.png"
 image holloway m = "images/characters/holloway/holloway-dead-neck-snap-resized.png"
+image side holloway = "images/characters/holloway/holloway-thinking.png"
 
 #This 
 #image holloway n = "images/characters/holloway/holloway-arm.png"

@@ -12,7 +12,7 @@ label walking_to_the_bridge:
   show holloway k
   with dissolve
 
-  h "Making my way down the corridor I come to a door with Bridge written on it, I press the door switch and it opens."
+  ht "Making my way down the corridor I come to a door with Bridge written on it, I press the door switch and it opens."
   
   hide holloway
   play sound door_open
@@ -70,7 +70,7 @@ label the_bridge:
     ease 5.0 xpos 0.5
     repeat  
 
-  h "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
+  ht "Looking around I see a large room full of complex instruments. I see some monitors flashing caution signs but others indicate things are okay and not as bad as first thought."
   
   scene bg bridge-e
   with dissolve
@@ -93,7 +93,7 @@ label the_bridge:
   
   hide hanc
 
-  h "Looking at the next monitor I can see a schematic of the shuttle and directions to it."
+  ht "Looking at the next monitor I can see a schematic of the shuttle and directions to it."
   
   h "Can I make it to the shuttle in time or do I need to correct the ship's orbit first?"
   
@@ -131,7 +131,7 @@ label waiting_for_hanc:
   
   H "In my opinion you still have time to make it to the shuttle… But you’ll need to transfer control to the shuttle first."
   
-  h "I think to myself, great so now I have to read your sarcastic advice!"
+  ht "I think to myself, great so now I have to read your sarcastic advice!"
   
   h "Can you still have control of the shuttle with your current problem?"
   
@@ -139,7 +139,7 @@ label waiting_for_hanc:
   
   "HANC’s voice control has been lost temporarily but he was able to repair it and is still able to communicate."
   
-  h "Looking at the screen I can see how to transfer control to the shuttle. After typing the commands - nothing happens!"
+  ht "Looking at the screen I can see how to transfer control to the shuttle. After typing the commands - nothing happens!"
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -150,12 +150,12 @@ label waiting_for_hanc:
   hide holloway k
   show captains-manual
 
-  "Looking around I see the cupboard. Flipping through the pages of the manual I find the code “776uythy”."
+  ht "Looking around I see the cupboard. Flipping through the pages of the manual I find the code “776uythy”."
   
   play sound hanc_3_1_0b_sound
   H "If you give me the code, I can make the changes and initialise the sequence."
 
-  h "I think to myself, that’s odd. I wonder why HANC doesn't already know the code? Why didn't the other crew's give HANC the code when they transfered control to their shuttles?."
+  ht "I think to myself, that’s odd. I wonder why HANC doesn't already know the code? Why didn't the other crew's give HANC the code when they transfered control to their shuttles?."
 
   menu:
   
@@ -193,7 +193,7 @@ label holloway_keeps_the_code_to_himself:
   with dissolve
   show holloway k
 
-  h "I think to myself, for the time being I’ll keep this code to myself and just type it in here. “776uythy” right that should do it..."
+  ht "I think to myself, for the time being I’ll keep this code to myself and just type it in here. “776uythy” right that should do it..."
 
   h "OK HANC, looks like the Bridge control has transferred to the shuttle, what’s next?"
   
@@ -208,7 +208,7 @@ label holloway_keeps_the_code_to_himself:
   scene bg cargo-hold-h
   with dissolve
 
-  h "Right, back down the hall to the cargo bay. As quick as I can. I notice on the panel next to the door to the cargo bay another message from HANC."
+  ht "Right, back down the hall to the cargo bay. As quick as I can. I notice on the panel next to the door to the cargo bay another message from HANC."
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -228,7 +228,7 @@ label holloway_keeps_the_code_to_himself:
   
   hide hanc
 
-  h "I wonder who it could be. Maybe they can give me some answers. The only way to find out is to push on through."
+  ht "I wonder who it could be. Maybe they can give me some answers. The only way to find out is to push on through."
   
   hide holloway
 

@@ -76,9 +76,9 @@ label the_ship:
   
   with dissolve
   
-  h "This ship is really beaten up."
+  ht "This ship is really beaten up."
   
-  h "There’s scaffolding on the hull and an “A” frame with a large metal plate attached. So that must be where the damage is."
+  ht "There’s scaffolding on the hull and an “A” frame with a large metal plate attached. So that must be where the damage is."
   
   hide long-rope-2
   with None
@@ -101,7 +101,7 @@ label the_ship:
   
   with dissolve
   
-  h "The airlock is still open. I should just go back in and wait for help."
+  ht "The airlock is still open. I should just go back in and wait for help."
   
   show bg eva-open-airlock:
     zoom 1.1
@@ -121,7 +121,7 @@ label the_ship:
   
   with dissolve
   
-  h "But if I make it to the scaffolding, I might be able to repair the hull."
+  ht "But if I make it to the scaffolding, I might be able to repair the hull."
     
   hide two-tethers
   with None
@@ -171,9 +171,9 @@ label the_ship:
   
   with dissolve
     
-  h "Look, there are some climbing grabs on the hull above the airlock hatch."
+  ht "Look, there are some climbing grabs on the hull above the airlock hatch."
   
-  h "I can use the grabs to pull myself up the side and over the top of the hull to get to the scaffolding."
+  ht "I can use the grabs to pull myself up the side and over the top of the hull to get to the scaffolding."
   
   "Holloway clicks on the radio button."
   
@@ -249,7 +249,7 @@ label two_tethers:
     
   with dissolve
   
-  h "I make my way up to the repair rig."
+  ht "I make my way up to the repair rig."
 
 # 2.0.3. THE REPAIR ###########################################################
 label the_repair:
@@ -292,7 +292,7 @@ label the_repair:
   play sound explosive_bolt_sound
   $ renpy.pause(1.0)
   
-  h "That's two."
+  ht "That's two."
 
   play sound explosive_bolt_sound
   $ renpy.pause(1.0)
@@ -315,13 +315,13 @@ label a_sign_of_life:
   
   play sound distant_explosive_bolt_sound
   
-  j "Someone is alive and outside but I have no space suit."
+  jt "Someone is alive and outside but I have no space suit."
     
   $ renpy.pause(1.0)
   
   play sound distant_explosive_bolt_sound
   
-  j "I need whoever it is to pressurise the hull, and soon."
+  jt "I need whoever it is to pressurise the hull, and soon."
 
 # 2.2.0. THE SHIP IS SEALED ###################################################
 label the_ship_is_sealed:
@@ -357,7 +357,7 @@ label the_ship_is_sealed:
 # 2.2.1. BACK TO THE SHIP #####################################################
 label back_to_the_ship:
 
-  h "25 minutes oxygen. Good."
+  ht "25 minutes oxygen. Good."
   
   show bg eva-open-airlock:
     zoom 1.5
@@ -391,7 +391,7 @@ label back_to_the_ship:
 # 2.2.2 ENOUGH ROPE ###########################################################
 label enough_rope:
   
-  h "Lucky I kept the tether to the airlock."
+  ht "Lucky I kept the tether to the airlock."
   
   "Holloway releases the other line and pulls himself along the tether for the last few meters to the open hatch and climbs into the airlock."
   
@@ -524,7 +524,7 @@ label slammed:
 # 2.3.2. 60 MORE SECONDS ######################################################
 label sixty_more_seconds:
 
-  h "I just push that button to get in. I better check."
+  ht "I just push that button to get in. I better check."
   
   h "HANC, is it okay to enter?"
   
