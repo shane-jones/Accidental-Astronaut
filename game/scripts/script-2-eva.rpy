@@ -48,9 +48,9 @@ label to_eva:
   
   queue sound [ tether_snap_sound, pained_grunt_sound ]
   
-  "The tether has snapped taught."
+  "The tether snapped taught."
   
-  h "At least I’ve stopped. I turn around."
+  ht "At least I’ve stopped. I turn around."
 
 # 2.0.0. OUTSIDE ##############################################################
 label outside:
@@ -187,7 +187,8 @@ label the_ship:
     
   H radio "What can you see? Describe it."
   
-  h "Surely this suit has a camera. Can’t I just send images via the radio system to you?"
+  h "Surely this suit has a camera. Can’t I just send you images to you?"
+  ht "No answer from Hanc - Guess there is no camera"
 
 # 2.0.2. TWO TETHERS ##########################################################
 label two_tethers:
@@ -212,7 +213,7 @@ label two_tethers:
   
   with dissolve
   
-  h "There’s another tether."
+  ht "There’s another tether. What should I do with it"
   
   menu:
     "Hook this tether to your suit and release the other tether.":
@@ -221,7 +222,7 @@ label two_tethers:
       
       "That was the tether back to the airlock."
       
-      h "I see the tether peacefully float away. I have an uneasy feeling."
+      ht "I see the tether peacefully float away. I have an uneasy feeling."
       
     "Hook this tether to your suit and keep the other tether attached.":
       
@@ -229,7 +230,7 @@ label two_tethers:
       
       "Holloway hooks the second tether onto his suit."
       
-      h "Feeling safer already."
+      ht "Feeling safer already."
     
   show bg eva-open-airlock:
     zoom 1.0
@@ -256,7 +257,7 @@ label the_repair:
 
   # [ Background image - Close up image of repair rig. ]
   
-  "The radio splutters back into action."
+
   
   h "HANC. I’m at the repair site. What do I do with this oversized manhole cover?"
   
@@ -321,7 +322,7 @@ label a_sign_of_life:
   
   play sound distant_explosive_bolt_sound
   
-  jt "I need whoever it is to pressurise the hull, and soon."
+  jt "I need whoever it is to pressurise the ship, and soon."
 
 # 2.2.0. THE SHIP IS SEALED ###################################################
 label the_ship_is_sealed:
@@ -469,9 +470,10 @@ label pressurising:
   
   play sound hanc_2_3_0_sound
   
-  H "The pressurisation checklist is complete. Hull atmosphere is being restored."
+  H "The pressurisation checklist is complete. The Atmosphere is being restored."
   
   play music repressurisation
+  $ renpy.sound.set_volume (0.7)
   
   "The ship’s hull protests as it fills with air. The creaking sound of stressed metal is cause for concern."
   
