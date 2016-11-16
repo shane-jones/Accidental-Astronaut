@@ -178,13 +178,10 @@ label hanc:
 
   scene bg airlock-a
 
-  #play sound beep_sound
-  $ renpy.pause(1.0)
+ 
   play sound hanc_1_4_0_sound
   $ renpy.sound.set_volume (1.0)
   
-  $ renpy.pause(1.0)
-
   scene bg airlock-a
   
   H "Holloway, you must go outside and make a repair to the hull."
@@ -194,13 +191,9 @@ label hanc:
   h "I look around for my suit helmet. If I go outside without it I will die and my eyes will explode; not necessarily in that order."
   
   h "HANC, where’s my helmet?"
-  # show hanc a
-
-  #play sound beep_sound
-  $ renpy.pause(1.0)
-  play sound hanc_1_4_0b_sound
-  $ renpy.pause(1.0)
   
+  play sound hanc_1_4_0b_sound
+
   H "There's a small cabinet to your left that contains a helmet and a tether that you will need to fix the hole outside. Your suit has it's own oxygen supply."
 
 # 1.5.0. THE LOCKER ###########################################################
@@ -215,11 +208,7 @@ label leaving_the_airlock:
   
   h "HANC, open the hatch."
 
-
-  #play sound beep_sound
-  $ renpy.pause(1.0)
   play sound hanc_1_6_0_sound
-  $ renpy.pause(1.0)
   
   H "Do you want me to equalise the pressure first?"
   
@@ -249,20 +238,14 @@ label hancs_advice:
   
   h "HANC, what should I do."
 
-  #play sound beep_sound
-  $ renpy.pause(1.0)
   play sound hanc_1_8_0_sound
-  $ renpy.pause(1.0)
   
   H "Take the tether and attach it to the lock point just outside the airlock."
   
   
   h "Why didn't you offer that advice before I was about to open the hatch."
 
-  #play sound beep_sound
-  $ renpy.pause(1.0)
   play sound hanc_1_8_0b_sound
-  $ renpy.pause(1.0)
   
   H "You didn't ask."
   
@@ -291,11 +274,8 @@ label radio_silence:
 label radio_controls:
   
   h "How can we talk when I’m outside? I don’t know how to repair a spaceship."
-
-  #play sound beep_sound
-  $ renpy.pause(1.0)
+ 
   play sound hanc_1_10_0_sound
-  $ renpy.pause(1.0)
   
   H "We can communicate on the radio that’s built into your suit. Can you see it. Just power it up."
   
