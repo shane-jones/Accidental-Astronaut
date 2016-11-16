@@ -8,8 +8,10 @@ label declarations:
 
 define a = Character('Captain Abrahams')
 define h = Character('Holloway')
+define ht = Character('Holloway')
 define H = Character('HANC', image='hanc', who_font='bitwise.ttf')
 define j = Character('Jinx')
+define jt = Character('Jinx', image='jinx')                                                  
 define l = Character('Log Computer')
 define p = Character ('PC')
 
@@ -75,6 +77,7 @@ image jinx o = "images/characters/jinx/jinx-sitting-and-shaking-finger.png"
 
 image jinx listening = "images/characters/jinx/jinx-anticipating-sitting-slightly-aggravated.png"
 image jinx standing_thinking = "images/characters/jinx/jinx-anticipating-female-standing-jump-in-place.png"
+image side jinx = "images/characters/jinx/jinx-thinking.png"
 
 
 

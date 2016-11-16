@@ -173,7 +173,7 @@ label the_code:
   with Dissolve (2.0)
   
 
-  j "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
+  jt "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
   
   # hide jinx 
 
