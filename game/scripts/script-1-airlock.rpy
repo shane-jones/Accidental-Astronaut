@@ -3,13 +3,15 @@
 
 
 label to_airlock:
-
+  play music space_main_theme fadein (5.0)
+  
+  
   show bg eva-b
   with Dissolve (5.0)
   
   play sound illustrious_sound
-  $ renpy.sound.set_volume (0.1)
- 
+  $ renpy.sound.set_volume (0.2)
+  
   "It's 2425. The Illustrious, a Mega class freighter, is on a two year trading mission. The ship is a self sufficient craft capable of interstellar light speed and 
    is well equipped with the latest navigation and weapons systems. "
  
@@ -52,7 +54,7 @@ label waking_up_in_the_airlock:
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
   play music space_main_theme fadein (5.0)
-
+  
   scene bg airlock-c
 
   h "I can't lay around here forever. I get up, groggily,  and reach for the door. It's all covered in ice. I can’t see through and I can’t open it."
