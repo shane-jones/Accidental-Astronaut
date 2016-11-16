@@ -83,7 +83,7 @@ label the_bridge:
   
   hide hanc
 
-  h "If I make it to the shuttle, can you fly it?"
+  h "If I make it to the shuttle, how do I fly it?"
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
@@ -100,14 +100,15 @@ label the_bridge:
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
   play sound hanc_3_0_1c_sound
-  H "In my opinion... Silence"
+  H "In my opinion... (Then Silence)"
   
   hide hanc
 
-  h "HANC?, I didn’t get all that, is there time to make it to the shuttle?"
+  h "HANC?, I didn’t get that, is there time to make it to the shuttle?"
 
   hide holloway
 
+  h "What do I do?"
   menu:
   
     "Stay and wait for HANC to respond?":
@@ -127,17 +128,17 @@ label waiting_for_hanc:
   with dissolve
   show holloway k
 
-  "Staring at the screen, It flickers, then plain text appears. It’s HANC!"
+  ht "Staring at the screen, It flickers, then plain text appears. It’s HANC!"
   
-  H "In my opinion you still have time to make it to the shuttle… But you’ll need to transfer control to the shuttle first."
+  HT "In my opinion you still have time to make it to the shuttle… But you’ll need to transfer control to the shuttle first."
   
-  ht "I think to myself, great so now I have to read your sarcastic advice!"
+  ht "Great, so now I have to read your sarcastic advice!"
   
   h "Can you still have control of the shuttle with your current problem?"
   
-  H "I’m not human, of course I can!"
+  HT "Of course I can! I am not human"
   
-  "HANC’s voice control has been lost temporarily but he was able to repair it and is still able to communicate."
+  "HANC’s voice control was lost temporarily but he was able to repair it and is now able to 'speak' again."
   
   ht "Looking at the screen I can see how to transfer control to the shuttle. After typing the commands - nothing happens!"
   
@@ -155,7 +156,7 @@ label waiting_for_hanc:
   play sound hanc_3_1_0b_sound
   H "If you give me the code, I can make the changes and initialise the sequence."
 
-  ht "I think to myself, that’s odd. I wonder why HANC doesn't already know the code? Why didn't the other crew's give HANC the code when they transfered control to their shuttles?."
+  ht "That’s odd. I wonder why HANC doesn't already know the code? Why didn't the crew give HANC the code when they transferred control to their shuttle?."
 
   menu:
   
@@ -193,7 +194,7 @@ label holloway_keeps_the_code_to_himself:
   with dissolve
   show holloway k
 
-  ht "I think to myself, for the time being I’ll keep this code to myself and just type it in here. “776uythy” right that should do it..."
+  ht "For the time being I’ll keep this code to myself and just enter it in here. “776uythy”. Right that should do it..."
 
   h "OK HANC, looks like the Bridge control has transferred to the shuttle, what’s next?"
   
@@ -208,7 +209,7 @@ label holloway_keeps_the_code_to_himself:
   scene bg cargo-hold-h
   with dissolve
 
-  ht "Right, back down the hall to the cargo bay. As quick as I can. I notice on the panel next to the door to the cargo bay another message from HANC."
+  ht "OKAY, back down the hall to the cargo bay. As quick as I can."
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle
