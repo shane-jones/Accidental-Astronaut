@@ -7,30 +7,21 @@ label to_airlock:
   show bg eva-b
   with Dissolve (5.0)
   
-  "It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and is well equipped with the latest navigation and weapons systems. "
-  
-  "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy. The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
- 
-  "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC). The Illustrious has been very badly damaged and HANC has also had sustained circuit damage."
-
-  show bg eva-b
-  with dissolve
-
   play sound illustrious_sound
   $ renpy.sound.set_volume (0.1)
  
   "It's 2425, The Illustrious a Mega class freighter is on a two year trading mission. The ship is a self sufficient craft capable of instersellar light speed and 
- is well equipped with the latest navigation and weapons systems. "
+   is well equipped with the latest navigation and weapons systems. "
  
   "It can defend against any attempt to raid it's huge supply of goods and outrun any known enemy.
   
-  The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
+   The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
  
   "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC).
 
-  The Illustrious has been very badly damaged and HANC has also sustained circuit damage."
+   The Illustrious has been very badly damaged and HANC has also sustained circuit damage."
  
-  "The entire crew  had to abandon ship using one of the two shuttles on board."
+  "The entire crew had to abandon ship using one of the two shuttles on board."
  
   "Frank Holloway, an intern, was near the main airlock studying when the impact occured and could not be found by the crew. The ship was hit so hard that most of the compartments were depressurised."
  
@@ -59,7 +50,7 @@ label waking_up_in_the_airlock:
 
   h "I wake up. Where am I? Why am I wearing a spacesuit? I try to stand up, confused, cold, and struggling for air."
 
-  play music space_main_theme fadein 5.0
+  play music space_main_theme fadein (5.0)
 
   scene bg airlock-c
 
