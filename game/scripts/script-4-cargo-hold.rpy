@@ -15,7 +15,8 @@ label cargo_hold:
   show holloway a:
     zoom 1 xpos 0.2 ypos 0.8 xanchor 0.5 yanchor 0.5
   
-  "Holloway is about to open the door, but pauses and looks up at a screen, sarcastically."
+  "Holloway is about to open the door, but pauses and looks up at a screen."
+  h "Well, Is it Okay to go in?"
 
   hide holloway
   with Dissolve (2.0)
@@ -60,7 +61,7 @@ label jinx:
     yanchor 0.5 
   with Dissolve (1.5) 
 
-  "Jinx quickly realises that HANC is around."
+  "Jinx quickly realises that HANC is powered up."
 
   show jinx k: #[ Jinx standing normal ]
     zoom 0.5 
@@ -76,7 +77,7 @@ label jinx:
   
   "HANC, of course, runs this name through a database and is unable to locate a match."
   
-  h "Hi Jinx, Im Frank Holloway. Everyone else on board managed to escape before the collision, so it is just me left."
+  h "Hi Jinx, Im Frank Holloway. Everyone else on board managed to escape, I think I am the only one here."
   
   h "Why were you hiding?"
   
@@ -92,30 +93,33 @@ label jinx:
   
   "Jinx changes the subject."
   
-  j "I am a flight training officer and I can pilot the shuttle... just."
+  j "I am a flight training officer and I can pilot the shuttle.  Just"
+
 
   scene bg cargo-hold-b
   with Dissolve (2.0)
+  
+  h "Who is better skilled to fly the shuttle? You or HANC?"
 
   # show hanc b:
   #   zoom 0.5 xpos 0.59 ypos 0.39 xanchor 0.5 yanchor 0.5 # small, left side middle
   
   play sound hanc_4_0_1_sound
-  H radio "It is easy, I am the most capable so I will do it."
+  H radio "It is easy, I am the most capable. So I will do it."
 
   # hide hanc
 
 # 4.0.2. PREPARATIONS #########################################################
 label preparations:
 
-  "There is quite a bit of prep work to be done."
+  j "There is quite a bit of prep work to be done."
   
   "Holloway follows instructions from HANC and Jinx to prepare the shuttle."
   
   # [ Additional graphic - Two Containers (close up) ]
   scene bg cargo-hold-j
   
-  "There are also two large containers in the hold. Both have supplies and rescue equipment in them. One does say 'CAUTION'."
+  "There are also six large containers in the hold. They have supplies and rescue equipment in them. One does say 'CAUTION'."
 
   scene bg cargo-hold-b
   with dissolve
@@ -127,7 +131,7 @@ label preparations:
     zoom 0.5 xpos 0.7 ypos 0.8 xanchor 0.5 yanchor 0.5 #[ Jinx standing normal ]
   with Dissolve (2.0)
   
-  j "I can’t be sure. I think we must go into deep space and attempt to get to the next planet some three weeks away - Dorphia. The planet below is very primitive so we should avoid it."
+  j "I think we must go into deep space to get to the Dorphia some three weeks away.It is a safer option. The planet below is very primitive.."
   
   #hide jinx
 
@@ -141,20 +145,20 @@ label preparations:
 
   # hide hanc
   
-  h "Protocols suggest we must go to the nearest suitable planet in an emergency. Since the Illustrious is too damaged we will take the shuttle and land below."
+  h "Protocols suggest we must go to the nearest suitable planet in an emergency. Since the Illustrious is too damaged we must take the shuttle and land  on the planet below."
   
 # 4.0.3. SECRETS ##############################################################
 label secrets:
 
   "HANC and Jinx have secrets."
   
-  "HANC is not able to control the main ship completely without the code. He also knows the extent of the damage."
+  "HANC is not able to control the Illustrious or the shuttle completely without the code. He also knows the extent of the damage."
   
-  "Jinx is under arrest on the planet below and can’t return. She can pilot the Illustrious which has interstellar capabilities but it’s a very difficult large ship to control alone."
+  "Jinx was under arrest on the planet below and can’t return. She can pilot the Illustrious which has interstellar capabilities but it’s a very difficult large ship to control alone."
   
-  "It is a  mega class freighter which is easily detected once away from this remote planet system and back on the main space shipping channels at cruising speed and may well be met by enforcement patrols."
+  "It is a  mega class freighter which is easily detected once away from this remote planet system and back on the main space shipping channels at cruising speed. It may well be met by enforcement patrols."
   
-  "She is also concerned by its damage."
+  "She is also concerned with it's damage."
   
   "Poor Holloway knows nothing."
   
@@ -173,13 +177,13 @@ label the_code:
   with Dissolve (2.0)
   
 
-  jt "Holloway must have the captains code book with him as he managed to transfer bridge control to the Cargo bay. I need to figure out a way to obtain it."
+  jt "Holloway must know the captains code as he managed to transfer bridge control to the Cargo Bay. I need to figure out a way to obtain it."
   
   # hide jinx 
 
   h "So the best thing for us to do is get to the planet below for help."
   
-  "Holloway has basic training which tells him all trading planets have contact facilities left by high command in case of a problem and its suitable in accordance with standard emergency procedures."
+  "Holloway has basic training which tells him all trading planets have contact facilities left by high command in case of a problem and it's suitable, in accordance with standard emergency procedures."
   
   "Jinx can’t go there without an escape plan."
   
@@ -292,7 +296,7 @@ label smart_boy_holloway:
   
   "He speaks frankly with Jinx."
   
-  h "Look, I just want to get back safely on land and my best shot is Orbita, the planet below."
+  h "Look, I just want to get back safely on land and my best shot is Orbita. The planet below."
   
   show jinx k: #[ Jinx standing ] 
     zoom 0.5 
@@ -306,14 +310,14 @@ label smart_boy_holloway:
 
   #hide jinx
   
-  "Jinx identifies her dilemma and confesses she does not want to be arrested. They agree to go to the planet below and drop him off so Jinx can continue on to planet Dorphia."
+  "Jinx whispers her dilemma and confesses she does not want to be arrested. They agree to go to the planet below and drop him off so Jinx can continue on to planet Dorphia."
     
 # 4.2.1 AGREEMENT #############################################################
 label agreement:
 
-  "Holloway and Jinx agreement alone is the only way for Holloway to survive."
+  "Holloway and Jinx agreeing and (excluding HANC) is the only way for Holloway to survive."
   
-  "Without the code HANC can do little other than attempt an explosive decompression/shutdown power on the Illustrious if he finds out what’s happening."
+  "Without the code HANC can do little other than attempt an explosive decompression or power shutdown on the Illustrious. If he finds out what’s happening."
   
   "These should not stop the shuttle getting way."
   
