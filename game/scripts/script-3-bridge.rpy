@@ -196,7 +196,7 @@ label holloway_keeps_the_code_to_himself:
 
   ht "For the time being I’ll keep this code to myself and just enter it in here. “776uythy”. Right that should do it..."
 
-  h "OK HANC, looks like the Bridge control has transferred to the shuttle, what’s next?"
+  h "OK HANC, looks like the Bridge control has transferred to the Cargo Bay, what’s next?"
   
 #  show hanc a:
 #    zoom 0.15 xpos 0.2 ypos 0.6 xanchor 0.5 yanchor 0.5 # small, left side middle

@@ -279,7 +279,7 @@ label container_mistage:
   play sound hanc_4_1_1c_sound
   H radio "I’m afraid you do not have long."
 
-  show holloway e:
+  show holloway d:
     zoom 0.6 xpos 0.9 ypos 0.6 xanchor 0.5 yanchor 0.5 # holloway dying backward
   
   "Holloway keels over and suffocates to death. He tried his best."

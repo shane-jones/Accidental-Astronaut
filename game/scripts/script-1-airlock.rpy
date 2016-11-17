@@ -19,7 +19,7 @@ label to_airlock:
   
    The crew of 23 is very well trained and they are nearing the end of their tour of duty." 
  
-  "Two days ago it was hit by a large meteor that was not detected by the onboard Human Atounomous Network Computer (HANC).
+  "It was hit by a large meteor that was not detected by the onboard Human Autonomous Network Computer (HANC).
 
    The Illustrious has been very badly damaged and HANC has also sustained circuit damage."
  
@@ -27,7 +27,7 @@ label to_airlock:
  
   "Frank Holloway, an intern, was near the main airlock studying when the impact occured and could not be found by the crew. The ship was hit so hard that most of the compartments were depressurised."
  
-  "Frank was knocked to the ground by the main impact. He crawled towards the airlock and fell inside and collapsed gasping for air."
+  "Frank was knocked to the ground by the main impact. He crawled towards the airlock and fell inside and collapsed gasping for air. He managed to get a space suit on but couldn't locate the helmet."
 
   "As the ship lost it's oxygen supply Holloway fell unconscious. The various pressure doors including the airlock automatically closed. Holloway was deprived of oxygen for some time but luckily the airlock is self contained."
 
@@ -68,7 +68,7 @@ label deciding_what_to_do:
 
   "There is a monitor next to the door, but it is powered down."
 
-  h "What should I do?"
+  ht "What should I do?"
 
   menu:
   
@@ -135,7 +135,7 @@ label the_last_log:
   
   a "Holloway, if you read this, you need to get down there. Several problems exist though."
   
-  a "This ship can't be flown to the surface without being destroyed as it passes through the atmosphere. It’s a freighter and not capable of landing on a planet and would burn up entering the atmosphere."
+  a "This ship can't be flown to the surface without being destroyed as it passes through the atmosphere. It’s damaged and not capable of landing on a planet and would burn up entering the atmosphere."
 
   show abrahams d:
     zoom 1.2 

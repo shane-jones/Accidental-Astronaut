@@ -530,12 +530,17 @@ label sixty_more_seconds:
   
   h "HANC, is it okay to enter?"
   
+  play sound beep_sound
+  $ renpy.sound.set_volume (0.5)
   play sound hanc_2_3_2_sound
   
   
   H "Not yet. Wait 60 more seconds."
   
   "Holloway waits 60 seconds."
+  
+  play sound beep_sound
+  $ renpy.sound.set_volume (0.5)
   
   play sound hanc_2_3_2b_sound
   
