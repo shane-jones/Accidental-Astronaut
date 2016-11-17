@@ -9,12 +9,6 @@ label start:
   
   menu:
 
-    "Start at MVP":
-      $ is_MVP = True
-    
-    "Start at EF":
-      $ is_EF = True
-  
     "Start at Airlock":
       jump to_airlock
         
