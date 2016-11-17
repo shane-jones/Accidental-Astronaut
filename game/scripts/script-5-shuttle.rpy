@@ -194,7 +194,7 @@ label jinx_gets_the_code:
   
   show jinx listening:
     zoom 0.65   # 65 % size
-    xpos 0.25   # 25 % of the way accross the background
+    xpos 0.25   # 25 % of the way across the background
     ypos 0.75   # 75 % of the way down the background
     xanchor 0.5 # using the centre of the character image
     yanchor 0.5 # using the centre of the character image
@@ -227,7 +227,7 @@ label jinx_kills_holloway:
       zoom 0.40
   show holloway a:
       zoom 0.68
-      xpos 0.35         # 35 % of the way accross the background
+      xpos 0.35         # 35 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -258,7 +258,7 @@ label jinx_kills_holloway:
      
   show holloway c:
       zoom 0.68
-      xpos 0.50         # 35 % of the way accross the background
+      xpos 0.50         # 50 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -323,7 +323,7 @@ label preparing_for_orbita:
   show shuttle-clear-windows
   
   show jinx a:
-    zoom 0.90   # 95% size
+    zoom 0.90   # 90% size
     xpos 0.30   # 30 % of the way across the background
     ypos 0.70   # 70 % of the way down the background
     xanchor 0.5 # using the centre of the character image
@@ -356,15 +356,15 @@ label landing_on_orbita:
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
-      xpos 0.50         # 60 % of the way accross the background
-      ypos 0.55         # 45 % of the way down the background
+      xpos 0.50         # 50 % of the way across the background
+      ypos 0.55         # 55 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
       
   show holloway l:
       zoom 1.0
-      xpos 0.60         # 60 % of the way accross the background
+      xpos 0.60         # 60 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -380,14 +380,14 @@ label landing_on_orbita:
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
-      xpos 0.50         # 60 % of the way accross the background
-      ypos 0.55         # 45 % of the way down the background
+      xpos 0.50         # 50 % of the way across the background
+      ypos 0.55         # 55 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
   
   show holloway l:
       zoom 0.7
-      xpos 0.55         # 55 % of the way accross the background
+      xpos 0.55         # 55 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -397,14 +397,14 @@ label landing_on_orbita:
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
-      xpos 0.50         # 60 % of the way accross the background
-      ypos 0.55         # 45 % of the way down the background
+      xpos 0.50         # 50 % of the way across the background
+      ypos 0.55         # 55 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
   
   show holloway l:
       zoom 0.5
-      xpos 0.50         # 50 % of the way accross the background
+      xpos 0.50         # 50 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -415,14 +415,14 @@ label landing_on_orbita:
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
-      xpos 0.50         # 60 % of the way accross the background
-      ypos 0.55         # 45 % of the way down the background
+      xpos 0.50         # 50 % of the way across the background
+      ypos 0.55         # 55 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
   
   show holloway l:
       zoom 0.45
-      xpos 0.47         # 47 % of the way accross the background
+      xpos 0.47         # 47 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
@@ -434,14 +434,14 @@ label landing_on_orbita:
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
-      xpos 0.50         # 60 % of the way accross the background
-      ypos 0.55         # 45 % of the way down the background
+      xpos 0.50         # 50 % of the way across the background
+      ypos 0.55         # 55 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
   
   show holloway l:
       zoom 0.40
-      xpos 0.44         # 44 % of the way accross the background
+      xpos 0.44         # 44 % of the way across the background
       ypos 0.45         # 45 % of the way down the background
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
