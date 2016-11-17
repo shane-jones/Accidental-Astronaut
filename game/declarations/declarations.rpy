@@ -164,6 +164,7 @@ image bg shuttle-h = "images/backgrounds/5-shuttle/jinx-cheeky-smile-leaning-elb
 image bg shuttle-i = "images/backgrounds/5-shuttle/Ship_enters_atmosphere.png"
 image bg shuttle-j = "images/backgrounds/5-shuttle/Shuttle-comming-in-to-land.png"
 image bg shuttle-k = "images/backgrounds/5-shuttle/Ship_enters_atmosphere2.png"
+image bg shuttle-l = "images/backgrounds/5-shuttle/game-over.png"
 
 ###############################################################################
 # Objects

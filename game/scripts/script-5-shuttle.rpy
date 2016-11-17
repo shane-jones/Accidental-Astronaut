@@ -446,7 +446,11 @@ label landing_on_orbita:
       xanchor 0.5       # using the centre of the character image
       yanchor 0.5       # using the centre of the character image
       
-  with dissolve
-      
+  j "I hope to see you around sometime"
+  
+  scene bg shuttle-l
+   
+   
+   
 "Congratulations Holloway you managed to live! Game over."
 return
