@@ -40,7 +40,7 @@ label inside_shuttle_transfer:
   
   H radio "Holloway, Please transfer me to the shuttle systems so I may help you."
   
-  j "Holloway, HANC is not operating normally and I think it might be safer to not transfer him to the shuttle."
+  j "Holloway, HANC is not operating normally and I think it might be safer if you don't transfer him to the shuttle."
   
   "Holloway looks quite worried by this comment."
   
@@ -154,7 +154,7 @@ label leaving_cargo_hold:
   
   # [ Background music - Scary, uh oh: music. ]
   
-  h "The code book is back there."
+  h "No! Remember our agreement. The code book is back there and the code is in my head."
   
   scene bg shuttle-i
   show shuttle-clear-windows
@@ -172,9 +172,9 @@ label leaving_cargo_hold:
   
   # [ Background image - Illustrious front section burning as it moves slowly out of orbit and towards the planet. ]
   
-  j "You know the code, tell me!!!."
+  j "Tell me!!!."
   
-  # [ Character Image - Jinx: very angry. ]
+  
   
   menu:
   
@@ -271,7 +271,7 @@ label jinx_kills_holloway:
 # 5.4.0 PREPARING FOR ORBITA ##################################################
 label preparing_for_orbita:
 
-  h "I will give it to you when we land down there on Orbita and you can take the shuttle and go wherever you want."
+  h "I will give it to you when we land down there on Orbita. You can take the shuttle and go wherever you want."
   
   
   
@@ -279,24 +279,34 @@ label preparing_for_orbita:
   
   "They both then look at the Illustrious burning as it moves into the upper atmosphere."
   
-  "HANC has turned the huge defensive weapons towards the shuttle."
+  "HANC has now turned the huge defensive weapons towards the shuttle."
   
   scene bg shuttle-k
   show shuttle-clear-windows
+  
+  show jinx o:
+    zoom 0.90   # 90 % size
+    xpos 0.30   # 30 % of the way across the background
+    ypos 0.70   # 70 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
   
   with dissolve
   
   # [ Background image - Illustrious front section red with flames - Through the shuttle windows. ]
   
-  
+  play sound beep_sound
+  $ renpy.sound.set_volume (0.5)
   play sound hanc_5_4_0_sound
   
   
-  H radio "Transfer me now! or else I will destroy the shuttle."
+  H radio "Transfer me now! Or else I will destroy the shuttle."
+  
+  show jinx a
   
   "Jinx winks at Hollway."
   
-  show jinx a
+  
   
   j "Go ahead HANC!"
   with dissolve
@@ -307,11 +317,18 @@ label preparing_for_orbita:
   
   j "The code is needed for HANC to fire any weapons."
   
-  j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay there as you know."
+  j "Ok let’s go down to Orbita. You had better give me the code down there. I can’t stay. As you know."
   
   scene bg shuttle-e
-  
   show shuttle-clear-windows
+  
+  show jinx a:
+    zoom 0.90   # 95% size
+    xpos 0.30   # 30 % of the way across the background
+    ypos 0.70   # 70 % of the way down the background
+    xanchor 0.5 # using the centre of the character image
+    yanchor 0.5 # using the centre of the character image
+      
   
   with dissolve
 
@@ -376,7 +393,7 @@ label landing_on_orbita:
       yanchor 0.5       # using the centre of the character image
   with dissolve
       
-  "Holloway had scratched the computer code down on a piece plastic left it for Jinx. He walks towards the exit of the shuttle. As he walks out:"
+  "Holloway writes down the code for Jinx. He walks towards the exit of the shuttle. As he walks out:"
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
@@ -394,7 +411,7 @@ label landing_on_orbita:
       
   with dissolve
       
-  "Holloway winks at Jinx." 
+  "He winks at Jinx. And says" 
   scene bg shuttle-g
   show jinx a:
       zoom 0.30
@@ -431,5 +448,5 @@ label landing_on_orbita:
       
   with dissolve
       
-"Game over."
+"Congratulations Holloway you managed to live! Game over."
 return
