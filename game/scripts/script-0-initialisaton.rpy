@@ -8,16 +8,18 @@ label start:
   # Temporary menu for debugging.
   
   menu:
+
+    "Start at MVP":
+      $ is_MVP = True
+    
+    "Start at EF":
+      $ is_EF = True
   
-    "Start at airlock.":
-    
-      menu:
-    
-        "Start at Airlock":
-          jump to_airlock
+    "Start at Airlock":
+      jump to_airlock
         
-        "Start at HANC.":
-          jump hanc
+    "Start at HANC.":
+      jump hanc
     
     "Start at EVA.":
       
