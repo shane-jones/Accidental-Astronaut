@@ -25,7 +25,12 @@ LICENCE: Creative Commons https://creativecommons.org/publicdomain/zero/1.0/
 SOURCE: https://pixabay.com/en/earth-lights-environment-globe-1149733 /
 DESCRIPTION: original artwork is copied on top of this image of earth from space
 
-IMAGE
+IMAGE:
+LICENCE:
+SOURCE:
+DESCRIPTION:
+
+
 
 
 
