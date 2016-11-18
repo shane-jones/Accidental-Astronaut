@@ -4,7 +4,8 @@ call declarations from _call_declarations
 # The game starts here.
 
 label start:
-  
+  # jump to_airlock
+
   # Temporary menu for debugging.
   
   menu:

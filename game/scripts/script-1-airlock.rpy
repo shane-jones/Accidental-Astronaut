@@ -29,7 +29,7 @@ label to_airlock:
  
   "Frank was knocked to the ground by the main impact. He crawled towards the airlock and fell inside and collapsed gasping for air. He managed to get a space suit on but couldn't locate the helmet."
 
-  "As the ship lost it's oxygen supply Holloway fell unconscious. The various pressure doors including the airlock automatically closed. Holloway was deprived of oxygen for some time but luckily the airlock is self contained."
+  "As the ship lost it's oxygen supply Holloway fell unconscious. The various pressure doors including the airlock automatically closed. Holloway was deprived of oxygen for some time, causing some memory loss, but luckily the airlock is self contained."
 
   "When he wakes up he has an initial lost of memory due lack of oxygen."
 
