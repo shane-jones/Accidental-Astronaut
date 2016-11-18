@@ -2,6 +2,10 @@ label declarations:
 
 #testing on mac
 
+# All image and sound files used in this declaration are referenced in the readme file
+# as part of this Visual Novel.
+
+
 ###############################################################################
 # Character declarations
 ###############################################################################
