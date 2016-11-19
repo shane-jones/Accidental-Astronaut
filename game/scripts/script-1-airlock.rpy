@@ -31,7 +31,7 @@ label to_airlock:
 
   "As the ship lost it's oxygen supply Holloway fell unconscious. The various pressure doors including the airlock automatically closed. Holloway was deprived of oxygen for some time, causing some memory loss, but luckily the airlock is self contained."
 
-  "When he wakes up he has an initial lost of memory due lack of oxygen."
+  "When he wakes up he has an initial loss of memory due to a lack of oxygen."
 
   "You are Holloway - good luck with surviving what's ahead"
 
